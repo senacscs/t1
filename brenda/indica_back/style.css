@@ -1,0 +1,45 @@
+html {
+    background-color: #1A374D;
+}
+
+h3 {
+    font-size: 40px;
+    color: #B1D0E0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    color: #6998AB;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 20px;
+    color: #B1D0E0;
+}
+
+p {
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+img {
+    border-radius: 3%;
+}
+
+iframe {
+    border-radius: 3%;
+    border-color: #B1D0E0;
+}
+
+.text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #B1D0E0;
+    border: 3px solid #fff;
+    padding: 2rem 4rem;
+}
+

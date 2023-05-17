@@ -1,0 +1,37 @@
+body {
+    background-image: url(../img/geometrica5.jpg);
+    background-size: 40% 40%;
+}
+
+p {
+    font-family: Comic Sans MS, Comic Sans, cursive	;  
+    font-size: 14pt;
+}
+
+h1 {
+font-family: Comic Sans MS, Comic Sans, cursive	;
+  font-size: 20pt;
+  color: #636363;
+}
+
+h2 {
+  font-family: Comic Sans MS, Comic Sans, cursive	;  
+  font-size: 19pt;
+  color: #b95476
+}
+
+div {
+overflow: hidden;
+text-align: center;
+}
+
+img {
+  padding: 10px;
+  border-radius: 30px;
+  width: 600px;
+  text-align: left;
+}
+
+iframe{
+    border-radius: 30px;
+  }

@@ -1,0 +1,44 @@
+img{
+    width:100px;
+    text-align: center;
+  }
+  
+  h1{
+   font-family: Courier, monospace;
+    font-size: 14px;
+    color: #acd9df;
+    font-weight: bold;
+  }
+  
+  div {
+    text-align: center;
+    font-family: Courier, monospace
+  }
+  
+  h2 {
+      font-family: Brush Script MT, Brush Script Std, cursive;
+      font-size: 25px;
+      font-weight: bold;
+      color: #d05e77;
+  }
+  
+  
+  p {
+    font-size: 12px;;
+  }
+  
+  
+  html{
+    background-image: url(../img/fundo_dedicatoria.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    margin-left:490px;
+    margin-right: 490px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  

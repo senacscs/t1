@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'quattrocento_regular';
+    src: url('Font/quattrocento_regular.');
+  
+    font-family: 'fanwoodtext_regular';
+    src: url('Font/FanwoodText-Regular.');
+  }
+  
+  #jogo{
+    color: rgb(91, 179, 230);
+    width:603px;
+    height:600px;
+    border:solid 2px
+  }
+  
+  .linha{
+    height:200px;
+    border-bottom:solid 1px;
+    color: rgb(91, 179, 230);
+  }
+  
+  .casa{
+    width:200px;
+    height:100%;
+    border-right:solid 1px;
+    float:left;
+    color: rgb(91, 179, 230);
+  }
+  
+  body {
+    font-family: 'quattrocento_regular';
+    color: white;
+    background-color: black;
+     margin: 0;  
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     margin-right: -50%;
+     transform: translate(-50%, -50%)
+    
+  }
+  
+  h1 {
+    text-align: center;
+    color:rgb(91, 179, 230);
+    font-family: 'quattrocento_regular';
+  }
+  
+  h2 {
+    text-align: center;
+    color: white;
+    font-family: 'fanwoodtext_regular';
+  }
+
+

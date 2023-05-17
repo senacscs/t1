@@ -1,0 +1,1 @@
+alert("bem vindo(a) à minha página :):)");

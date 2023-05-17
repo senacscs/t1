@@ -1,0 +1,127 @@
+html{
+    background-color: rgb(81, 163, 184);
+    }
+    
+    body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    }
+    
+    div{
+    text-align: auto;
+    overflow: hidden;
+    width:100%;
+    }
+    
+    header{
+    font-size: 20pt;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(255, 136, 0);
+    text-align: center;
+    }
+    
+    nav{
+    font-size: 10pt;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(255, 136, 0);
+    text-align: center;
+    }
+    
+    #menu{
+    font-size: 16pt;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(255, 136, 0);
+    text-align: center;
+    }
+    
+    a:-webkit-any-link {
+    color:rgb(0, 66, 104);
+    cursor: pointer;
+    text-decoration: underline;
+    }
+
+    #conteudo01, #conteudo02, #conteudo03, #conteudo04, #conteudo05{
+    font-size: 27pt;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(120, 16, 129);
+    text-align: center;
+    }
+    
+    main{
+    color: black;
+    font-size: 15pt;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    }
+    
+    h1{
+    font-size: 32pt;
+    font-family: garamond;
+    color: rgb(71, 6, 77);
+    text-align: center;
+    }
+    
+    .menu{
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 136, 0);
+    text-align: center;
+    }
+    
+    iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:60%;  
+    }
+    
+    h2{
+    color: rgb(0, 0, 0);
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    }
+    
+    h3{
+    font-size: 27pt;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(30, 63, 73);
+    text-align: center;   
+    }
+    
+    p{
+    color: black;
+    font-size: 16pt;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-indent: 50px;
+    }
+    
+    p2{
+    color:black;
+    font-size: 17pt;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    }
+    
+    p3{
+    color: black;
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    }
+    
+    footer{
+    font-size: 15pt;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(154, 38, 165);
+    text-align: center;
+    }
+    
+    .trabalho{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:30%;
+    }

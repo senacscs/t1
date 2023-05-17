@@ -1,0 +1,24 @@
+body {
+    color: black;
+border: 2px solid #74adc7;
+width: 100%;
+background: #ffe75db7;
+}
+
+p {
+font-family: comic;
+font-size: 14pt;
+}
+
+h1 {
+  font-size: 25pt;
+  color: #0084ac;
+  font-family: comic;
+}
+
+h2 {
+ font-family: comic;
+  font-size: 19pt;
+  color: #0084ac
+}
+
