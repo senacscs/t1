@@ -1,0 +1,25 @@
+html{
+    background-color: #9c2dcf;
+}
+
+
+
+  body{
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 1.5em;
+    position: inherit;
+    bottom: 20px;
+    right: 20px;
+    color: black;
+    padding-top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline-width: 10px;
+    text-align: justify;
+    z-index: 999;
+  }
+  h1{
+      font-size: 7px;
+      text-align: center;
+  }

@@ -1,0 +1,39 @@
+#jogo{
+  color: white;
+  width:603px;
+  height:600px;
+  border:solid 2px
+}
+
+.linha{
+  height:200px;
+  border-bottom:solid 1px;
+  color: white;
+}
+
+.casa{
+  width:200px;
+  height:100%;
+  border-right:solid 1px;
+  float:left;
+  color: white;
+}
+
+body {
+  font-family: consolas;
+  color: white;
+  background-color: black;
+   margin: 0;  
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%, -50%)
+  
+}
+
+div {
+  text-align: center;
+  color: white;
+  font-family: consolas;
+}

@@ -1,0 +1,45 @@
+html{
+    background-image: url("../img/fundo.jpg");
+    background-size: 100%
+}
+body {
+    font-family: "Lato", Helvetica, sans-serif;
+    font-weight: 100;
+    color: black;
+    font-size: 1.5em;
+    position: inherit;
+    bottom: 20px;
+    right: 20px;
+    padding-top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline-width: 10px;
+    text-align: justify;
+    z-index: 999;
+}
+p  {
+   font-size: 0.75em;
+}
+.propriedades-texto {
+    position: fixed;
+    margin: auto;
+    background: rgb(0, 0, 0);
+    background: rgba(47,79,79,0.6);
+    position: relative;
+    color: #32CD32;
+    padding-top: 5px;
+    padding-bottom: 0.2em;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+.fotos {
+    grid-gap: 100% 100%;
+    grid-template-columns: auto auto auto auto;
+    display: flexbox;
+}
+.elenco{
+    display: inline-flex;
+    gap: 32px;
+    margin-left: 5px;
+}
