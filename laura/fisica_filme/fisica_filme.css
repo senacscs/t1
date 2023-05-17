@@ -1,0 +1,47 @@
+body {
+    font-family: "Lato", Helvetica, sans-serif;
+    color: black; 
+}
+
+p {
+font-size:11pt;
+}
+
+h1 {
+  font-size:12pt;
+  font-family:"Lato", Helvetica, sanc-serif;
+}
+
+h2 {
+  font-size:20pt;
+  text-decoration:underline;
+  font-family:"sans";
+}
+
+div {
+  overflow: hidden;
+  text-align:center;
+  border: 3px solid #ffbe5c;
+  width: 100%;
+  background: #f3ff87;
+  border-radius:30px;
+}
+
+capa {
+  width:60%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+galeria {
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+li {
+  font-size:12pt;
+}

@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.imagem{
+    max-height: 1000px;
+    max-width: 1000px;
+    width: 500px;
+    height: 300px;
+}

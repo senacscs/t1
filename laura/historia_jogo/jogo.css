@@ -1,0 +1,32 @@
+button{
+background: #06c27a; 
+border-radius: 20px; 
+padding: 30px; 
+cursor: pointer; 
+color: rgb(22, 2, 2); 
+border: none; 
+font-size: 30px;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+body{
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+.introducao{
+    text-align: center;
+    background-color: burlywood;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}

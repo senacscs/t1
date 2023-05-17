@@ -1,0 +1,60 @@
+body{
+  background-color: lightgray;
+}
+
+title {
+  font-size: 25pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h1 {
+  font-size:30pt;
+  font-family:"Lato", Helvetica, sanc-serif;
+  text-align: center;
+  text-decoration: underline;
+}
+
+div {
+  overflow: hidden;
+  text-align:center;
+  border: 3px solid blue;
+  width: 40%;
+  background-color: darkgrey;
+  padding: 7px;
+  font-size: 17px;
+}
+
+h2 {
+  font-size:20pt;
+  text-decoration: wavy;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  text-decoration: underline;
+}
+
+p {
+  font-size:15pt;
+  text-align: center;
+
+}
+
+img {
+  width:60%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+h3 {
+  font-size: 17px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  text-align: center;
+}
+
+footer{
+  font-size: 10px;
+  text-align: justify;
+}
+

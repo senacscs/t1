@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Site para os Pais</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='css/responsaveis.css'>
+        
+        <script>
+            senha = prompt("digite sua senha:não digite sair para cancelar","");
+                if (senha =="2004"){
+                document.getElementById('pagina').style.display = 'block';
+                }else if(senha ==""){
+                    alert("campo obrigatorio");window.location = "index.html" 
+                   
+            }else{
+            alert("senha errada");window.location = "index.html"
+            }
+        </script>
+   
+    </head>
+    <body id="pagina" display = 'none'>
+    <br>
+    <h1>-----------------------------------------------------------------------</h1>
+    <header>
+        Oi Mãe
+    </header>
+    <h1>-----------------------------------------------------------------------</h1>
+    <main>
+    <section>
+        <h2> Fiz esse site na aula de técnico especialmente pra ti </h2>
+        <p>Fiz o site pra você ter uma noção do que a gente aprende nas aulas de técnico, espero que goste.</p>
+    </section>
+    <img width="50%" src=https://blog.plantei.com.br/wp-content/uploads/2019/06/rosa-do-deserto-onde-comprar.jpg>
+    <br>
+    <a>Aqui uma foto de Rosa do Deserto pra não deixar o site vazio</a>
+    </main>
+    <br><br>
+    <footer>
+        Site feito durante as aulas de português e técnico - Última atalização: 23/02/2022
+    </footer>
+    </body>
+    </html>
