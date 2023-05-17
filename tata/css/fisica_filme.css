@@ -1,0 +1,51 @@
+body {
+   
+    color: white;
+     background-image: url("https://ae01.alicdn.com/kf/HTB1edvLSXXXXXakaXXXq6xXFXXXp/10x10ft-espa-o-azul-escuro-c-u-estrelado-estrelas-personalizado-foto-fundo-est-dio-pano-de.jpg");
+   
+}
+
+
+p {
+    font-family:ariel;
+  font-size: 20px;
+}
+
+h1{
+  font-family:Impacto;
+  font-size: 35px;
+}
+
+h2{
+  font-size: 30px;
+   font-family:Impacto;
+}
+
+div {
+  text-align: center;
+   border: 15px solid ;
+   overflow: hidden;
+    width: 100%;
+
+}
+
+
+capa {
+  width: 50%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto; 
+}
+
+galeria {
+   text-align: center;
+   display: inline-block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+img {
+ 
+   padding: 10px;
+    border-radius: 45px;
+}

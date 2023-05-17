@@ -1,0 +1,226 @@
+body { 
+  margin: 0 px; 
+  width:90%; 
+  min-width:600px; 
+  max-width:2000px ;
+  font-family: Arial, Helvetica, sans-serif; 
+  border:none;
+  width: 100%; 
+  height: 100%; 
+  position: absolute; 
+  background: linear-gradient(45deg,#F17C58, #E94584, #24AADB , #27DBB1,#aa18ff, #062bff); 
+  background-size: 600% 200%; 
+  animation: gradient 16s linear infinite; 
+  animation-direction: alternate; 
+} 
+  
+ @keyframes gradient { 
+    0% {background-position: 0%} 
+   100% {background-position: 100%} 
+} 
+
+.white-with-blue-shadow {
+  text-shadow: 1px 1px 2px rgb(255 255 255), 0 0 1em rgb(135 14 165), 0 0 0.2em rgb(255 255 255);
+  color: #031321;
+  font: 1.5em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+}
+  
+ h1{ 
+   font-size: 20pt; 
+   text-align: center;
+   font-family: monospace;
+} 
+  
+ .button { 
+   background-color: transparent; 
+   border: none; 
+   color: rgb(0 0 0); 
+   padding: 15px 28px; 
+   text-align: center; 
+   text-decoration: none; 
+   display: inline-block; 
+   font-size: 16px; 
+   margin: 4px 2px;       
+   cursor: pointer; 
+} 
+  
+a { 
+  position: relative; 
+  display: inline-block; 
+  padding: 15px 21px; 
+  color: #ffffff; 
+  text-transform: uppercase; 
+  letter-spacing: 4px; 
+  text-decoration: none; 
+  font-size: 24px; 
+  overflow: hidden; 
+  transition: 0.2s; 
+} 
+  
+ a:-webkit-any-link { 
+  cursor: pointer; 
+  text-decoration: underline; 
+} 
+a {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: #000000;
+    background: #ffffff00;
+    box-shadow: 0 0 10px #ffffff,0 0 40px #fdfdfd,0 0 80px #ffffff;
+    transition-delay: 1.2s;
+}
+
+a span{
+    position: absolute;
+    display: block;
+}
+
+a span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg,transparent,#ffffff);
+}
+
+a:hover span:nth-child(1){
+    left: 100%;
+    transition: 1s;
+}
+
+a span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(270deg,transparent,#ffffff);
+}
+
+a:hover span:nth-child(3){
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#ffffff);
+}
+
+a:hover span:nth-child(2){
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#ffffff);
+}
+
+a:hover span:nth-child(4){
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}s
+  
+ a:-webkit-any-link { 
+  cursor: pointer; 
+  text-decoration: underline; 
+} 
+a {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: #000000;
+    background: #ffffff00;
+    box-shadow: 0 0 10px #ffffff,0 0 40px #fdfdfd,0 0 80px #ffffff;
+    transition-delay: 1.2s;
+}
+
+a span{
+    position: absolute;
+    display: block;
+}
+
+a span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg,transparent,#ffffff);
+}
+
+a:hover span:nth-child(1){
+    left: 100%;
+    transition: 1s;
+}
+
+a span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(270deg,transparent,#ffffff);
+}
+
+a:hover span:nth-child(3){
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#ffffff);
+}
+
+a:hover span:nth-child(2){
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#ffffff);
+}
+
+a:hover span:nth-child(4){
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}

@@ -1,0 +1,100 @@
+ html {
+  background-image: url(borboletas.gif); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+  @font-face {
+    font-family: Moderne Sans;
+    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/moderne_sans.woff2)
+  }
+  * {
+    box-sizing: border-box;
+  }
+  header {
+
+    width: 100%;
+    text-align: center;
+    color: white;
+    transition: .4s;
+  }
+  header:hover {
+    background: rgba(255, 255, 255, 0.564);
+    color: #000;
+  }
+  h1 {
+    font-family: Moderne Sans, sans-serif;
+    text-align: center;
+    font-size: 5rem;
+    width: 100%;
+    letter-spacing: .5rem;
+  }
+  nav a {
+    text-decoration: none;
+    color: inherit;
+    padding: 1rem;
+    font-size: 2rem;
+  }
+  h2 { 
+    font-family: Century Schoolbook, Century Schoolbook L, Georgia, serif;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  p{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  line-height: 25px;  
+  color: white;
+
+  }
+  section {
+    max-width: 800px;
+    margin: 100px auto;
+  }
+  section::after, section::before{
+    content: '';
+    display: table;
+    clear: both;
+  }
+  .grid-text {
+    width: calc(100% - 20px);
+  }
+  .grid-img {
+    width: calc(1%);
+    position: absolute;
+    right: 27%;
+  }
+
+  img{
+    width: 650%;
+  }
+  section > div {
+    margin: 0 5px;
+    float: right;
+  }
+  section img {
+    margin-top: 20px;
+  }
+  .img-right {
+    width: calc(1%);
+    position: absolute;
+    left: 20%;
+    top: 70%;
+  }
+
+  .img-right_2 {
+    width: calc(1%);
+    position: absolute;
+    left: 20%;
+    top: 134%;
+  }
+
+  main {
+    background-color: rgba(0, 0, 0, 0.573);
+    width: 70%;
+    margin: auto;
+
+  }

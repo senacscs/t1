@@ -1,0 +1,68 @@
+html{
+    border: solid;
+    border-color: rgb(0, 0, 0);
+    border-style: 10px;
+    text-align: center;
+  }
+  
+
+    div {
+      background-color: rgba(14, 36, 14, 0.452);
+      padding: 20px 30px;
+  
+  }
+  .conteiner{
+    display: flex;
+    align-items: left;
+    font-family:Stencil Std, fantasy;
+    font-size: 35px;
+    color: rgb(0, 0, 0); 
+  }
+
+  body {
+      background-repeat: no-repeat;
+      background-image: url("fundo_rosa.jpg");
+      height: 100%;
+      background-position: center;
+      background-size: cover; 
+  }
+
+  .white-with-blue-shadow {
+    text-shadow: 1px 1px 2px rgb(102, 255, 0), 0 0 1em rgb(100, 255, 39), 0 0 0.2em rgb(2, 221, 39);
+    color: #000000;
+    font: 1.5em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+    font-size: 80px;
+  }
+  
+  p {
+    font-family: monospace;
+    font-size:  20px;
+    color: rgb(0, 0, 0); 
+  }
+  h1{
+    font-family: Impact;
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(5, 5, 5); text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+  }
+  h2{
+    font-size: 40px;
+    font-family:Impact;
+    font-weight: 500;
+    color: rgb(21, 38, 41);
+  }
+
+    h3{
+      font-size: 20px;
+      font-family:Georgia, serif;
+      font-weight: 900;
+      color: rgb(255, 255, 255); 
+  }
+
+
+  
+  img {
+    padding: 10px;
+    border-radius: 45px;
+    width: 100px;
+  }
