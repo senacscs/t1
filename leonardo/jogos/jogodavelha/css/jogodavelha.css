@@ -1,0 +1,24 @@
+#jogo{
+    width:50%;
+    height: 95%;
+    border:solid 3px;
+    margin-top: 20px;
+    margin-left: 28%;
+    background-color: rgb(90,90,110);
+}
+
+body{
+    background-color: rgb(60,60,70);
+}
+ 
+.linha{
+    height:33.169%;
+    border-bottom:solid 1px;
+}
+ 
+.casa{
+    width:33.169%;
+    height:100%;
+    border-right:solid 1px;
+    float:left;
+}

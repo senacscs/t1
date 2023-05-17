@@ -1,0 +1,41 @@
+div {
+  overflow:hidden ;
+  border: 3px solid rgb(25,25,25);
+  width: 99%;
+  align-content: center;
+  background: rgb(90,90,110);
+  border-radius:30px;
+}
+
+body {
+  overflow: hidden;
+  text-align: center;
+  width: 99%;
+  background: rgb(60,60,70);
+}
+
+b {
+  color: white;
+}
+
+a {
+  color:white;
+}
+
+p {
+  font-size: 20pt;
+  color: rgb(200,200,200);
+}
+
+h1 {
+  font-family: "Lato", Helvetica, sans-serif;
+  font-size: 25pt;
+  color: white;
+}
+
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16pt;
+  text-align: center;
+  color: white;
+}

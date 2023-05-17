@@ -1,0 +1,44 @@
+capa {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+img {
+  width: 65%
+}
+div {
+overflow: hidden;
+text-align: center;
+border: 3px solid rgb(25,25,25);
+width: 99%;
+background: rgb(75,75,90);
+border-radius:30px;
+}
+b {
+  color: white;
+}
+a {
+  color:white
+;
+}
+p {
+  font-size: 20pt;
+  color: rgb(200,200,200);
+}
+h1 {
+  font-family: "Lato", Helvetica, sans-serif;
+  font-size: 25pt;
+  color:white ;
+}
+h2 {
+  font-family: "sans", Helvetica, sans-serif;
+  font-size: 22pt;
+  color:white ;
+}
+galeria {
+   width: 70%;
+   display:block;
+   margin-left: auto;
+   margin-right: auto;
+   position: relative;
+} 

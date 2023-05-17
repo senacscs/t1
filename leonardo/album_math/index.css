@@ -1,0 +1,54 @@
+p{
+    text-align: justify;
+    font-family:  Verdana, sans-serif;
+    font-size: 16pt;
+}
+.shadow{
+    text-shadow: 1px 1px 2px rgb(93 219 255), 0 0 1em rgb(182 228 255), 0 0 0.2em rgb(171 161 255);
+    color: #0c2200;
+    font-family:  Verdana, sans-serif;
+    font-size: 20pt;
+}
+h1{
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 18pt;
+}
+h3{
+    font-size: 20pt;
+    color: azure;
+}
+html{
+    background: rgb(5,210,0);
+background: linear-gradient(90deg, rgba(5,210,0,1) 0%, rgba(255,247,0,1) 30%, rgba(3,0,255,1) 50%, rgba(255,247,0,1) 70%, rgba(5,210,0,1) 100%);
+}
+body{
+    background-color: rgba(0, 0, 0, 0.329);
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+div{
+    opacity: 20;
+}
+::after div{
+    opacity: 0;
+}
+table{
+    background-color: white;
+}
+img{
+    text-align: center;
+}
+div{
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+
+}
+main{
+    background-color: rgba(187, 26, 26, 0);
+    padding-bottom: 20px;
+}
