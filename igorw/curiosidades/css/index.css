@@ -1,0 +1,72 @@
+body {
+    background-color: whitesmoke;
+    overflow: hidden; 
+    text-align: center;
+}
+
+header{
+    cursor: default;
+    background-image: url(../../img/fundo_padrao.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:whitesmoke;
+    font-size: 44px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img{
+    width: 50%;
+}
+
+h1{
+    color: black;
+    font-size: 38px;
+    cursor: default;
+    font-family: sans-serif;
+}
+
+p{
+    color: black;
+    font-size: 25px;
+    cursor: default;
+    font-family: sans-serif;
+}
+
+a{
+    color: whitesmoke;
+    font-size: 14px;
+}
+
+a:link{
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 14px;
+    transition: 0,5s;
+}
+
+a:hover{
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 16px;
+    transition: 0,5s;
+}
+
+.p{
+    color: whitesmoke;
+    font-size: 20px;
+    cursor: default;
+    font-family: sans-serif;
+}
+
+footer{
+    cursor: default;
+    background-image: url(../../img/fundo_padrao.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: whitesmoke;
+    font-size: 14px;
+}
