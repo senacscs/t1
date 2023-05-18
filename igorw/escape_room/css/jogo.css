@@ -1,0 +1,63 @@
+body{
+    background-image: url(../../img/dojo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.carta1{
+    margin-top: 52%;
+    right: 100%;
+    bottom: 100%;
+    opacity:100%;
+    cursor: default;
+}
+
+.carta2{
+    margin-top: 28%;
+    position:fixed;
+    width: 1%;
+    right: 38%;
+    bottom: 40%;
+    opacity: 40%;
+    cursor: default;
+}
+
+.carta3{
+    margin-top: 18%;
+    position: fixed;
+    width: 1%;
+    right: 22%;
+    bottom: 70%;
+    opacity: 50%;
+    cursor: default;
+}
+
+.livro{
+    margin-top: 20%;
+    position: fixed;
+    opacity: 0%;
+    bottom: 8%;
+    right: 2%;
+    width: 10%;
+    cursor:help;
+}
+
+.card{
+    position: fixed;
+    opacity: 0%;
+    bottom: -5%;
+    right: 2%;
+    width: 10%;
+    cursor:help;
+}
+
+.kimono{
+    width: 7%;
+    position: fixed;
+    bottom: 39.5%;
+    right: 46.5%;
+    cursor: default;
+
+}

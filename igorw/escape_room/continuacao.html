@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>História</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" href="img/kimono.png">
+</head>
+
+    <style>
+
+        @font-face {
+            font-family: japao;
+            src: url(css/fonte/CatCafe.ttf);
+        }
+
+        @font-face {
+            font-family: Japao;
+            src: url(css/fonte/Fujimaru-Regular.ttf);
+        }
+        
+        body{
+            text-align: center;
+            background-image: url(img/japones_papel.png);
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        h1{
+            font-size: 50px;
+            font-family: Japao;
+        }
+
+        p{
+            font-size: 40px;
+            font-family: japao;
+            margin-top: 10%;
+        }
+
+        .button {
+    position: relative; /* posiÃƒÂ§ÃƒÂ£o do elemento no site */
+    text-transform: uppercase; /* deixa todo texto em maiuscula */
+    letter-spacing: 4px; /* espaÃƒÂ§amento entre cada letra */
+    overflow: hidden; /* corta o texto se sair do elemento */
+    transition: 0.3s; /*velocidade da animaÃƒÂ§ÃƒÂ£o do hover */ 
+    background-color: white; /* fundo do elemento (botÃƒÂ£o) */
+    border: none; /* borda do elemento */
+    color: black; /* cor da fonte */
+    padding: 15px 15px; /* espaÃƒÂ§amento lateral */
+    text-align: center; /* alinha o texto no botÃƒÂ£o */
+    text-decoration: none; /* tira a decoraÃƒÂ§ÃƒÂ£o do texto, em links tira o risco de baixo do texto */
+    display: inline-block; /* nao faÃƒÂ§o ideia do q isso faz mas ta ai*/
+    font-size: 15px; /*tamanho da fonte no botÃƒÂ£o */
+    margin: 3px 3px; /* margem superior e direta */
+    cursor: pointer;  /*negocio de digtaÃƒÂ§ÃƒÂ£o, como q ele aparece, nao precisaria estar aqui mas tamo ai*/
+    border-radius: 4px;  /* faz o arredondamento do botÃƒÂ£o */
+}
+
+    .button:hover {
+    color: white;
+    background: black;
+    box-shadow: 0 0 10px #e6e6e6,0 0 40px #8d8d8d,0 0 80px #c1c1c2;
+    transition-delay: 0s;
+}
+
+    footer{
+            margin-top: 17%;
+        }
+
+        .cogu{
+        position: fixed;
+        opacity: 50%;
+        bottom: 1%;
+        left: 1%;
+    }
+
+    </style>
+
+<body>
+
+    <header>
+        <h1>Continuação</h1>
+    </header>
+
+    <main>
+        <p>Agora que você saiu do dojo e terá que desipnotizar o Sensei<br>
+            e para isso você tem que falar o nome dele completo.<br>
+            Clique no Sensei para chamar a atenção dele.
+        </p>
+
+        <img class="cogu" src="img/cogu.png" width="1%">
+    </main>
+
+    <footer>
+
+        <a class="button" href="parte_dois.html">Continuar</a>
+
+    </footer>
+    
+</body>
+</html>

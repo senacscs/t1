@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Jubileu</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/jogo.css'>
+    <script type='text/javascript' src='js/jogo.js'></script>
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/preloading.css'>
+    <link rel="icon" href="img/kimono.png">
+</head>
+
+<body>
+
+    <div id="preloader">
+        <h6 style="color: white; font-size: 70px; text-align: center;">Indo para o Dojo</h6>
+        <div class="inner">
+           <div class="bolas">
+              <div></div>
+              <div></div>
+              <div></div>               
+           </div>
+        </div> 
+    </div>
+
+    <main>
+        
+        <img class="carta1" id="Carta1" src="img/carta1.png" alt="Carta 1">
+
+        <img class="carta2" id="Carta2" src="img/carta1.png" alt="Carta 2">
+
+        <img class="carta3" id="Carta3" src="img/carta1.png" alt="Carta 3">
+
+        <span title="Você"><img class="kimono" src="img/kimono.png" alt="Otaldo Malandro"></span>
+
+        <span title="Henrique"><img class="livro" src="img/livro.png" alt="Livro"></span>
+
+        <span title="Não são essas cartas"><img class="card" src="img/cartas.png" alt="Cartas erradas"></span>
+
+    </main>
+</body>
+
+<script>
+        $(window).on('load', function () { 
+        $('#preloader .inner').fadeOut();
+        $('#preloader').delay(3).fadeOut('slow');
+        $('body').delay(3).css({'overflow': 'visible'});
+    })
+
+        var Carta1 = document.getElementById('Carta1');
+        var soma = 0;
+
+    Carta1.onclick = function(){
+        alert('Encontrou uma Carta!');
+        Carta1.style.display = 'none';
+        soma++;
+        sla();
+
+    }
+
+        var Carta2 = document.getElementById('Carta2')
+
+    Carta2.onclick = function(){
+        alert('Encontrou uma Carta!');
+        Carta2.style.display = 'none';
+        soma++;
+        sla();
+
+    }
+
+    var Carta3 = document.getElementById('Carta3')
+
+    Carta3.onclick = function(){
+        alert('Encontrou uma Carta!');
+        Carta3.style.display = 'none';
+        soma++;
+        sla();
+
+    }
+
+    function sla() {
+        if(soma == 3){
+        alert('Você saiu do dojo');
+        window.location = "continuacao.html";
+    }}
+
+</script>
+
+</html>

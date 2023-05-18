@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>da Silva</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/parte2.css'>
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/preloading.css'>
+    <link rel="icon" href="img/kimono.png">
+</head>
+
+<style>
+
+    body{
+        background-image: url(img/fora_dojo.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    .kimono{
+        margin-top: 31%;
+        right: 30%;
+        position:fixed;
+        width: 8%;
+    }
+
+    .sensei{
+        margin-top: 31%;
+        left: 30%;
+        position:fixed;
+        width: 8%;
+    }
+
+    .dojo{
+        position: fixed;
+        text-align: center;
+        bottom: 43%;
+        right: 43%;
+        font-size: 500%;
+        width: auto;
+        opacity: 0%;
+    }
+
+</style>
+
+<body>
+
+    <div id="preloader">
+        <h6 style="color: white; font-size: 70px; text-align: center;">Saindo do Dojo</h6>
+        <div class="inner">
+           <div class="bolas">
+              <div></div>
+              <div></div>
+              <div></div>               
+           </div>
+        </div> 
+    </div>
+
+    <main>
+
+        <span title="Você"><img class="kimono" src="img/kimono.png" alt="Você"></span>
+        <span title="Sensei"><img id="Sensei" class="sensei" src="img/sensei.png" alt="Sensei"></span>
+        <span title="Voltar para o dojo"><a href="jogo.html" class="dojo">Voltar</a></span>
+
+    </main>
+    
+</body>
+
+<script src='js/parte2.js'></script>
+
+<script>
+    
+     $(window).on('load', function () { 
+        $('#preloader .inner').fadeOut();
+        $('#preloader').delay(3).fadeOut('slow');
+        $('body').delay(3).css({'overflow': 'visible'});
+    })
+
+</script>
+
+</html>
