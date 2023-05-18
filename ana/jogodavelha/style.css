@@ -1,0 +1,47 @@
+#jogo{
+    width:603px;
+    height:600px;
+    border:solid 2px;
+    margin: auto;
+}
+ 
+.linha{
+    height:200px;
+    border-bottom:solid 1px;
+    height: 200px;
+    border-bottom: solid 1px;
+}
+ 
+.casa{
+    width:200px;
+    height:100%;
+    border-right:solid 1px;
+    float:left;
+}
+
+div{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #2567a1;
+    text-align: center;
+}
+
+h1{
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
