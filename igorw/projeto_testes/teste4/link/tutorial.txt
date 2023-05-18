@@ -1,0 +1,4 @@
+https://www.youtube.com/watch?v=GAGRrVVD3js&ab_channel=CanalTI
+12:29
+
+CREATE TABLE `usuario`.`usuario` (`usuario_id` INT NOT NULL AUTO_INCREMENT , `usuario` VARCHAR(200) NOT NULL , `senha` VARCHAR(32) NOT NULL , PRIMARY KEY (`usuario_id`)) ENGINE = InnoDB;

@@ -1,0 +1,308 @@
+
+2022-09-30 08:25:39
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Pegada Ecol&oacute;gica</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="css/normalize.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+<script src="js/modernizr-2.6.2.min.js"></script>
+
+</head>
+
+<body onLoad="iniciaFuncoes()">
+
+        <header id="header">
+        <div class="group">
+            <h1 class="logo">Pegada Ecolï¿½gica</h1>
+        </div>
+    </header>
+    <nav id="nav">
+        <div class="group">
+            <ul class="main-nav">
+  <li class="food item"><a href="pegada.php?MenuAtual=0">Alimentação</a></li>      <li class="home item disabled"><a href="#">Moradia</a></li>      <li class="possessions item disabled"><a href="#">Bens</a></li>      <li class="service item disabled"><a href="#">Serviço</a></li>      <li class="tobacco item disabled"><a href="#">Tabaco</a></li>      <li class="transport item disabled"><a href="#">Transporte</a></li>      <li class="form item disabled"><a href="#">Calcule a sua pegada ecológica</a></li>     
+            </ul>
+        </div>
+    </nav>
+
+      
+
+    <main id="main">
+        <div class="group">
+                                  <section class="food full section">
+                <header class="heading">
+                    <h2 class="title">Alimentação</h2>
+                    <i class="icon"></i>
+                </header>
+
+                <form action="pegada.php" method="POST" class="signup" id="pegadaecologica">
+                  <input type="hidden" name="identificador" value="pegadaecologica" />
+                  <input type="hidden" name="pegadaecologica_link" value="http://pegadaecologica.org.br/2019/result_index.php?sessao=2189889" />
+
+                  <h3 class="subtitle">COMO É SUA DIETA?</h3><ul class="questions list"><li class="item"><span class="col"><strong>VEGANA</strong> Minha alimentação diária é totalmente composta por vegetais. Não como nada de origem animal.</span><span class="col"><input type="radio" class="radio" name="pontuacao" value="0.83*1*1*VEGANA*1.290000" onclick="undisableBtn()" ></span></li><li class="item"><span class="col"><strong>VEGETARIANA</strong> Não como carnes nem peixes, mas consumo produtos de origem animal, como ovos, leite e derivados.</span><span class="col"><input type="radio" class="radio" name="pontuacao" value="0.89*1*2*VEGETARIANA*1.290000" onclick="undisableBtn()" ></span></li><li class="item"><span class="col"><strong>ONIVORA</strong> Costumo comer vegetais e carnes, variando entre frango, peixe, porco e vaca.</span><span class="col"><input type="radio" class="radio" name="pontuacao" value="1.29*1*3*ONIVORA*1.290000" onclick="undisableBtn()" ></span></li><li class="item"><span class="col"><strong>PREDILEÇÃO POR CARNE VERMELHA</strong> Costumo comer vegetais e carnes, variando entre frango, peixe, porco e vaca.</span><span class="col"><input type="radio" class="radio" name="pontuacao" value="2.29*1*4*PREDILEÇÃO POR CARNE VERMELHA*1.290000" onclick="undisableBtn()" ></span></li></ul>  
+                                            
+                  <input type="hidden" value="avanca" name="avanca">
+                  <input type="hidden" value="1" name="MenuAtual">
+                  <input type="submit" class="next-button" id="btnAvancar" value="Pr&#243;ximo">
+</form>
+                
+            </section>
+                  
+        </div>
+    </main>
+
+<footer id="footer">
+  <div class="group">
+    <div class="info line">
+      <p class="copy label-highlight">Direitos Reservados <span>&copy;</span></p>
+      <a href="politica-de-privacidade.php" class="link label-highlight">Pol&iacute;tica de Privacidade</a>
+    </div>
+    <ul class="sponsor">
+      <li class="item">
+        <img src="img/wwf.png" alt="">
+      </li>
+      <li class="item">
+        <img src="img/ana.png" alt="">
+      </li>
+      <li class="item">
+        <img src="img/bb-fundacao.png" alt="">
+      </li>
+      <li class="item">
+        <img src="img/ministerio-do-meio-ambiente.png" alt="">
+      </li>
+    </ul>
+  </div>
+</footer>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+  window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')
+</script>
+<script src="js/vendor/Chart.min.js"></script>
+<script src="js/ga.js"></script>
+<script>
+  $(function() {
+
+    var progressBar = $('.progress-bar').data('meter');
+
+    $(".progress-bar").animate({
+      height: progressBar
+    }, 1200);
+
+  });
+</script>
+
+
+<!-- IntegraÃ§Ã£o RD Station -->
+<script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/4b973503-3238-4ae8-bd63-7b76c2d17558-loader.js"></script>
+
+</body>
+
+
+
+<script>
+function iniciaFuncoes() {
+  document.getElementById("btnAvancar").disabled = true;    }
+
+// Mantï¿½m os inputs em cache:
+var inputs = $('.field, .radio:checked');
+var selects = $('select');
+
+// Chama a funï¿½ï¿½o de verificaï¿½ï¿½o quando as entradas forem modificadas
+// Usei o 'keyup', mas 'change' ou 'keydown' sï¿½o tambï¿½m eventos ï¿½teis aqui
+inputs.on('keyup', verificarInputs);
+inputs.on('change', verificarInputs);
+selects.on('change', verificarInputs);
+
+function verificarInputs() {
+  var preenchidos = true; // assumir que estï¿½o preenchidos
+  var grupo_radio = '';
+  var checked_radio = false;
+
+  selects.each(function() {
+    //alert(this.name);
+    //	alert(this.type);
+    //alert(this.value);
+    //	alert(this.checked);
+
+    if (this.value == 'Selecione') {
+      preenchidos = false;
+      // parar o loop, evitando que mais inputs sejam verificados sem necessidade
+      return false;
+    }
+
+    if ($('.transport-list li:nth-child(2) .transport-select').find('option:selected').text() == 'Nï¿½o' && $('.transport-list li:nth-child(3) .transport-select').find('option:selected').text() != 'Selecione') {
+      preenchidos = true;
+      // parar o loop, evitando que mais inputs sejam verificados sem necessidade
+      return false;
+    }
+
+  });
+
+  inputs.each(function() {
+    //alert(this.name);
+    //alert(this.type);
+    //alert(this.value);
+    //alert(this.checked);
+
+    if (this.type == 'text') {
+      // verificar um a um e passar a false se algum falhar
+      // no lugar do if pode-se usar alguma funï¿½ï¿½o de validaï¿½ï¿½o, regex ou outros
+      if (!this.value) {
+        preenchidos = false;
+        // parar o loop, evitando que mais inputs sejam verificados sem necessidade
+        return false;
+      } else {
+        //var int = getMoney( test );
+        //alert( int );
+        //alert( formatReal( int ) );
+        //this.value = formatReal( getMoney( this.value  ));
+
+      }
+    }
+
+    if (this.type == 'radio') {
+      if (grupo_radio == this.name) {
+        //alert('entrou');
+        grupo_radio = '';
+        if (!checked_radio) {
+          if (!this.checked) {
+            preenchidos = false;
+          }
+        }
+      } else {
+        //alert('else');
+        grupo_radio = this.name;
+        if (this.checked) {
+          checked_radio = true;
+        } else {
+          checked_radio = false;
+        }
+      }
+    }
+  });
+
+
+
+  // Habilite, ou nï¿½o, o <button>, dependendo da variï¿½vel:
+  if (preenchidos != true) {
+    $('#btnAvancar').removeAttr('disabled');
+    // 	alert('preenchido');
+  } else {
+    // 	alert('nao preenchido');
+    $('#btnAvancar').attr('disabled', true);
+  }
+  $('#btnAvancar').prop('disabled', !preenchidos); //
+}
+
+
+function disableBtn() {
+  document.getElementById("btnAvancar").disabled = true;
+  // $('#btnAvancar').attr('disabled', true);
+}
+
+function undisableBtn() {
+  document.getElementById("btnAvancar").disabled = false;
+  // $('#btnAvancar').prop('disabled', false);      
+}
+</script>
+
+<script language='JavaScript'>
+function SomenteNumero(campo, e) {
+  var tecla = (window.event) ? event.keyCode : e.which;
+  if ((tecla > 47 && tecla < 58)) {
+    FormataValor(campo, 10, e);
+    //return true;
+  } else {
+    if (tecla == 8 || tecla == 0) FormataValor(campo, 10, e);
+    else {
+      //alert(tecla);
+      return false;
+    }
+  }
+}
+</script>
+<script type="text/javascript">
+function FormataValor(campo, tammax, teclapres) {
+
+  if (window.event) { // Internet Explorer
+    var tecla = teclapres.keyCode;
+  } else if (teclapres.which) { // Nestcape / firefox
+    var tecla = teclapres.which;
+  }
+
+  vr = campo.value;
+  vr = vr.toString().replace("/", "");
+  vr = vr.toString().replace("/", "");
+  vr = vr.toString().replace(",", "");
+  vr = vr.toString().replace(".", "");
+  vr = vr.toString().replace(".", "");
+  vr = vr.toString().replace(".", "");
+  vr = vr.toString().replace(".", "");
+  tam = vr.length;
+
+  if (tam < tammax && tecla != 8) {
+    tam = vr.length + 1;
+  }
+
+  if (tecla == 8) {
+    tam = tam - 1;
+  }
+
+  //alert(tecla);
+  //if ( tecla == 8 || tecla >= 48 && tecla <= 57 || tecla >= 96 && tecla <= 105 ){
+  if (tecla >= 48 && tecla <= 57) {
+    if (tam <= 2) {
+      campo.value = vr;
+    }
+    if ((tam > 2) && (tam <= 5)) {
+      campo.value = vr.substr(0, tam - 2) + ',' + vr.substr(tam - 2, tam);
+    }
+    if ((tam >= 6) && (tam <= 8)) {
+      campo.value = vr.substr(0, tam - 5) + '.' + vr.substr(tam - 5, 3) + ',' + vr.substr(tam - 2, tam);
+    }
+    if ((tam >= 9) && (tam <= 11)) {
+      campo.value = vr.substr(0, tam - 8) + '.' + vr.substr(tam - 8, 3) + '.' + vr.substr(tam - 5, 3) + ',' + vr.substr(tam - 2, tam);
+    }
+    if ((tam >= 12) && (tam <= 14)) {
+      campo.value = vr.substr(0, tam - 11) + '.' + vr.substr(tam - 11, 3) + '.' + vr.substr(tam - 8, 3) + '.' + vr.substr(tam - 5, 3) + ',' + vr.substr(tam - 2, tam);
+    }
+    if ((tam >= 15) && (tam <= 17)) {
+      campo.value = vr.substr(0, tam - 14) + '.' + vr.substr(tam - 14, 3) + '.' + vr.substr(tam - 11, 3) + '.' + vr.substr(tam - 8, 3) + '.' + vr.substr(tam - 5, 3) + ',' + vr.substr(tam - 2, tam);
+    }
+  } else {
+    return false;
+  }
+}
+</script>
+
+<script type="text/javascript">
+$(function() {
+  if ($('.transport-list li:nth-child(2) .transport-select').find('option:selected').text() == 'Nï¿½o') {
+    $('.transport-list li:nth-child(4), .transport-list li:nth-child(5)').hide();
+  } else {
+    $('.transport-list li:nth-child(4), .transport-list li:nth-child(5)').show();
+  }
+  $('.transport-list li:nth-child(2) .transport-select').bind('change', function() {
+    if ($(this).find('option:selected').text() == 'NÃ£o') {
+      $('.transport-list li:nth-child(4), .transport-list li:nth-child(5)').hide();
+    } else {
+      $('.transport-list li:nth-child(4), .transport-list li:nth-child(5)').show();
+    }
+  });
+});
+</script>
+
+</html>

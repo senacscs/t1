@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/img/pegada_icone.png">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="../assets/js/main.js"></script>
+    <title>Cadastro - ECOmércio</title>
+
+    <style>
+        html,
+        body {
+            background-image: url(../assets/img/fundo_index.webp);
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <section class="section-header">
+            <h1 class="title-cadastro">Cadastre-se</h1>
+        </section>
+    </header>
+
+    <main>
+        <section class="section-main-cadastro">
+            <div class="div-email-cadastro">
+                <h4 class="title-section">E-mail</h4>
+                <input class="input-cadastro" required type="text" name="login" placeholder="Ex: exemplo@gmail.com">
+            </div>
+            <div class="div-senha-cadastro">
+                <h4 class="title-section">Senha</h4>
+                <input class="input-cadastro" required type="password" name="senha" placeholder="Senha">
+            </div>
+            <div class="div-senha-cadastro">
+                <h4 class="title-section">Confirmar Senha</h4>
+                <input class="input-cadastro" required type="password" name="senha" placeholder="Confirme sua senha">
+            </div>
+            <div class="botton-termo">
+                <b><input type="checkbox" name="checkbox"> Concordo com os <i><u><a class="termo-cadastro" href="../termo/">termos</a></u></i> de uso</b>
+            </div>
+            <div onclick="window.location.href='../sobre/'" class="botton-cadastro">
+                <h3>Criar</h3>
+            </div>
+        </section>
+    </main>
+
+
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+*,
+* ::before ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+.folha {
+    background: green;
+    border-radius: 100% 5%;
+    width: 25%;
+    height: 25%;
+    filter: brightness(.75);
+}
+
+.folha-1 {
+    margin: 0 auto;
+    transform: scale(.9) rotate(-45deg) translate(-15%, -10%);
+    filter: brightness(.8);
+}
+
+.folha-2 {
+    position: absolute;
+    transform: scale(1.09) rotate( 12deg) translate(150%, -92%);
+    filter: brightness(.65);
+}
+
+.folha-3 {
+    position: absolute;
+    transform: scale(.9) rotatey(180deg) rotate(10deg) translate(-110%, -40%);
+    filter: brightness(1);
+}
+
+.folha-4 {
+    transform: scale(1.2) rotatey(180deg) rotate(5deg) translate(-68%, 30%);
+    filter: brightness(.45);
+}
+
+.folha-5 {
+    position: absolute;
+    right: 0;
+    transform: scale(1) translate(-110%, -65%);
+    filter: brightness(.8);
+}
+
+.folha-6{
+    position: absolute;
+    right: 69%;
+    margin:  -43% auto 0 40%;
+    transform: scale(1) rotatey(180deg) rotate(9deg) translate(-70%, 80%);
+    filter: brightness(.6);
+}
+
+.folha-7{
+    position: absolute;
+    right: 6%;
+    transform: scale(1) translate(-110%, -100%);
+    filter: brightness(.4);
+}
+
+.tronco {
+    background: brown;
+    position: absolute;
+    margin: 50% auto 0 17%;
+    width: 60%;
+    height: 8%;
+    border-radius: .4rem;
+    transform: rotate(90deg);
+}

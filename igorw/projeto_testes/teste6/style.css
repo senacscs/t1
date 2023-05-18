@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+#loading {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #081d3e;
+}
+
+#loading_content {
+    width: 54%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    height: 40%;
+    background: #213b65;
+    padding: 30px;
+    border: inset #1b74ff 5px;
+}
+
+#loading_texto {
+    float: left;
+    color: #fff;
+}
+
+#current_loading {
+    margin-top: 15px;
+}
+
+svg {
+    float: left;
+    max-width: 70%;
+}
+
+.tree {
+    fill: green;
+}
+
+.circle-mask {
+    transform-origin: 50% 90%;
+}
