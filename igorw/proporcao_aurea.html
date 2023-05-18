@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Proporção Aurea</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/proporcao_aurea.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/preload.css'>
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+    <link rel="icon" href="img/fundo_aurea.jpg">
+</head>
+<body>
+    <div id="preloader">
+        <div class="inner">
+           <div class="bolas">
+              <div></div>
+              <div></div>
+              <div></div>               
+           </div>
+        </div> 
+    </div>
+
+    <header class="inicio">
+        <b><br>Proporção<br>Áurea<br><br></b>
+        <p class="nome">Por: Igor Machado Wickert</p>
+    </header><br>
+
+    <main>
+
+        <h1>Pessoas do grupo de pesquisa:<br>
+        Igor Gomes, Igor Wickert e Vitor Hugo</h1><br><br>
+
+    <div class="menu">
+        <h1 class="menu1">Menu</h1>
+        <span title="Ir ao conteúdo"><a href="#conteudo1" class="atalho">O que é Proporção Áura</a></span><br><br>
+        <span title="Ir ao conteúdo"><a href="#conteudo2" class="atalho">Onde Vemos a Proporção Áurea</a></span><br><br>
+        <span title="Ir ao conteúdo"><a href="#conteudo3" class="atalho">O Número de Ouro</a></span><br><br>
+        <span title="Ir ao conteúdo"><a href="#conteudo4" class="atalho">Slide em Vídeo</a></span><br><br>
+    </div><br><br><br><br>
+
+    <h1 id="conteudo1">O que é Proporção Áurea</h1>
+
+    <p>Proporção áurea é uma constante real algébrica irracional. Nós temos a proporção áurea quando dividimos uma reta em duas partes não iguais.<br>
+        Depois, pegamos o segmento mais longo dessa reta e a dividimos pelo segmento menor. Esse resultado será igual ao valor da divisão da reta inteira pelo segmento mais longo.</p><br><br><br>
+
+    <h1 id="conteudo2">Onde vemos a Proporção Áurea</h1>
+
+    <p>A proporção áurea foi utilizada por vários artistas como Botticelli, Salvador Dalí e Leonardo da Vinci.<br>
+        Sobre o último, é possível observá-la em Monalisa, sua obra mais famosa.</p><br><br><br>
+
+    <h1 id="conteudo3">O Número de Ouro</h1>
+
+    <p>Também conhecido como a proporção áurea, ou pela letra grega φ (phi). Este número ganha esse nome de destaque por estar presente em diversos lugares da natureza,<br>
+        no corpo humano e no universo. Este número, assim como outros, por exemplo o π (Pi), estão presentes no mundo por uma razão matemática existente na natureza.<br>
+        Essa sequência aparece na natureza, no DNA, no comportamento da refração da luz, dos átomos, nas vibrações sonoras,<br>
+        no crescimento das plantas, nas espirais das galáxias, dos marfins de elefantes, nas ondas no oceano, furacões, etc.</p><br><br><br>
+
+    <h1 id="conteudo4">Slide em Vídeo</h1>
+
+    <p><iframe width="280" height="157.5" src="https://www.youtube.com/embed/0Xk7QvCG88I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p><br><br><br>
+
+    <div class="fim"><br>Feito em:<br>20/10/2021<br><br></div>
+
+    </main>
+
+    <script type="text/javascript">
+        //<![CDATA[
+        $(window).on('load', function () { // makes sure the whole site is loaded 
+            $('#preloader .inner').fadeOut(); // will first fade out the loading animation 
+            $('#preloader').delay(3).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+            $('body').delay(3).css({'overflow': 'visible'});
+        })
+        //]]>
+    </script> 
+</body>
+</html>

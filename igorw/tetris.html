@@ -1,0 +1,11 @@
+<button onclick="myFunction()">Show Snackbar</button>
+<div id="snackbar" style="display: none;">Some text some message..</div>
+<script>
+    function myFunction()
+    {
+        let x = document.getElementById("snackbar");
+        
+        x.style.display = 'block';
+        setTimeout(function(){ x.style.display = 'none';}, 3000);
+    }
+</script>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tomy Starke</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/gdd.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/preload.css'>
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+    <link rel="icon" href="img/gdd_icon.png">
+</head>
+<body>
+    
+    <div id="preloader">
+        <div class="inner">
+           <div class="bolas">
+              <div></div>
+              <div></div>
+              <div></div>                   
+           </div>
+        </div> 
+    </div>
+
+    <header>
+        <h1 class="gdd">GDD (Game Design Document)</h1>
+    </header>
+
+    <main>
+        <h2>O jogo do Tomy Starke</h2><br><br><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Z8ES4J7AIhs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br><br><br><br>
+        <p class="obs"><b><i>OBS:</i></b> Não tem som por problemas técnicos</p>
+    </main>
+
+    <script type="text/javascript">
+        //<![CDATA[
+        $(window).on('load', function () { // makes sure the whole site is loaded 
+            $('#preloader .inner').fadeOut(); // will first fade out the loading animation 
+            $('#preloader').delay(3).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+            $('body').delay(3).css({'overflow': 'visible'});
+        })
+        //]]>
+    </script> 
+
+</body>
+</html>
