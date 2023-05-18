@@ -1,0 +1,42 @@
+body {
+    font-family: "Lato";
+    color: white;
+    background-image: url("https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2021/05/lua-de-sangue-capa-696x487.jpg")
+}
+
+p {
+  font-size: 12pt;
+  font-family: Helvetica;
+}
+
+h1 {
+  font-size: 30pt;
+}
+
+h2 {
+  font-size: 20pt;
+}
+
+div {
+  text-align: center; 
+}
+
+capa {
+  width: 50%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto; 
+}
+
+galeria {
+   width: 80%;
+   display:block;
+   margin-left: auto;
+   margin-right: auto;
+   position: relative;
+   text-align: center;
+}
+
+iframe {
+  width: 100%;
+}

@@ -1,0 +1,34 @@
+body {
+    color: white;
+    font-family: lato;
+    font-size: medium;
+    text-align: center;
+    background-color: rgb(38, 72, 77);
+}
+
+h1 {
+    font-family: lato;
+    font-size: 70px;
+    text-decoration-line: underline;
+    text-decoration-style: solid
+}
+
+title {
+    font-size: x-large;
+    font-family: lato;
+    text-decoration-line: underline;
+    text-decoration-style: solid
+}
+
+h2 {
+    font-family: lato;
+    font-size:40px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    
+}
+
+p {
+    font-size: 20px;
+}
+

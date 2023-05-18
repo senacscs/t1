@@ -1,0 +1,45 @@
+body { 
+    font-family: 'times new roman';
+    background-color:rgb(111, 168, 154);
+    height: 100%;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(111,168,154,1) 52%, rgba(111,168,154,1) 52%);
+   }
+    
+   p{
+   font-family:'times new roman';
+   font-size: 15pt;
+   color: rgb(61, 87, 81);
+   }
+    
+   h1 {
+    font-family:'times new roman';
+    font-size:30pt;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-shadow: rgb(255, 247, 247) 0.1em 0.1em 0.2em;
+   }
+    
+   h2{
+    font-size: 15pt;
+    font-family:'times new roman';
+    color: rgb(0, 0, 0,);
+   }
+
+   h3{
+    font-size: 15pt;
+    font-family:'times new roman';
+    color: rgb(0, 0, 0);
+   }
+    
+   div { text-align: center;
+    overflow: hidden;
+  }
+
+   p{
+    font-family: 'times new roman';
+    font-size:12pt;
+    color: rgb(0, 0, 0);
+   }
+    
+
+    
