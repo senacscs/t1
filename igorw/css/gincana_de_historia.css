@@ -1,0 +1,8 @@
+body{
+    text-align: center;
+    background-image: url(../img/gincana_de_historia_fundo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}

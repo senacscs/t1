@@ -1,0 +1,69 @@
+body {
+    background-color: whitesmoke;
+    overflow: hidden; 
+    text-align: center;
+}
+
+.inicio{
+    cursor: default;
+    background-image: url(../img/fundo_padrao.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nome{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+    color: whitesmoke;
+    cursor: default;
+    font-family: monospace;
+}
+
+h1{
+    cursor: default;
+    font-size: 40px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    font-size: 30px;
+    color: black;
+    font-family: sans-serif;
+}
+
+p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.table-responsive{
+    width: 100% !important;
+}
+  
+  .table {
+      width: 50% !important;
+      margin: auto;
+}
+  
+  .table-status {
+      margin-top: 20px;
+      margin-bottom: 20px !important;
+}
+
+.fim{
+    cursor: default;
+    background-image: url(../img/fundo_padrao.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: whitesmoke;
+    font-size: 14px;
+    font-family: monospace;
+}

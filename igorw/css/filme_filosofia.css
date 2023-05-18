@@ -1,0 +1,34 @@
+body{
+    text-align: center;
+}
+
+.inicio{
+    cursor: default;
+    background-image: url(../img/fundo_padrao.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 50px;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nome{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+    color: whitesmoke;
+    cursor: default;
+    font-family: monospace;
+}
+
+.fim{
+    cursor: default;
+    background-image: url(../img/fundo_padrao.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: whitesmoke;
+    font-size: 14px;
+    font-family: monospace;
+}

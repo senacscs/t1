@@ -1,0 +1,40 @@
+body{
+    background-image: url(../img/fundo_microconto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+a{
+    color: blue;
+    font-size: 20px;
+}
+a:link{
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 22px;
+    transition: 0.5s;
+}
+h1{
+    font-size: 50px;
+    color: black;
+    font-family: monospace;
+}
+h2{
+    font-size: 40px;
+    color: black;
+    font-family: monospace;
+}
+p{
+    font-size: 20px;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+}
+.table-responsive{
+    width: 100% !important;
+}
+  
+  .table {
+      width: 50% !important;
+      margin: auto;
+  }
+  
+  .table-status {
+      margin-top: 20px;
+      margin-bottom: 20px !important;
+  }
+h1{
+    font-size: 50px;
+    font-family: monospace;
+}
+h2{
+    font-size: 40px;
+    font-family: monospace;
+}
+h3{
+    font-size: 30px;
+    font-family: monospace;
+}
+p{
+    font-size: 20px;
+    font-family: serif;
+}

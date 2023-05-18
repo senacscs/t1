@@ -1,0 +1,77 @@
+body {
+    background-color: whitesmoke;
+    overflow: hidden; 
+    text-align: center;
+  }
+
+.inicio{
+    cursor: default;
+    background-image: url(../img/fundo_padrao.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: whitesmoke;
+    font-size: 60px;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nome{
+  font-size: 20px;
+  text-align: left;
+  padding-left: 10px;
+  color: whitesmoke;
+  cursor: default;
+  font-family: monospace;
+}
+
+h1{
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+
+h2{
+  font-size: 40px;
+  font-family: sans-serif;
+  color: black;
+}
+
+p{
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+}
+
+.download{
+  color: blue;
+  font-size: 20px;
+  font-family: fantasy;
+}
+
+.download:link{
+  color: blue;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: transparent;
+  font-family: fantasy;
+}
+
+.download:hover{
+  color: blue;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: transparent;
+  font-family: fantasy;
+}
+
+.fim{
+  cursor: default;
+  background-image: url(../img/fundo_padrao.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: whitesmoke;
+  font-size: 14px;
+  font-family: monospace;
+}

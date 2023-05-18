@@ -1,0 +1,19 @@
+body{
+    background-image: url(../img/estrelas_caindo.gif);
+    font-family: cursive;
+    text-align: center;
+}
+h1{
+    font-size: 60px;
+    color: black;
+    text-align: center;
+}
+h2{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}p{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}

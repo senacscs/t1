@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(223, 131, 57);
+    text-align: center;
+
+}
+main{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+p{
+    font-size: 40px;
+    font-family: monospace;
+}
+p1{
+    font-size: 30px;
+    font-family: cursive;
+}
+a{
+    font-size: 25px;
+    color: whitesmoke;
+}
+a:link {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #fffb00;
+    font-size: 30px;
+}

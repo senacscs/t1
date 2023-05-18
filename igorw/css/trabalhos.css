@@ -1,0 +1,87 @@
+body {
+  background-color: whitesmoke;
+  overflow: hidden; 
+  text-align: center;
+}
+
+.inicio{
+  cursor: default;
+  background-image: url(../img/fundo_padrao.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: whitesmoke;
+  font-size: 60px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.link{
+  cursor: default;
+  font-size: 60px;
+  color: whitesmoke;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.link:link{
+  cursor: default;
+  font-size: 60px;
+  color: whitesmoke;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.link:hover{
+  cursor: default;
+  font-size: 60px;
+  color: whitesmoke;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.post{
+  width: 30%; 
+  border: black solid 7px;
+  border-radius: 20px;
+  color: black;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  display: inline-block;
+}
+
+.poste{
+  color: black;
+  font-size: 20px;
+}
+
+.poste:link{
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.poste:hover{
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.secreto{
+  color: rgba(0, 0, 0, 0);
+  cursor: default;
+}
+
+.fim{
+  cursor: default;
+  background-image: url(../img/fundo_padrao.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: whitesmoke;
+  font-size: 14px;
+  font-family: monospace;
+}

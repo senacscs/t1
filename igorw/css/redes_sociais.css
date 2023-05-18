@@ -1,0 +1,32 @@
+body{
+    background-image: url(../img/redes_sociais_fundo.jfif);
+    text-align: center;
+}
+header{
+    font-size: 200%;
+    text-align: center;
+    color: red;
+    background-color: whitesmoke;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 130%;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+}
+div{
+    border-radius: 30px;
+    border: 4px solid black;
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(42, 195, 255);
+}
+h2{
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 200%;
+    color: red;
+}

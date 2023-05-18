@@ -1,0 +1,30 @@
+.header-site{
+    background-image: url(../img/fundo_microconto.jpg);
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+.content-site{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.img-site{
+    background-image: url(../img/fundo_microconto.jpg);
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.footer-site{
+    background-color: green;
+    color: whitesmoke;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

@@ -1,0 +1,68 @@
+body{
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.inicio{
+    cursor: default;
+    background-image: url(../img/fundo_padrao.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 50px;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nome{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+    color: whitesmoke;
+    cursor: default;
+    font-family: monospace;
+}
+
+.menu{
+    width: 30%;
+    border: black solid 4px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    display: inline-block;
+}
+
+.menu1{
+    color: black;
+    font-size: 40px;
+    cursor: default;
+}
+
+.atalho{
+    color: blue;
+    font-size: 20px;
+}
+
+.atalho:link{
+    color: blue;
+    font-size: 20px;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.atalho:hover{
+    color: blue;
+    font-size: 20px;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.fim{
+    cursor: default;
+    background-image: url(../img/fundo_padrao.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 14px;
+    color: whitesmoke;
+    font-family: monospace;
+}

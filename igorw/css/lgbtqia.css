@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    background-color: black;
+}
+div{
+    text-align: center;
+    font-size: 25px;
+    background-color : black;
+    border: 4px solid #000000;
+    border-radius: 15px;
+    margin-left: 25%;
+    width: 50%;
+}
+a{
+    color: whitesmoke;
+}
+a:link{
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover{
+    color: blue;
+    text-decoration: none;
+    background-color: transparent;
+}
+h1{
+    color: whitesmoke;
+    font-size: 50px;
+}
+img{
+    width: 70%;
+}

@@ -1,0 +1,41 @@
+body {
+text-align: center;
+background-image: url(../img/possivel_fundo_.jpg);
+}
+#imgId{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: auto;
+}
+form{
+    text-align: center;
+}
+input{
+    text-align: center;
+}
+#next{
+    float:right;
+    padding-right:50px;
+    text-align:right;
+    font-size:50px;
+    text-decoration: none;
+    background-color: transparent;
+}
+#prev{
+    float:left;
+    padding-right:50px;
+    text-align:left;
+    font-size:50px;
+    text-decoration: none;
+    background-color: transparent;
+}
+a{
+    color: rgb(255, 0, 212);
+}
+p{
+    font-size: 20px;
+    margin: 2px;
+    color: whitesmoke;
+}

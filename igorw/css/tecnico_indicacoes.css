@@ -1,0 +1,83 @@
+body{
+    text-align: center;
+    background-image: url(../img/indicacao_fundo.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#links {
+    float: center;
+    max-width: 50%;	
+  }
+  #links li {
+    cursor: pointer;
+    transition: 0.3s ease;
+    opacity: 0.7;
+  }
+  
+  #links li:hover {
+    opacity: 1;
+  }
+  
+  #respostas {
+    float: center;
+    max-width: 100%;
+  }
+  
+  .faq {
+    margin: 30px;
+    display: none; /* coloca todos como invisiveis inicialmente */
+}
+a{
+  color: whitesmoke;
+  font-size: 20px;
+}
+a:link{
+  color: whitesmoke;
+  text-decoration: none;
+  background-color: transparent;
+}
+a:hover{
+  color: blue;
+  font-size: 25px;
+  text-decoration: none;
+  background-color: transparent;
+  transition: 1s;
+}
+.ind{
+  font-size: 50px;
+  color: red;
+}
+h1{
+  color: #FD6B04;
+  font-size: 40px;
+}
+h2{
+  color: whitesmoke;
+  font-size: 30px;
+  cursor: pointer;
+  display: inline;
+}
+.atalho{
+  color: whitesmoke;
+  font-size: 30px;
+}
+.atalho:hover{
+  font-size: 32px;
+  color: rgb(255, 0, 212);
+  transition: 1s;
+}
+h2:hover{
+  font-size: 32px;
+  color: rgb(255, 0, 212);
+  transition: 1s;
+}
+.topo{
+  color: whitesmoke;
+}
+.topo:hover{
+  color: blueviolet;
+  transition: 1s;
+}
