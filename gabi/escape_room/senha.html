@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= <i>, initial-scale=1.0">
+    <script src="escape_room.s"></script>
+    <title>Senha</title>
+
+</head>
+
+    <style>
+            html{
+            background-color: black;
+            background-image:url(img/senha.png);
+            background-repeat: no-repeat;
+            position:absolute;
+            margin-left: 28%;
+            }
+
+            .tentar {
+            margin-top: 20%;
+            left: 43%;
+            position:fixed;
+            }
+        
+    </style>
+
+<body>
+    
+    <header>
+        <img id="tentar" class="tentar" src="img/tentar.png" alt="tentar" width="200px"><br>
+    </header>
+
+    <main>
+        <button class="botao-volta" onclick="volta()">Voltar</button>
+    </main>
+
+</body>
+
+    <script>
+        
+            var tentar = document.getElementById('tentar');
+
+        tentar.onclick = function(){
+            senha = prompt("Digite as senhas sem espaços");
+        if (senha =="10202128"){ 
+            window.location = "venceu.html"
+        }else if(senha =="sair"){
+        alert("Entrendo no dojo");window.location = "senha.html"
+        }else{
+        alert("Você Errou");window.location = "senha.html"
+        }  
+        }
+
+    </script>
+
+</html>

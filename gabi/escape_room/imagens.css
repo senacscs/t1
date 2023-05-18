@@ -1,0 +1,13 @@
+html{
+    background-color: black;
+    
+    }
+    img{
+    background-repeat: no-repeat;
+    text-align: justify;
+    position:relative;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    }
