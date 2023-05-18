@@ -1,0 +1,47 @@
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 34pt;
+    font-weight: 600pt;
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px;
+    background-color:#00000042;
+}
+
+html {
+    border: lightcyan;
+    background-color: #640b83
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 34pt;
+    font-weight: 600pt;
+    color: snow;
+}
+ 
+h2 {
+    font-size: 23pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: snow;
+
+}
+
+p {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    font-size: 15pt;
+    color: snow;
+}
+
+a {
+    font-size:19pt;
+}
+
+
+
+
+
+

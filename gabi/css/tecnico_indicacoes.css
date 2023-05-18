@@ -1,0 +1,34 @@
+h1{
+    font-size: 27pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(18, 49, 107); text-shadow: rgb(255, 247, 247) 0.1em 0.1em 0.2em;
+}
+h2 {
+    font-size: 23pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+body {
+    text-align: center;
+    font-size: 15pt;
+    background-color: rgba(0, 0, 0, 0.808);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+html{
+        text-align: center;
+        background-image:url(../img/pexel.jpg);     
+        background-size: 100%;
+        
+        }
+img{
+    align-items: center;
+    text-align: center;
+}
+a{
+    color: snow;
+    font-size: 18pt;
+}

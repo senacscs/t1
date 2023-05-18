@@ -1,0 +1,38 @@
+h2 {
+    font-size: 25pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: snow;
+    text-shadow: rgb(206, 54, 206);
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 34pt;
+    font-weight: 600pt;
+    color: snow;
+}
+
+body {
+    height: 100%;
+    border: lightcyan;
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.342);
+    color: snow;
+}
+
+html {
+    background: url(https://th.bing.com/th/id/R.8569864a68e580fa66912f9caba9c4e2?rik=TFn%2bUFtJ%2fJMshw&riu=http%3a%2f%2fwww.wallpapersin4k.org%2fwp-content%2fuploads%2f2017%2f03%2f4k-Wallpapers-For-Mobile.jpg&ehk=l8Pfy852gOxp7Pm10PEk0FG9JnNnGng3Cxep9RoCnOU%3d&risl=&pid=ImgRaw&r=0);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+p {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    font-size: 17pt;
+}

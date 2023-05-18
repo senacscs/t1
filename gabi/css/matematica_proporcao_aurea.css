@@ -1,0 +1,40 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30pt;
+    font-weight: 600;
+    color: rgb(0, 0, 0); text-shadow: rgb(255, 247, 247) 0.1em 0.1em 0.2em;
+  }
+  a { 
+    position: relative; 
+    display: inline-block; 
+    padding: 5px 7px; 
+    color: #2196f3; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    text-decoration: none; 
+    font-size: 10px; 
+    overflow: hidden; 
+    transition: 0.2s; 
+  } 
+  
+  a:-webkit-any-link {
+    cursor: pointer; 
+    text-decoration: underline; 
+  } 
+  body {
+    background-repeat: no-repeat;
+    background: rgb(248,248,255);
+    background: linear-gradient(90deg, rgba(248,248,255,1) 1%, rgba(127,213,230,1) 100%);
+    height: 100%;
+    background-position: center;
+    background-size: cover; 
+    border:lightcyan;  
+     text-align: center;
+    width: 100%;
+  }
+  div { text-align: center;
+    overflow: hidden;
+    border: 3px solid #000000;
+    width: 100%;
+    border-radius:30px;
+  }
