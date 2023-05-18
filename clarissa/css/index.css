@@ -1,0 +1,119 @@
+html{
+    background-repeat: no-repeat;
+    background: url(https://i.pinimg.com/564x/cf/84/dd/cf84ddee34abeddd21fbc1e27883ecef.jpg);
+    background-size: 100%;
+}
+
+h1 {
+    font-size: 15pt;
+    text-align: center;
+}
+
+.title {
+    text-shadow: 1px 1px 2px rgb(4 0 255), 0 0 1em rgb(0 0 0), 0 0 0.2em rgb(0 0 0);
+    color: #ffffff;
+    font: 1.7em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+}
+
+.button {
+    background-color: #fdfdfd;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: consolas;
+}
+
+
+a {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fdfffd;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    background: #fafcfc3d;
+    box-shadow: 0 0 10px #21e5f3,0 0 40px #2195f3,0 0 80px #218ef3;
+    transition-delay: 1.2s;
+}
+
+a span{
+    position: absolute;
+    display: block;
+}
+
+a span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#fffefe);
+}
+
+a:hover span:nth-child(1){
+    left: 100%;
+    transition: 1s;
+}
+
+a span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#000000);
+}
+
+a:hover span:nth-child(3){
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#ffffff);
+}
+
+a:hover span:nth-child(2){
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#ffffff75);
+}
+
+a:hover span:nth-child(4){
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}

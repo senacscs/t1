@@ -1,0 +1,43 @@
+body { 
+ font-family: "Lato", Helvetica, sans-serif;
+ background: rgb(2,0,36);
+background: linear-gradient(360deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 77%, rgba(0,212,255,1) 100%);
+}
+
+p{
+font-weight:impact;
+font-size: 15pt;
+color: rgb(0, 195, 255);
+}
+
+h1 {
+ font-family:"Lato", Helvetica, sans-serif;
+ font-size:21pt;
+ color: rgb(0, 0, 0);
+ 
+}
+
+.white-with-blue-shadow {
+    text-shadow: 1px 1px 2px rgb(4, 0, 250), 0 0 1em rgb(54, 224, 236), 0 0 0.2em rgb(161, 244, 255);
+    color: #8edbff;
+    font: 1.5em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+}
+
+h2 {
+ font-size: 20pt;
+ font-family:impact;
+ color: rgb(7, 11, 255);
+}
+
+div {
+    overflow: hidden;	
+    width: 100%;
+    text-align: center;
+    
+}
+
+img{
+    padding: 10px;
+    border-radius: 45px;
+}
+
