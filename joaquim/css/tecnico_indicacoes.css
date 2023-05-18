@@ -1,0 +1,96 @@
+html{
+    background-image: linear-gradient(to right, purple, violet, violet);
+}
+    
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+    
+div{
+    text-align: auto;
+    overflow: hidden;
+    width:100%;
+}
+    
+header{
+    font-size: 20pt;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+    
+nav{
+    font-size: 10pt;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+    
+#menu{
+    font-size: 16pt;
+     font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+}
+    
+#conteudo01, #conteudo02, #conteudo03, #conteudo04, #conteudo05, #conteudo06, #conteudo07{
+    font-size: 27pt;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(87, 16, 145);
+    text-align: center;
+    text-decoration: underline;
+}
+
+a{
+    color: rgb(0, 0, 0);
+}
+    
+main{
+    color: black;
+    font-size: 15pt;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-size: 35pt;
+    font-family: garamond;
+    color:rgb(28, 7, 41);
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(193, 150, 233);
+}
+
+p{
+    color: black;
+    font-size: 16pt;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 50px;
+}    
+
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:60%;  
+}
+
+.imagem_link{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:20%;
+}
+
+.imagem_link_home_tech{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:30%;
+}
+
+footer{
+    font-size: 15pt;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}

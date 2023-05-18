@@ -1,0 +1,22 @@
+body{
+	height: 80vh;
+	width: 80vw;
+	background-image: url("img/portao_escola.png");
+	background-repeat: no-repeat;
+	background-size:100%;
+	text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+
+.caixa-texto{
+	background-color: rgba(255, 255, 255, 0.856);
+  width: auto;
+  height: auto;
+  border-radius: 25px;
+  padding: 30px;
+  text-align: center;
+  margin-top: 16%;
+  margin-left: 19%;
+  position: fixed;
+}

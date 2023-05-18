@@ -1,0 +1,54 @@
+body{
+  font-family:"Lato", Helvetica, sans-serif;
+  color:black;
+}
+
+p{
+  font-size:15pt;
+  font-family:comic;
+}
+
+h1{
+  font-size:23pt;
+  font-family:"Lato", Helvetica, sans-serif;
+}
+
+h2{
+  font-size:18pt;
+  font-family:"sans";
+  text-align:auto;
+}
+
+div{
+  text-align: auto; 
+  overflow: hidden; 
+  border: 3px solid #046770; 
+  width: 100%; 
+  background: #c0e9ed; 
+  border-radius:30px;
+}
+
+div1{
+  text-align: center; 
+  overflow: hidden; 
+  border: 3px solid #046770; 
+  width: 100%; 
+  background: #c0e9ed; 
+  border-radius:30px;
+}
+
+capa{
+  width:100%;
+  text-align:center;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+galeria{
+  display:inline-block;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  position:relative;
+}

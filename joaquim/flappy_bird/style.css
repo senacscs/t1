@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+}
+
+.background {
+	height: 100vh;
+	width: 100vw;
+	background-image: url('fundo.png');
+    background-repeat: repeat;
+    background-size: 100%;
+}
+
+.bird {
+	height: 100px;
+	width: 160px;
+	position: fixed;
+	top: 40vh;
+	left: 30vw;
+	z-index: 100;
+}
+
+.pipe_sprite {
+	position: fixed;
+	top: 40vh;
+	left: 100vw;
+	height: 70vh;
+	width: 6vw;
+	background-image: url('fundo_barra.jpg');
+    background-repeat: repeat;
+    background-size: 100%;
+}
+
+.message {
+	position: fixed;
+	z-index: 10;
+	height: 10vh;
+	font-size: 60px;
+	font-weight: 100;
+	color: black;
+	top: 12vh;
+	left: 20vw;
+	text-align: center;
+    margin: auto;
+}
+
+.score {
+	position: fixed;
+	z-index: 10;
+	height: 10vh;
+	font-size: 50px;
+	font-weight: 100;
+	color: black;
+	top: 0;
+	left: 0;
+}
+
+.score_val {
+	color: black;
+}

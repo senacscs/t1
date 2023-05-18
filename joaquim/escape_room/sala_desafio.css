@@ -1,0 +1,73 @@
+body{
+	background-image: url("img/sala_de_aula.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+	text-align: center;
+  background-position: fixed;
+}
+.caixa-texto{
+	background-color: rgba(255, 255, 255, 0.719);
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  margin: 10%;
+  position: fixed;
+}
+
+#tesoura{
+  width: 3%;
+  right: 21%;
+  bottom: 14%;
+  position: fixed;
+}
+#clipe{
+  width: 1.5%;
+  left: 22%;
+  top: 75.5%;
+  position: fixed;
+}
+#fita{
+  width: 2%;
+  right:6%;
+  bottom:34%;
+  position: fixed;
+}
+#papel{
+  width: 3.5%;
+  right: 10%;
+  top: 37%;
+  position: fixed;
+}
+#lapis{
+  height: 4%;
+  width: 4%;
+  right:33%;
+  top: 57%;
+  position: fixed;
+}
+#alfabeto{
+  width: 30%;
+  left: 30%;
+  top: 33%;
+  position:fixed;
+}
+#envelope{
+  width: 2%;
+  left: 21.5%;
+  top: 32%;
+  position: fixed;
+}
+#livros{
+  width: 2%;
+  left: 18%;
+  top: 47%;
+  position: fixed;
+}
+#cadeado{
+  width: 1.5%;
+  right: 28%;
+  top: 47.5%;
+  position: fixed;
+}

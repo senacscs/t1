@@ -1,0 +1,27 @@
+body{
+	height: 80vh;
+	width: 80vw;
+	background-image: url("img/sala_de_aula.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+	text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+
+.caixa-texto{
+	background-color: rgba(255, 255, 255, 0.856);
+  width: auto;
+  height: auto;
+  border-radius: 25px;
+  padding: 20px;
+  text-align: center;
+  margin: 10%;
+  position: fixed;
+}
+
+footer{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+}

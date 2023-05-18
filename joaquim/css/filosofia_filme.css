@@ -1,0 +1,119 @@
+html{
+background-color: rgb(170, 250, 174)
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+}
+
+div{
+text-align: auto;
+overflow: hidden;
+width:100%;
+}
+
+header{
+font-size: 20pt;
+font-family:Arial, Helvetica, sans-serif;
+color: rgb(0, 0, 0);
+text-align: center;
+}
+
+nav{
+font-size: 10pt;
+font-family:Arial, Helvetica, sans-serif;
+color: rgb(2, 41, 2);
+text-align: center;
+}
+
+#menu{
+font-size: 16pt;
+font-family:Arial, Helvetica, sans-serif;
+color: black;
+text-align: center;
+}
+
+#conteudo01, #conteudo02, #conteudo03, #conteudo04{
+font-size: 27pt;
+font-family:Arial, Helvetica, sans-serif;
+color: rgb(1, 43, 4);
+text-align: center;
+text-decoration: underline;
+}
+
+a{
+color: rgb(5, 68, 65);
+}
+
+main{
+color: black;
+font-size: 15pt;
+font-family:Arial, Helvetica, sans-serif;
+text-align: center;
+}
+
+h1{
+font-size: 32pt;
+font-family: garamond;
+color:rgb(3, 51, 3);
+text-align: center;
+}
+
+h2{
+font-size: 35pt;
+font-family: garamond;
+color:rgb(7, 70, 5);
+text-align: center;
+text-shadow: 5px 5px 5px rgb(59, 112, 57);  
+}
+
+.menu{
+font-size: 16pt;
+font-family: Arial, Helvetica, sans-serif;
+color: darkgreen;
+text-align: center;
+}
+
+iframe{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width:60%;  
+}
+
+p{
+color: black;
+font-size: 16pt;
+font-family:Arial, Helvetica, sans-serif;
+text-align: justify;
+text-indent: 50px;
+}
+
+footer{
+font-size: 15pt;
+font-family:Arial, Helvetica, sans-serif;
+color: rgb(2, 41, 2);
+text-align: center;
+}
+
+.capa{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width:35%;
+}
+
+.irmas{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width:50%;
+}
+
+.mae{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width:50%;
+}
