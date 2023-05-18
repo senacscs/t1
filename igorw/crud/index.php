@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body{
+        background-color: azure;
+        text-align: center;
+    }
+    .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+    h1{
+        color: cadetblue;
+        font-size: 30pt;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+</style>
+
+
+<body>
+    <header>
+        <h1>Menu do sistema</h1>
+    </header>
+
+    <main>
+        <a href="src/pages/user/read.php">
+        <button class="button button1" >User</button></a><br>
+        <a href="src/pages/produtos/read.php">
+        <button class="button button1" >Produtos</button></a>
+    </main>
+
+</body>
+</html>
