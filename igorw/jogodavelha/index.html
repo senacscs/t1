@@ -1,0 +1,57 @@
+<!DOCTYPE html><!--Mudando a linguagem do texto para HTML-->
+    <html><!--Iniciando o HTML-->
+    <head><!--Iniciando a head-->
+        <meta charset='utf-8'> <!--Isso serve para poder ter acentos no site-->
+        <link rel="icon" href="icone.png"><!--Isso colocará um icone no site-->
+        <link rel="stylesheet" type="text/css" href="style.css"><!--Isso é de onde vai puxar o css-->
+        <link rel="stylesheet" type="text/css" href="../css/preloader.css"><!--Isso é de onde vai puxar o css-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.2.min.js"></script><!--Biblioteca externa-->
+        <script type="text/javascript" src="../js/jquery.min.js"></script><!--Biblioteca externa instala para caso a externa cair meu site ainda vai funcionar-->
+        <script type="text/javascript" src="script.js"></script><!--Isso é onde vai puxar o javascript-->
+        <title>Jogo da Velha</title><!--Isso dará um título a página-->
+    </head><!--Fechando a head-->
+    <body><!--Iniciando a body-->
+
+        <div id="preloader"><!--Está puxando um "id" de linguagem de javascript que está no HTML-->
+            <div class="inner"><!--Está puxando uma "class do css"-->
+               <div class="bolas"><!--Está puxando uma "class do css"-->
+                  <div></div><!--Está abrindo e fechando uma div para fezer as bolinhas que carregam antes do site-->
+                  <div></div><!--Está abrindo e fechando uma div para fezer as bolinhas que carregam antes do site-->
+                  <div></div><!--Está abrindo e fechando uma div para fezer as bolinhas que carregam antes do site-->               
+               </div><!--Está fechando a div que tem a "class=bolas"-->
+            </div><!--Está fechando a div que tem a "class=inner"-->
+        </div><!--Está fechando a div que tem a "class=preloader"-->
+
+        <p>O jogo deve ser jogado na resolução do naveador 100%</p><!--A tag "p" cria um parágrafo-->
+            <div id="jogo"><!--Está puxando um "id" do CSS-->
+                <div class="linha"><!--Está puxando uma "class" do css-->
+                    <div class="casa" id="casa1"></div> <!--Está puxando uma "class" e um "id"-->
+                    <div class="casa" id="casa2"></div><!--Está puxando uma "class" e um "id"-->
+                    <div class="casa" id="casa3"></div><!--Está puxando uma "class" e um "id"-->
+                </div><!--Está fechando a div que tem a "id=jogo"-->
+                <div class="linha"><!--Está puxando uma "class" do css-->
+                    <div class="casa" id="casa4"></div><!--Está puxando uma "class" e um "id"-->
+                    <div class="casa" id="casa5"></div><!--Está puxando uma "class" e um "id"-->
+                    <div class="casa" id="casa6"></div><!--Está puxando uma "class" e um "id"-->
+                </div><!--Está fechando a div que tem a "class=linha"-->
+                <div class="linha"><!--Está puxando uma "class" do css-->
+                    <div class="casa" id="casa7"></div><!--Está puxando uma "class" e um "id"-->
+                    <div class="casa" id="casa8"></div><!--Está puxando uma "class" e um "id"-->
+                    <div class="casa" id="casa9"></div><!--Está puxando uma "class" e um "id"-->
+                </div><!--Está fechando a div que tem a "class=linha"-->
+            </div>
+            <div class="resultado" id="resultado"></div><!--Está puxando uma "id" do javascript e uma "class" do css-->
+
+            <script type="text/javascript">//Está iniciando uma linguagem de javascript no HTML
+                //<![CDATA[
+                $(window).on('load', function () { //Garante que todo o site seja carregado 
+                    $('#preloader .inner').fadeOut(); //Irá primeiro esmaecer a animação de carregamento 
+                    $('#preloader').delay(3).fadeOut('slow'); //Irá desaparecer o DIV branca que cobre o site 
+                    $('body').delay(3).css({'overflow': 'visible'});//Irá fazer com que depois de desaparecer irá aparecer o site
+                })
+                //]]>
+            </script><!--Fechando a TAG script-->
+    </body><!--Fechando a TAG body-->
+    </html><!--Fechando o HTML-->
+    
+    

@@ -1,0 +1,34 @@
+body{/*Vai mexer em tudo que estiver na TAG=body*/
+    background-color: black;/*Isso serve para colocar uma cor no fundo do site*/
+}/*Fechando body*/
+
+#jogo{/*Criando a "id=jogo"*/
+    width:603px;/*Isso mexe na largura*/
+    height:600px;/*Isso mexe na altura*/
+    border:solid rgb(0, 0, 255) 3px;/*Isso é a borda*/
+    margin-left: auto;/*Margem da esquerda*/
+    margin-right: auto;/*Margim da direita*/
+}/*Fechando a "id"*/
+ 
+.linha{/*Criando a "class=linha"*/
+    height:200px;/*Isso mexe na altura*/
+    border-bottom:solid rgb(0, 0, 255) 1px;/*Mexe na borda*/
+}/*Fechando a "class"*/
+ 
+.casa{/*Criando uma "class=casa"*/
+    width: 200px;/*Isso mexe na largura*/
+    height:100%;/*Isso mexe na altura*/
+    border-right:solid rgb(0, 0, 255) 1px;/*Mexe na borda*/
+    float:left;/*Jogará o elemento para a esquerda*/
+}/*Fechando a "class"*/
+
+p{/*Vai mexer na TAG "p"*/
+    text-align: center;/*Alinhamento do texto para o centro*/
+    font-family: monospace;/*Fonte do texto*/
+    color: whitesmoke;/*Cor do texto*/
+}/*Fechado "p"*/
+
+#resultado{/*Criando uma "class=resultado"*/
+    text-align: center;/*Alinhamento do texto para o centro*/
+    color: whitesmoke;/*cor do texto*/
+}/*Fechando a "class"*/
