@@ -1,0 +1,58 @@
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+    }
+    
+    
+    
+    @keyframes glow {
+    from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0e146d, 0 0 40px #0e146d, 0 0 50px #0e146d, 0 0 60px #0e146d, 0 0 70px #0e146d;
+    }
+    
+    to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #0c1263, 0 0 40px #0c1263, 0 0 50px #0c1263, 0 0 60px #0c1263, 0 0 70px #0c1263, 0 0 80px #0c1263;
+    }
+    }
+
+html {
+    background-color: black;
+}
+
+h2{
+    font-size: small;
+    color: #606060;
+    text-align: center;
+}
+
+p{
+    font-size: larger;
+    color: white;
+    text-align: center;
+}
+
+ body {
+     align-items: center;
+     text-align: center;
+ }
+
+ a:visited{
+    color: azure;
+    text-align: center;
+    font-size: 90%;
+}
+
+.button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    width: 250px;
+}
+
+.button:hover {
+    background-color: #0004ff;
+    color: #babaff;
+}
+
+

@@ -1,0 +1,70 @@
+    p{
+    text-align: center;
+    font-size: 90%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
+
+a{
+    margin: auto;
+    color: #fff;
+    }
+
+footer{
+    text-align: center;
+    font-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+  h1{
+    font-size: 200%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  h2 {
+    font-size: 140%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  section{
+    font-size: 140%;
+    text-align: center;
+  }
+
+  body{
+    background-color: black;
+    color: azure;
+  }
+
+  html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+
+
+  a:visited{
+    color: azure;
+    text-align: center;
+    font-size: 90%;
+  }
+
+  .glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+    }
+    
+    
+    
+    @keyframes glow {
+    from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0e146d, 0 0 40px #0e146d, 0 0 50px #0e146d, 0 0 60px #0e146d, 0 0 70px #0e146d;
+    }
+    
+    to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #0c1263, 0 0 40px #0c1263, 0 0 50px #0c1263, 0 0 60px #0c1263, 0 0 70px #0c1263, 0 0 80px #0c1263;
+    }
+    }
