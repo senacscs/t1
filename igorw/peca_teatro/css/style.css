@@ -1,0 +1,71 @@
+html{
+    background-color: black;
+}
+
+body{
+    background-image: url(../img/edipo_rei.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+header{
+    color: white;
+    font-size: 20px;
+    padding: 0.5%;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(165, 42, 42, 0.692);
+    width: 80%;
+}
+
+.um{
+    color: white;
+    border: 4px solid rgb(88, 41, 41);
+    border-radius: 30px;
+    width: 35%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.700);
+    margin-top: 5%;
+}
+
+.dois{
+    color: white;
+    border: 4px solid rgb(88, 41, 41);
+    border-radius: 30px;
+    width: 35%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.700);
+    margin-top: 5%;
+}
+
+.três{
+    color: white;
+    border: 4px solid rgb(88, 41, 41);
+    border-radius: 30px;
+    width: 35%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.700);
+    margin-top: 5%;
+}
+
+.quatro{
+    color: white;
+    border: 4px solid rgb(88, 41, 41);
+    border-radius: 30px;
+    width: 35%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.700);
+    margin-top: 5%;
+}
+
+footer{
+    background-color: rgba(165, 42, 42, 0.692);
+    width: 20%;
+    margin: auto;
+    margin-top: 2%;
+    padding: 0.2%;
+    color: white;
+}
