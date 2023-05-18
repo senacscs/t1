@@ -1,0 +1,130 @@
+/*estilos del anuario, práctica correspondiente al curso "Introducción al software de control de versiones GIT"*/
+
+html { background: radial-gradient(ellipse at center, rgba(143,178,153,1) 0%, rgba(143,178,153,0.62) 34%, rgba(143,178,153,0.28) 64%, rgba(143,178,153,0.28) 100%);
+}
+
+.imagen_flotante 
+{
+    display: inline-block;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin-left: 15px;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.imagen_flotante img
+{
+    width: 95%;
+    height: 95%;
+}
+
+.centerDiv 
+{
+    text-align:center;
+}
+
+a 
+{
+    text-decoration:none;
+}
+
+span 
+{
+    visibility:hidden; 
+    padding-left:15px; 
+    padding-right:15px;
+}
+
+div span
+{
+    font-size:12px;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:white;
+    background:#638cb5;
+    border:0px;
+    width:95%;
+    height:30px;
+    margin-left: 20%;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+h1 
+{
+    text-align: center;
+}
+
+button 
+{
+    text-align: center;
+    font-size:20px;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:white;
+    background:#638cb5;
+    border:0px;
+    width:80%;
+    height:40px;
+    cursor: pointer;
+}
+
+.bottom-info-section 
+{
+    background-color:#a8bfd6; 
+    width: 100%;
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    height:40px;
+    z-index:1;
+}
+
+.w3c-pic 
+{
+    z-index: 5;
+    text-align: center;
+    width: 100%;
+    margin: 5px;
+}
+
+/***** Efecto flip ******/
+.cube 
+{
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    height: 200px;
+    transition: transform .33s;
+    transform-style: preserve-3d;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.cube .flip, .cube .flop 
+{
+    border:1px solid #cdcdcd; 
+    text-align:center;  
+    color:#fff; 
+    height: 200px;
+}
+.cube .flip 
+{
+    transform: translateZ(50px);
+}
+.cube .flop 
+{
+    transform: rotateX(-90deg) translateZ(-50px) translateX(8%);
+    overflow-y: scroll;
+    text-align: left;
+    font-size: 14px;
+    padding-left: 1px;
+    background-color:rgba(143,178,153, 1); 
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.cube:hover 
+{
+    transform: rotateX(89deg);cursor:pointer; 
+}

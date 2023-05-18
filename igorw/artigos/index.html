@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Artigos de Revistas</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/index.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/preload.css'>
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+</head>
+<body>
+
+    <div id="preloader">
+        <div class="inner">
+           <div class="bolas">
+              <div></div>
+              <div></div>
+              <div></div>               
+           </div>
+        </div> 
+    </div>
+
+    <header>
+
+        Artigos de Revistas
+
+    </header>
+
+    <main>
+
+        <section>
+
+            <h1>Artigos</h1>
+
+            <div class="div">
+
+                <p><span title="1° Artigo"><a href="artigo_1.html">Artigo 1</a></span></p>
+
+                <p><span title="2° Artigo"><a href="artigo_2.html">Artigo 2</a></span></p>
+                
+                <p><span title="3° Artigo"><a href="artigo_3.html">Artigo 3</a></span></p>
+                
+                <p><span title="4° Artigo"><a href="artigo_4.html">Artigo 4</a></span></p>
+
+            </div>
+
+            <br><br><br><br>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>Feito por:<br>
+            Igor W, Leonardo e Gustavo</p>
+
+        <p>Feito em:<br>
+        22/02/2022</p>
+
+    </footer>
+
+
+
+
+    <script type="text/javascript">
+        //<![CDATA[
+        $(window).on('load', function () { // makes sure the whole site is loaded 
+            $('#preloader .inner').fadeOut(); // will first fade out the loading animation 
+            $('#preloader').delay(3).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+            $('body').delay(3).css({'overflow': 'visible'});
+        })
+        //]]>
+    </script> 
+    
+</body>
+</html>

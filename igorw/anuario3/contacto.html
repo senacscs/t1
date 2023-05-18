@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Formulario de contacto</title>
+        <meta name="keywords" content="formulario,registro">
+        <meta name="description" content="formulario de contacto">
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <header>
+            <h1>Formulario de contacto con la pagina</h1>
+
+        </header>
+
+        <form accept-charset="utf-8">
+
+            <fieldset>
+                <fieldset>
+                    <legend>Datos obligatorios</legend>
+                    Nombre:
+                    <input type="text" name="name_control" required autocomplete="off" placeholder="Nick,alias..." />
+                    <br/>
+                    <br>Sexo:
+
+                    <input type="radio" name="sexo" value="M"> Hombre
+                    <input type="radio" name="sexo" value="H"> Mujer
+
+                    <br>
+                    <br>Correo Electrónico:
+                    <input type="email" name="correo" required />
+                </fieldset>
+                <fieldset>
+                    <legend> Datos opcionales </legend>
+                    <br>
+                    <br> Fecha de nacimiento:
+                    <input type="date" name="datetime_control" min="1996-07-09" max="2015-12-20" />
+                    <br>
+                    <br> Teléfono:
+                    <input type="tel" name="tel_control" required />
+                    <br>
+                    <br> Pais de origen:
+                    <select name="pais">
+                        <optgroup label="Europa">
+                            <option value="1" title="ya te gustaria a ti ser portugues">España</option>
+                            <option value="2" title="ya tienes suficiente con ser portugues...">Portugal</option>
+                        </optgroup>
+                        <optgroup label="Pronto mas..">
+                        </optgroup>
+                    </select>
+                </fieldset>
+                <br>
+                <br> Documentos relevantes:
+                <br>
+                <input type="file" name="relevante" accept=".pdf,.doc,.jpeg">
+                <br>
+                <br> Preguntas:
+                <br>
+                <textarea spellcheck="true" cols="50" rows="10"> Escriba aqui sus Preguntas </textarea>
+                <br>
+                <br>
+                <input type="checkbox" name="chbox"> ¿Desea recibir noticias referentes a nuestra web?
+                <br>
+                <br>
+            </fieldset>
+            <input type="reset" value="reset">
+            <input type="submit" value="enviar">
+            <input type="button" onClick="location.href = 'index.html'" value="Volver">
+						 <div class="bottom-info-section"><p class="w3c-pic"><img src="https://www.w3.org/Icons/valid-html401.png" alt="W3C validated"/></p></div>
+        </form>
+    </body>
+
+</html>
