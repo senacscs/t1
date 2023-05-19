@@ -1,0 +1,37 @@
+#jogo{
+
+    text-align: center;
+    width:603px;
+    height:600px;
+    border:solid 3px
+}
+
+.linha{
+    height:200px;
+    border-bottom:solid 1px;
+}
+ 
+.casa{
+    width:200px;
+    height:100%;
+    border-right:solid 1px;
+    float:left;
+}
+h1,p{ 
+    color: rgb(88, 114, 61);
+    font-size: 20pt;
+    text-align: center;
+
+}
+
+body {
+    font-family: consolas;
+    color: rgb(10, 163, 35);
+    background-color: #dcf5d6;
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
