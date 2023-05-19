@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <title>ScapeRoom</title>
+</head>
+<body>
+    <style>
+        html{
+            background-image: url(../escape_room/img/cenarioparte2.png);
+            background-repeat: no-repeat;
+            background-size: 1255, 608px;
+        }
+        #image {
+            display: none;
+        }
+    </style>
+<map name="bilhete">
+        <area alt="bihete" shape="poly"  href="../html/bilhete.html"   coords="197,193,209,198,208,211,197,204">
+        <area alt="#" shape="poly" href="../html/gaveta.html" coords="151,477,156,467,173,464,172,471,165,476,152,478">
+        <area alt="fuga" shape="poly" href="../html/fuga.html" coords="384,190,711,191,712,220,683,220">
+</map>
+
+     <div>
+        <img id="image" width="1255px" height="608px" src="../img/bilhetee.png" usemap="#bilhete">
+    </div>
+
+    <img width="1255px" height="608px" src="../img/cenarioparte2.png" usemap="#bilhete">
+    
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>ScapeRoom</title>
+    <style>
+        html{
+            background-image: url(../img/back_bilhete1.png);
+            background-repeat: no-repeat;
+            background-size: 1255, 608px;
+        }
+        
+        .ler{
+            display: none;
+            background-color: rgba(0, 0, 0, 0.815);
+            text-align: justify;
+            border-radius: 20px;
+            padding-top: 10px;
+            padding-left: 430px;
+            padding-right: 440px;
+            padding-bottom: 20px;
+            
+        }
+        input{
+            display: block;
+        }
+        h1{
+            color: white;
+            font-size: 20pt;
+            font-family:Georgia, 'Times New Roman', Times, serif
+        }
+        p{
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 15pt;
+        }
+        
+    </style>
+
+</head>
+
+<body>
+
+    <script>  
+        for (i=0;i<1;i++)//i++ é igual a i=i=1
+        alert ("Dentro da gaveta tem uma carta.");
+    </script>
+
+    <input type="button" value="Ler o texto" onclick="mostra('texto')" />
+    
+    <a href="../html/procurar.html">
+    <input type="button" value="Voltar">
+    </a>
+
+<div id="texto" class="ler">
+        <h1>Robert C. Jhonson&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+            Dia <b>28</b></h1><br>
+        <p>Escutei alguns soldados falando que alguns paises começaram a guerrear. Muitos falavam que talvez possa ser uma grande guerra, 
+            talvez até mundial. Não vou mentir estou com medo, os o sons das armas e bombas são estrondosos e acho que não vou sair vivo. A porta 
+            pode ser aberta através de uma senha, eu acho que é uma data qualquer, ou o começo de algo maior. Mas é isso espero que alguém veja este bilhete,
+            ah e uma dica os pontos escuros podem esconder coisas.
+        </p>
+</div>
+
+
+
+<script>
+function mostra(id) {
+    if (document.getElementById(id).style.display == 'block'){
+    document.getElementById(id).style.display = 'none';
+}else { document.getElementById(id).style.display = 'block'; }
+}
+</script>
+
+</body>
+</html>

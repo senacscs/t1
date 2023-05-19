@@ -1,0 +1,10 @@
+/* body{
+    background-image: url(../escape_room/img/principal.jpg);
+    background-size: 100%;
+} */
+h1{
+    text-align: center;
+    font-size: 30pt;
+    color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
