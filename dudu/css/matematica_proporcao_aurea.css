@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(167, 230, 255);
+    background-position: center;
+    background-size: cover; 
+}
+
+div .a{
+    display: inline-block;
+}
+
+div{
+    text-align: center;
+}
+
+img{
+    text-align: center;
+}
+
+iframe{
+    width: 500px;
+}
+
+h3{
+    font-size: 27pt;
+    text-align: center;
+}
+
+h4{
+    font-size: 35pt;
+}
+
+.menu_shadow{
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+    color: white;
+}
+
+.white-with-blue-shadow {
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    color: rgb(0, 0, 0);
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 25pt;
+    display: block;
+    text-align: center;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-size: 18pt;
+    display: block;
+    text-align: center;
+}
+
+li{
+    color: rgb(0, 0, 0);
+    font-size: 18pt; 
+    display: block;
+    text-align: center;
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    color:black;
+}
+
+ul{
+    list-style: none;
+}
+
+input[type="checkbox"]
+{
+    display: none;
+}
+
+nav{
+    background-color: rgba(16,16,16,.5);
+    width: 350px;
+    height: 100%;
+    left: -350px;
+    position: absolute;
+    transition: all .5s;
+}
+
+input[type="checkbox"]:checked ~ nav
+{
+    transform: translateX(350px);
+}
+
+a{
+    display: block;
+    padding: 20px 5px;
+    color: rgb(0, 0, 0);
+}
+
+a:hover{
+    background-color: rgb(167, 230, 255);
+    color: black;
+}
+
+label{
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+ul{
+    top: 70px;
+    position: absolute;
+    width: 100%;
+}

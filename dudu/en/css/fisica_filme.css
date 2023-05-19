@@ -1,0 +1,34 @@
+body {
+  font-family: "Lato", Helvetica, sans-serif;
+  color: white;
+  background-image: url("https://i.pinimg.com/originals/4c/68/98/4c6898586fe5ef837e107e48d60bf01f.jpg");
+}
+
+p {
+  font-size: 12pt;
+}
+
+h1 {
+  font-size: 22pt;
+}
+h3 {
+  text-align: center;
+  font-size: 30pt;
+}
+
+h2 {
+  font-size: 22pt;
+}
+
+capa {
+  width:40%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+iframe{
+  align-items: center;
+  width: 500px;
+}
+
