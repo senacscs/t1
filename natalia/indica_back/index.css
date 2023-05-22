@@ -1,0 +1,61 @@
+.shadow{
+    text-shadow: 1px 1px 2px rgb(93 219 255), 0 0 1em rgb(182 228 255), 0 0 0.2em rgb(171 161 255);
+    color: #0c2200;
+    font-family:  Verdana, sans-serif;
+    font-size: 20pt;
+}
+h1{
+        font-family:'times new roman';
+        font-size:25pt;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        text-shadow: #171767 0.1em 0.1em 0.2em;
+}
+h2{
+    font-size: 20pt;
+    color: rgb(24, 27, 123);
+
+}
+h3{
+    font-size: 18pt;
+    font-family:'times new roman', Times, serif;
+    text-align: left;
+}
+a{
+    text-align: left;
+    font-family:  Verdana, sans-serif;
+    font-size: 16pt;
+
+}
+html{
+    background-color:#89a9d3;
+}
+body{
+    background-color: #ffffff7e;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+img{
+    text-align: left;
+}
+p{
+    text-align: left;
+    font-family:  'Times New Roman', Times, serif;
+    font-size: 16pt;
+}
+
+div{
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+
+}
+main{
+    background-color: rgba(224, 218, 218, 0);
+    padding-bottom: 20px;
+}
