@@ -1,0 +1,17 @@
+div {
+	position: fixed;
+	width: 10px;
+	height: 10px;
+  }
+  
+  #center {
+	left: 100px;
+	top: 50px;
+	background: black;
+  }
+  
+  #point {
+	left: 0px;
+	top: 0px;
+	background: red;
+  }
