@@ -1,0 +1,72 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+}
+/* corpo */ 
+
+.background {
+	height: 100%;
+	width: 100%;
+	background-image: url("background1.img");
+	background-size: cover;
+}
+/* fundo */ 
+
+.bird {
+	height: 85px;
+	width: 125px;
+	position: fixed;
+	top: 40vh;
+	left: 30vw;
+	z-index: 100;
+}
+/* tamanho do pÃ¡ssaro */
+
+.pipe_sprite {
+	position: fixed;
+	top: 40vh;
+	left: 100vw;
+	height: 70vh;
+	width: 6vw;
+	background-image:url("pipe.img") ;
+	background-size: cover;
+}
+/* imagem usada no cano e tamanho */
+.message {
+	font-family:'Courier, monospace';
+	position: fixed;
+	z-index: 10;
+	height: 10vh;
+	font-size: 10vh;
+	font-weight: 100;
+	color: rgb(0, 110, 255);
+	top: 12vh;
+	left: 20vw;
+	text-align: center;
+}
+/* pontuaÃ§Ã£o */
+.score {
+	font-family:'Courier, monospace';
+	position: fixed;
+	z-index: 10;
+	height: 10vh;
+	font-size: 10vh;
+	font-weight: 100;
+	color: rgb(0, 110, 255);
+	top: 0;
+	left: 0;
+}
+/* pontuaÃ§Ã£o */
+
+.score_val {
+	font-family:'Courier, monospace';
+	color: rgb(0, 110, 255);
+}
+/* fonte e cor do valor da pontuaÃ§Ã£o */

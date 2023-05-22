@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+
+  <meta charset="UTF-8">
+  
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+<meta name="apple-mobile-web-app-title" content="CodePen">
+
+<link rel="icon" href="icone.png" >
+
+  <title>Indicações de materiais de back-end</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+  
+<style>
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+body {
+  background:#17638fe0;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  margin: 0;
+  font-size: 44px;
+  line-height: 1;
+  color: black;
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  min-height: 850px;
+  overflow: hidden;
+}
+
+.tabs-controls {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 50px 0 100px;
+  list-style-type: none;
+}
+
+.tabs-controls__link {
+  position: relative;
+  display: block;
+  padding: 16px 32px;
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.tabs-controls__link:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  width: 0;
+  height: 4px;
+  background-color: black;
+  border-radius: 2px;
+  margin: auto;
+  content: "";
+  transition: width 0.4s;
+}
+
+.tabs-controls__link--active:after {
+  width: 100%;
+}
+
+.cards-container {
+  position: relative;
+  z-index: 1;
+  width: 1000px;
+  height: calc(100vh - 205px);
+  margin: 0 auto;
+ 
+}
+
+.card {
+  position: absolute;
+  width: 1000px;
+  height: 600px;
+  background-color: #EDEBD7;
+  border: 1px solid #423E37;
+  box-shadow: 9px 11px 3px 0px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  padding: 40px;
+  transition: transform 0.3s, opacity 0.2s;
+
+}
+
+
+.card.hidden {
+  z-index: 100;
+  background-color: #fff;
+  color: #fff;
+  opacity: 0;
+  transition: color 0.5s, background-color 0.5s, transform 1s, opacity 0.2s 0.4s;
+}
+.card.hidden h1 {
+  color: #fff;
+  transition: color 0.5s;
+}
+.card.hidden:nth-of-type(1) {
+  transform: rotate(-61deg) translateX(101%) translateY(-36%) scale(0.3) skewX(3deg) skewY(2deg);
+}
+.card.hidden:nth-of-type(2) {
+  transform: rotate(-56deg) translateX(101%) translateY(-53%) scale(0.4) skewX(6deg) skewY(12deg);
+}
+.card.hidden:nth-of-type(3) {
+  transform: rotate(-36deg) translateX(101%) translateY(-29%) scale(0.8) skewX(4deg) skewY(7deg);
+}
+.card.hidden:nth-of-type(4) {
+  transform: rotate(-87deg) translateX(101%) translateY(-37%) scale(0.6) skewX(11deg) skewY(11deg);
+}
+.card.hidden:nth-of-type(5) {
+  transform: rotate(-65deg) translateX(101%) translateY(-16%) scale(0.2) skewX(1deg) skewY(4deg);
+}
+.card.hidden:nth-of-type(6) {
+  transform: rotate(-76deg) translateX(101%) translateY(-16%) scale(0.3) skewX(6deg) skewY(4deg);
+}
+.card:nth-of-type(1) {
+  z-index: 5;
+  transform: translateX(0px) translateY(0px);
+}
+.card:nth-of-type(2) {
+  z-index: 4;
+  transform: translateX(10px) translateY(10px);
+}
+.card:nth-of-type(3) {
+  z-index: 3;
+  transform: translateX(20px) translateY(20px);
+}
+.card:nth-of-type(4) {
+  z-index: 2;
+  transform: translateX(30px) translateY(30px);
+}
+.card:nth-of-type(5) {
+  z-index: 1;
+  transform: translateX(40px) translateY(40px);
+}
+.card:nth-of-type(6) {
+  z-index: 0;
+  transform: translateX(50px) translateY(50px);
+}
+
+
+h4{
+    text-align: center;
+    font-size: 40px;
+
+
+    }
+
+h2{
+font-size: 25px;
+text-align: center;
+}
+
+
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+<br>
+
+
+<h4>Indicações de material PHP+MySQL</h4>
+
+<h2>Por Henrique Ross</h2>
+
+<br>
+
+<body translate="no" >
+  <section class="page">
+	<section>
+		<ul class="tabs-controls">
+			<li class="tabs-controls__item">
+				<a href="#" class="tabs-controls__link tabs-controls__link--active" data-id="1">
+					Site
+				</a>
+			</li>
+			<li class="tabs-controls__item">
+				<a href="#" class="tabs-controls__link" data-id="2">
+					Tutorial
+			  </a>
+			</li>
+			<li class="tabs-controls__item">
+				<a href="#" class="tabs-controls__link" data-id="3">
+					Podcast
+				</a>
+			</li>
+			<li class="tabs-controls__item">
+				<a href="#" class="tabs-controls__link" data-id="4">
+					Vídeo
+				</a>
+			</li>
+			<li class="tabs-controls__item">
+				<a href="#" class="tabs-controls__link" data-id="5">
+					bônus
+
+				</a>
+			
+		</ul>
+	</section>
+	<section class="cards-container">
+		<div class="card card--current" id="1">
+			<h1>-Alura</h1>
+
+            <br>
+            <br>
+
+			<p>
+				    Nesse curso vamos aprender como construir um site com PHP. Vamos dar os nossos primeiros passos no desenvolvimento web. No projeto deste Curso vamos desenvolver um blogue e para construí-lo vamos enfrentar várias dificuldades.
+
+Dificuldades que temos no desenvolvimento web, como conectar com banco de dados e inserir dados nele, vamos fazer uma lista de artigos e vamos poder clicar nesses artigos e visualizá-los numa página inteira.
+
+Vamos também ter no nosso blogue uma página administrativa, na qual vamos poder entrar e adicionar um artigo. Também vamos poder editar um artigo que temos e poderemos ainda excluir um dos artigos que publicamos.
+
+Tudo vamos desenvolver com o código bem simples, bem introdutório, justamente para quem quer dar esse passo no desenvolvimento web, não vamos utilizar conceitos muito avançados, porque veremos isso depois mais para frente. É isso! Vejo vocês no curso.
+			</p>
+
+            <br>
+        
+
+
+            <div style="display:inline-block;vertical-align:top;">
+                <img src="data:image/png;base64,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" width="380px" height="240px" alt="img"/>
+                </div>
+                
+                <div style="display:inline-block;">
+                <p><b>
+                    Link do site:
+                </p></b>
+                <p><a href= "https://www.alura.com.br/conteudo/php-mysql?gclid=CjwKCAjw_ISWBhBkEiwAdqxb9rm4YMrjjtfdDjNcMPq0R0CWUWhVhZh9pVAzf2TLsXItytX01AY9TBoCAegQAvD_BwE" target=_blank >
+                    PHP e MySQL: Criando uma webapp</a></p>
+                </div>
+
+
+
+
+           
+
+		</div>
+
+
+
+
+
+
+
+
+
+		<div class="card" id="2">
+			<h1>-phpMyAdmin: Tutorial para gerenciar o banco MySQL</h1>
+
+            <br>
+            <br>
+			
+                <p> Neste tutorial você vai aprender a usar o phpMyAdmin para gerenciar o seu banco de dados mySQL dentro do cPanel. O phpMyAdmin é uma ferramenta via web bastante poderosa e versátil, que lhe permite realizar praticamente qualquer operação com seu banco de dados MySQL.
+
+Trata-se de um sistema similar ao Heidi SQL e DBeaver, com a diferença que o phpMyAdmin funciona via web, enquanto o Heidi SQL é um aplicativo. Este, precisa ser instalado em seu computador. O Heidi SQL possui versões para Windows, Linux e MAC. O phpMyAdmin é baseado em PHP e é um software livre e gratuito.
+			</p>
+            <br>
+            
+            <img src="https://www.homehost.com.br/blog/wp-content/uploads/2016/05/phpmyadmin1.jpg" width="360px" height="200px">
+
+            <p><b> Para o tutorial completo acesse o link a seguir:</b></p>
+
+            <p><a href= "https://www.homehost.com.br/blog/tutoriais/mysql/como-gerenciar-um-banco-de-dados-mysql-usando-o-phpmyadmin/" target=_blank >
+                HP e MySQL: Criando uma webapp</a></p>
+
+          
+		</div>
+
+
+		<div class="card" id="3">
+            
+			<h1>Podcast</h1>
+            
+            <br> <br>
+			<p>
+				Na parte de Podcast peguei um episódio de um Podcast de tecnologia chamado Café debug, em que no episódio abaixo é falando sobre back-end.
+			</p>
+
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/4KqAmkjK1AqvZDj7hXO4PU?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+		</div>
+
+
+		<div class="card" id="4">
+			<h1>-Vídeo ensinando como criar Sistema de Cadastro com PHP e MySQL</h1>
+            <br><br>
+			<p>
+				<iframe width="600" height="400" src="https://www.youtube.com/embed/6FdguCuauEI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</p>
+		</div>
+
+
+		<div class="card" id="5">
+			<h1>-php.net (Site bônus)</h1>
+            <br><br>
+			<p>E por fim, coloquei o própio site do php, onde pode ser encontrado toda ajuda necessária sobre esta linguagem de script de uso geral. </p>
+
+
+            <p><b>Link do site:</b></p>
+            <p><a href= "https://www.php.net/" target=_blank >
+                php.net</a></p>
+                <img src="phpimg.png" width="550px" height="300px">
+		</div>
+
+
+		
+
+	</section>
+</section>
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+      <script id="rendered-js" >
+$(document).ready(function () {
+  var oldId = null;
+
+  $('.tabs-controls__link').click(function (e) {
+    e.preventDefault();
+
+    if ($(this).hasClass('tabs-controls__link--active')) {
+      return false;
+    }
+
+    var currentId = parseInt($(this).data('id'), 10);
+    $('.tabs-controls__link--active').removeClass('tabs-controls__link--active');
+    $(this).addClass('tabs-controls__link--active');
+
+    if (currentId < oldId) {// item is hidden
+      var timing = $('.card.hidden').length * 100;
+      $('.card').each(function (index) {
+        if (index > currentId - 1 || index == currentId - 1) {
+          window.setTimeout(function () {
+            $('.card').eq(index).removeClass('hidden');
+          }, timing - index * 100);
+        }
+      });
+    } else {
+      $('.card').each(function (index) {
+        if (index < currentId - 1) {
+          window.setTimeout(function () {
+            $('.card').eq(index).addClass('hidden');
+          }, index * 100);
+        }
+      });
+    }
+
+    oldId = currentId;
+  });
+});
+//# sourceURL=pen.js
+    </script>
+
+  
+
+</body>
+
+</html>
