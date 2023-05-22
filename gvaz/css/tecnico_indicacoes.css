@@ -1,0 +1,164 @@
+/*
+*  html5resetcss
+*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+.white-with-blue-shadow {
+    text-shadow: 1px 1px 2px rgb(4 0 0), 4 0 0em rgb(4 0 0), 4 0 0.2em rgb(4 0 0);
+    color: #ffffff;
+    font: 1.5em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+  }
+  
+  .button {
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: bisque;
+    font-family: consolas;
+    text-align: center;
+  }
+  
+  a {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+  }
+  
+  a:hover {
+    color: rgb(0, 0, 0);
+    background: transparent;
+    box-shadow: 0 0 10px #ffffff,0 0 40px #ffffff,0 0 80px #ffffff;
+    transition-delay: 1.2s;
+  }
+  
+  a span{
+    position: absolute;
+    display: block;
+  }
+  
+  a span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#ffffff);
+  }
+  
+  a:hover span:nth-child(1){
+    left: 100%;
+    transition: 1s;
+  }
+  
+  a span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#ffffff);
+  }
+  
+  a:hover span:nth-child(3){
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+  }
+  
+  a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#ffffff);
+  }
+  
+  a:hover span:nth-child(2){
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+  }
+  
+  a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#ffffff);
+  }
+  
+  a:hover span:nth-child(4){
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+  }
+
+
+header{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 100%;
+    color: white;
+    text-align: center;
+    background-color: aquamarine;
+    width: 100%;
+    height: 50%;
+    
+}
+
+main{
+    background-color: wheat;
+    color:black;
+    font: Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+}
+
+.html{
+
+    text-align: center;
+    padding: 5%;
+
+}
+
+.CSS{
+
+    text-align: center;
+    padding: 5%;
+}
+
+.JS{
+
+    text-align: center;
+    padding: 5%;
+}

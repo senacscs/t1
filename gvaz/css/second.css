@@ -1,0 +1,140 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+header{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    background-color: #1e2c33;
+    color:#ffffff;
+    padding: 50px;
+    margin-left: auto;
+}
+
+body{
+    background-color: #7792ac;
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+    background-color: #3E569F;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: underline;
+      background: transparent;
+      box-shadow: 0 0 10px #ffffff,0 0 40px #ffffff,0 0 80px #ffffff;
+      transition-delay: 0.0s;
+    }
+  a:hover span:nth-child(4){
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+  }
+  .button {
+    background-color: #999898;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  p{ 
+    font-size: 0.75em;
+  }
+  .bloco-texto{
+    margin: auto;
+    position: relative;
+    color: rgb(0, 0, 0);
+    padding-top: 5px;
+    padding-bottom: 29.5em;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+  }
+  @keyframes textAnimate {
+    from {
+      filter: hue-rotate(0deg);
+      background-position-x: 0%;
+        
+    }
+    to {
+      filter: hue-rotate(360deg);
+      background-position-x: 600vw;
+        
+    }
+  }  
+  .wrapper { 
+    height: 100%;
+    width: 100%;
+    left:0;
+    right: 0;
+    top: 180px;
+    bottom: 0;
+    position: absolute;
+    float:left ;
+    text-align: center;
+
+}
+
+

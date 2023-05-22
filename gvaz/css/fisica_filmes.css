@@ -1,0 +1,40 @@
+  
+  body {
+    background: black;
+  }
+  
+  
+
+  h1 {
+    font-family:arial ;
+    font-weight:100 ;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+  } 
+  
+  img {
+    width:60%;  
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    
+  } 
+  
+  h2 { 
+    font-family:arial ;
+    font-weight:50 ;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  } 
+  
+  div2 {
+    font-family:arial ;
+    font-weight:50 ;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+  } 
+  
+ 
+ 
