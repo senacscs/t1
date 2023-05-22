@@ -1,0 +1,57 @@
+html{
+
+   
+  
+    background-size: 100% 50%;
+  
+  }
+  html {
+    text-align: center;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 1000% 1000%;
+    animation: gradient 15s ease infinite;
+}
+
+body {
+    font-family: "Lato", Helvetica, sans-serif;
+    color: black;
+    padding-right: 60px ;
+    padding-left: 60px;
+  }
+  
+  p {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 15pt;
+  }
+  
+  h1 {
+    color:black;
+    text-align: center;
+  font-size: 30pt;
+  font-family:'Times New Roman', Times, serif
+  }
+  
+  h2 {
+  font-size: 20pt;
+  }
+  section {
+    text-align: center;
+  }
+  
+  capa{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }

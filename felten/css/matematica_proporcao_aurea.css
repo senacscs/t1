@@ -1,0 +1,47 @@
+html{
+
+  background-image: url(../img/espaco.gif);
+
+  background-size: 10% 10%;
+
+}
+body {
+  font-family: "Lato", Helvetica, sans-serif;
+  color: black;
+}
+
+p {
+font-family:"Arial black", Helvetica, sans-serif;
+font-size: 11pt;
+}
+
+h1 {
+font-size: 12pt;
+}
+
+h2 {
+font-size: 20pt;
+}
+div{
+text-align: center;
+overflow: hidden;
+border: 3px solid #808080;
+width: 100%;
+background: #D3D3D3;
+border-radius:30px;
+}
+
+capa{
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
+
+galeria{
+display:flexbox;
+width: 30%;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+} 

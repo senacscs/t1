@@ -1,0 +1,62 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+}
+
+.background {
+	height: 100vh;
+	width: 100vw;
+	background-image: url(dubai.gif);
+    background-size: 100% 100%;
+}
+
+.bird {
+	height: 100px;
+	width: 140px;
+	position: fixed;
+	top: 40vh;
+	left: 30vw;
+	z-index: 100;
+}
+
+.pipe_sprite {
+	position: fixed;
+	top: 40vh;
+	left: 100vw;
+	height: 70vh;
+	width: 6vw;
+	background-color: rgb(70, 68, 71);
+}
+
+.message {
+	position: fixed;
+	z-index: 10;
+	height: 10vh;
+	font-size: 10vh;
+	font-weight: 100;
+	color: white;
+	top: 12vh;
+	left: 20vw;
+	text-align: center;
+}
+
+.score {
+	position: fixed;
+	z-index: 10;
+	height: 10vh;
+	font-size: 10vh;
+	font-weight: 100;
+	color: rgb(102, 172, 212);
+	top: 0;
+	left: 0;
+}
+
+.score_val {
+	color: rgb(102, 172, 212);
+}

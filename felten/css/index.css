@@ -1,0 +1,43 @@
+html{
+
+  background-image: url(../img/espaco.gif);
+  text-align: center;
+
+  background-size: 10% 10%;
+
+}
+body {
+
+  font-family: "Lato", Helvetica, sans-serif;
+  color: black;
+}
+
+h1{
+  color:white;
+  font-size: 28px;
+  font-family:'Times New Roman', Times, serif;
+}
+a{
+font-family:"arial", Helvetica, sans-serif;
+font-size: 19pt;
+text-decoration: none;
+color:rgb(70, 66, 66);
+}
+a:visited {color:rgb(83, 78, 78)}
+
+
+
+.button2 {
+  border-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  background-image: -webkit-linear-gradient(45deg, rgb(0, 0, 0) 50%, transparent 50%);
+  background-image: linear-gradient(45deg, rgb(0, 0, 0) 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+  text-align: center;
+}
+.button2:hover {
+  background-position: 0;
+}
