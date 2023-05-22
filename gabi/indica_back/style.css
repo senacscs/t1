@@ -1,0 +1,126 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900i&display=swap');
+span1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 120px;
+    letter-spacing: 0.1em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+    text-shadow: 8px 8px #000000, 20px 20px #000000;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 6rem;
+    background: url(textura.webp);
+    font-family: "Inter", sans-serif;
+}
+
+@media (max-width: 60em) {
+    body {
+        padding: 3rem;
+    }
+}
+
+.grid {
+    margin: 8%;
+    display: grid;
+    width: 114rem;
+    grid-gap: 6rem;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    align-items: start;
+}
+
+@media (max-width: 90em) {
+    .grid {
+        grid-gap: 2.9rem;
+        grid-template-areas: initial;
+    }
+}
+
+.grid__item {
+    background-color: rgba(49, 45, 40, 0.815);
+    border-radius: 1.4rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(29, 14, 14, 0.829);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.grid__item:hover {
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.2);
+}
+
+.card__img {
+    display: block;
+    width: 100%;
+    height: 18rem;
+    object-fit: cover;
+}
+
+.card__content {
+    padding: 3rem 3rem;
+}
+
+.card__header {
+    font-size: 3rem;
+    font-weight: 100;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+}
+
+.card__text {
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.7;
+    color: #ffffff8c;
+    margin-bottom: 2.5rem;
+}
+
+.card__btn {
+    display: block;
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #000000;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0.4rem;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.card__btn span {
+    margin-left: 1rem;
+    transition: 0.2s;
+}
+
+.card__btn:hover,
+.card__btn:active {
+    background-color: #00000041;
+}
+
+.card__btn:hover span,
+.card__btn:active span {
+    margin-left: 1.5rem;
+}
