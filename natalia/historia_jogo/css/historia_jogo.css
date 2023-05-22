@@ -1,0 +1,125 @@
+html {
+    background-size: 100%;
+    background-image:url("https://artesanato.culturamix.com/blog/wp-content/gallery/tecnicas-para-envelhecer-papel-6/T%C3%A9cnicas-Para-Envelhecer-Papel-18.jpg");
+    text-align: center;
+}
+ 
+body {
+    background: rgba(7, 8, 8, 0.6);
+    padding: 60px;
+    border-radius: 10px;
+    height: 55.9em;
+    text-align: center;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:  22px;
+    color: rgb(0, 0, 0);
+    text-align: center; 
+}
+ 
+h1{
+    font-family: 'URW Chancery L', 'cursive';
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.button {
+    background-color: #3a2a0d83;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+a {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+ 
+a:hover {
+    color: rgb(255, 255, 255);
+    background: #5f481d81;
+    box-shadow: 0 0 10px #fffdf9b2,0 0 40px #503709c2,0 0 80px #684606b6;
+    transition-delay: 1.2s;
+}
+a span{
+    position: absolute;
+    display: block;
+}
+ 
+a span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#ffffff);
+}
+ 
+a:hover span:nth-child(1){
+    left: 100%;
+    transition: 1s;
+}
+ 
+a span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#ffffff);
+}
+ 
+a:hover span:nth-child(3){
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+ 
+a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#ffffff);
+}
+ 
+a:hover span:nth-child(2){
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+ 
+a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#ffffff);
+}
+ 
+a:hover span:nth-child(4){
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
