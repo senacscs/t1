@@ -1,0 +1,33 @@
+h1 { 
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    font-size: 34pt;
+
+    font-weight: 600pt;
+
+    text-align: center;
+
+    color: rgb(0, 0, 0); text-shadow: rgb(255, 247, 247) 0.1em 0.1em 0.2em;
+
+}
+
+h2 { 
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    text-align: center;
+
+}
+
+body {
+    
+    
+    background: linear-gradient(90deg, rgb(213, 213, 224) 1%, rgb(123, 122, 207) 100%);
+    
+    background-size: cover; 
+
+    
+    text-align: center;
+    
+}
