@@ -1,0 +1,50 @@
+
+.shadow{
+    text-shadow: 1px 1px 2px rgb(93 219 255), 0 0 1em rgb(182 228 255), 0 0 0.2em rgb(171 161 255);
+    color: #0c2200;
+    font-family:  Verdana, sans-serif;
+    font-size: 20pt;
+}
+h1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:21pt;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        text-shadow: #1c1d5a 0.1em 0.1em 0.2em;
+}
+h2{
+    font-family: Georgia, serif;
+    font-weight: 10;
+    font-size: 14pt;
+    text-align: left;
+}
+
+html{
+    background-color:#3a596bc4;
+}
+body{
+    background-color: #ffffff7e;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+div{
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+
+}
+main{
+    background-color: rgba(224, 218, 218, 0);
+    padding-bottom: 20px;
+}

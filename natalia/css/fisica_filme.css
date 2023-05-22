@@ -1,0 +1,30 @@
+body {
+ font-family:"Lato", Helvetica, sans-serif;
+ color: black;
+}
+
+p {
+  font-family:"Times New Roman", Helvetica, sans-serif;
+  font-size: 11pt;
+}
+
+h1 {
+ font-family:"Cambria", Helvetica, sans-serif;
+ font-size: 17pt;
+}
+
+h2{
+  font-family:"Times New Roman", Helvetica, sans-serif;
+  font-size:14pt;
+}
+div{
+overflow: hidden;
+width: 100%;
+background: #D3D3D3;
+border-radius:30px;
+}
+
+capa{
+  width:200px;
+  display:block;
+}
