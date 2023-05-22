@@ -1,0 +1,62 @@
+
+html{
+  background-image:url(https://i.pinimg.com/736x/b1/b4/9e/b1b49e1c2d460f21981330964a3e5ea8.jpg) ;
+background-size:130%;
+}
+
+
+body {
+  font-family: "Lato", Helvetica, sans-serif;
+  color:black;
+}
+
+
+h1{
+  font-size:28pt;
+  font-family:Courier, monospace;
+}
+
+h2{
+  font-size:25pt;
+  font-family:Courier, monospace;
+}
+
+
+h3{
+  font-size:23pt;
+  font-family:lato; 
+}
+
+
+p{
+
+  font-size:15pt;
+  font-family:Verdana, sans-serif	;
+  color:black;
+}
+
+
+
+
+img {
+  width:45%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+ 
+
+
+body {
+  font-family: "Lato", Helvetica, sans-serif;
+  color: black;
+}
+
+div {
+text-align: center;
+overflow: hidden;
+border: 3px solid rgba(29, 28, 28, 0.425);
+width: 100%;
+background:rgba(29, 28, 28, 0.425);
+}

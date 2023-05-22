@@ -1,0 +1,41 @@
+html{
+  background-image:url(https://66.media.tumblr.com/1c0008afb49d2a1cf7f69dc3a3858380/tumblr_oytiu3nXSk1wuak4xo2_250.gif)
+}
+
+h1{
+    font-size:32pt;
+    font-family:Courier, monospace;
+    color:white;
+  }
+
+
+  h2{
+    font-size:26pt;
+    font-family:lato;
+    color:white;
+  }
+
+
+  p{
+    
+    font-size:18pt;
+    font-family:arial;
+    color:white;
+  }
+
+
+  div {
+    text-align: center;
+    overflow: hidden;
+    border: 3px solid rgba(53, 52, 52, 0.640);
+    width: 100%;
+    background:rgba(53, 52, 52, 0.640);
+    border-radius:30px;
+    }
+
+  img{
+    width:20%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    }

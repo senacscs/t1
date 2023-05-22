@@ -1,0 +1,55 @@
+h1{
+    font-size:38pt;
+    font-family:Verdana;
+    color:white;
+  }
+
+  h2{
+    font-size:27pt;
+    font-family:lato;
+    color:white;
+  }
+
+  p{
+    font-size:22;
+    font-family:arial;
+    color:white;
+  }
+
+  html{
+      background-color: white;
+      text-align:center;
+  }
+
+  tittle{
+      font-size:30;
+      font-family:arial;
+      color:white;
+  }
+
+  img {
+    width: 500px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+
+  html {
+    height: 100%;
+    width: 100%;
+    background-image: url("img/background.png");
+    background-size: cover;
+  }
+
+
+
+  div {
+    text-align: center;
+    overflow: hidden;
+    border: 3px solid rgba(53, 52, 52, 0.640);
+    width: 100%;
+    background:rgba(53, 52, 52, 0.640);
+    border-radius:30px;
+    }
+  
