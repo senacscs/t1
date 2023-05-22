@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'pastor_of_muppetsregular';
+    src: url('Font/PASTOROF.TTF');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* fonte usada */
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+}
+/* corpo */ 
+
+.background {
+	height: 100vh;
+	width: 100vw;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("img/raio_do_pikachu.gif");
+}
+/* fundo */ 
+
+.bird {
+	height: 100px;
+	width: 160px;
+	position: fixed;
+	top: 40vh;
+	left: 30vw;
+	z-index: 100;
+}
+/* tamanho do pÃ¡ssaro */
+
+.pipe_sprite {
+	position: fixed;
+	top: 40vh;
+	left: 100vw;
+	height: 70vh;
+	width: 6vw;
+	background-image:url("img/furacao.png");
+    
+    
+
+}
+/* imagem usada no cano e tamanho */
+.message {
+	font-family:'pastor_of_muppetsregular';
+	position: fixed;
+	z-index: 10;
+	height: 10vh;
+	font-size: 10vh;
+	font-weight: 100;
+	color: #ffffff;
+	top: 12vh;
+	left: 20vw;
+	text-align: center;
+}
+/* pontuaÃ§Ã£o */
+.score {
+	font-family:'pastor_of_muppetsregular';
+	position: fixed;
+	z-index: 10;
+	height: 10vh;
+	font-size: 10vh;
+	font-weight: 100;
+	color: #ffe600;
+	top: 0;
+	left: 0;
+}
+/* pontuaÃ§Ã£o */
+
+.score_val {
+	font-family:'pastor_of_muppetsregular';
+	color: #fffb00;
+}
+/* fonte e cor do valor da pontuaÃ§Ã£o */
