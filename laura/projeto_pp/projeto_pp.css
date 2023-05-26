@@ -5,6 +5,7 @@ body{
 
 p{
     margin: 2%;
+    text-align: justify;
 }
 
 small{
@@ -12,4 +13,14 @@ small{
     margin-right: 5%;
     text-align: justify;
     display: block;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.imagem, .textoImagem{
+    text-align: center !important;
+}
+
+.espacamento{
+    height: 5px;
 }
