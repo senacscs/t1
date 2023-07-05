@@ -1,0 +1,48 @@
+
+body {
+    background-color: #B8E1FF;
+}
+
+.secao1{
+    width: 50%;
+}
+
+.secao2{
+    width: 299.734px;
+height: 189.654px;
+/* flex-shrink: 0; */
+    background-color: #F5F5F5; 
+    border-radius: 12.659px;
+    padding: 10px;
+}
+
+.botao {
+    background-color: #9BC9FF;
+    border-radius: 4.747px;
+    width: 255.666px;
+    height: 39.828px;
+    flex-shrink: 0;
+text-align: center;
+margin: 0 23px 0 23px;
+
+}
+/* 
+.botao2 {
+    background-color: #9BC9FF;
+    border-radius: 4.747px;
+    width: 255.666px;
+    height: 39.828px;
+    flex-shrink: 0;
+text-align: center;
+
+}
+
+.botao3 {
+    background-color: #9BC9FF;
+    border-radius: 4.747px;
+    width: 255.666px;
+    height: 39.828px;
+    flex-shrink: 0;
+text-align: center;
+
+} */
