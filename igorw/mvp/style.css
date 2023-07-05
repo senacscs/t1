@@ -1,0 +1,240 @@
+.blog-page, .blog-page * { box-sizing: border-box; }.blog-page {background: #ffffff; width: 1440px; height: 6042px; position: relative; overflow: hidden;}
+ .footer {width: 1920px; height: 668px; position: absolute; left: -240px;top: 5372px;}
+ .footer2 {width: 1920px; height: 670px; position: absolute; left: calc(50% - 960px);top: 0px; overflow: hidden;}
+ .base {background: #0d2436; width: 1440px; height: 670px; position: absolute; left: 240px;top: 0px;}
+ .container {position: absolute; right: 390px; left: 390px;bottom: 0px; top: 0px;}
+ .top {width: 1045px; height: 262px; position: absolute; left: 387px;top: 128px; overflow: hidden;}
+ .logo {position: absolute; left: 3px;top: 0px; overflow: visible;}
+ .twitter {color: #5a7184; text-align: center; font: 400 16px 'Font Awesome 5 Brands', sans-serif; position: absolute; left: 5px;top: 142px;}
+ .instagram {color: #5a7184; text-align: center; font: 400 16px 'Font Awesome 5 Brands', sans-serif; position: absolute; left: 170px;top: 142px;}
+ .linkedin {color: #5a7184; text-align: center; font: 400 16px 'Font Awesome 5 Brands', sans-serif; position: absolute; left: 84px;top: 142px;}
+ .build-a-modern-and-c {color: #5a7184; text-align: left; font: 400 16px/28px 'Open Sans', sans-serif; position: absolute; left: 3px;top: 56px; width: 240px; height: 54px;}
+ .google {color: #5a7184; text-align: center; font: 400 16px 'Font Awesome 5 Brands', sans-serif; position: absolute; left: 5px;top: 177px;}
+ .item {width: 165px; height: 262px; position: absolute; left: calc(50% - 227.5px);top: 0px; overflow: hidden;}
+ .base2 {width: 165px; height: 262px; position: absolute; left: 0px;top: 0px;}
+ .product {color: #5a7184; text-align: left; font: 700 18px 'Open Sans', sans-serif; position: absolute; left: 0px;top: calc(50% - 131px);}
+ .documentation {color: #959ead; text-align: left; font: 400 16px 'Open Sans', sans-serif; position: absolute; left: 0px;top: calc(50% - -17px);}
+ .referral-program {color: #959ead; text-align: left; font: 400 16px 'Open Sans', sans-serif; position: absolute; left: 0px;top: calc(50% - -63px);}
+ .pricing {color: #959ead; text-align: left; font: 400 16px 'Open Sans', sans-serif; position: absolute; left: 0px;top: calc(50% - -109px);}
+ .features {color: #959ead; text-align: left; font: 400 16px 'Open Sans', sans-serif; position: absolute; left: 0px;top: calc(50% - 29px);}
+ .landingpage {color: #959ead; text-align: left; font: 400 16px 'Open Sans', sans-serif; position: absolute; left: 0px;top: calc(50% - 75px);}
+ .item2 {width: 165px; height: 262px; position: absolute; left: calc(50% - 32.5px);top: 0px; overflow: hidden;}
+ .services {color: #5a7184; text-align: left; font: 700 18px 'Open Sans', sans-serif; position: absolute; left: 0px;top: calc(50% - 131px);}
+ .themes {color: #959ead; text-align: left; font: 400 16px 'Open Sans', sans-serif; position: absolute; left: 0px;top: calc(50% - -17px);}
+ .illustrations {color: #959ead; text-align: left; font: 400 16px 'Open Sans', sans-serif; position: absolute; left: 0px;top: calc(50% - -63px);}
+ .ui-kit {color: #959ead; text-align: left; font: 400 16px 'Open Sans', sans-serif; position: absolute; left: 0px;top: calc(50% - -109px);}
+ .design {color: #959ead; text-align: left; font: 400 16px 'Open Sans', sans-serif; position: absolute; left: 0px;top: calc(50% - 29px);}
+ .documentation2 {color: #959ead; text-align: left; font: 400 16px 'Open Sans', sans-serif; position: absolute; left: 0px;top: calc(50% - 75px);}
+ .item3 {width: 165px; height: 262px; position: absolute; left: calc(50% - -162.5px);top: 0px; overflow: hidden;}
+ .company {color: #5a7184; text-align: left; font: 700 18px 'Open Sans', sans-serif; position: absolute; left: 0px;top: calc(50% - 131px);}
+ .privacy-policy {color: #959ead; text-align: left; font: 400 16px 'Open Sans', sans-serif; position: absolute; left: 0px;top: calc(50% - -17px);}
+ .careers {color: #959ead; text-align: left; font: 400 16px 'Open Sans', sans-serif; position: absolute; left: 0px;top: calc(50% - -63px);}
+ .terms {color: #959ead; text-align: left; font: 400 16px 'Open Sans', sans-serif; position: absolute; left: 0px;top: calc(50% - 29px);}
+ .about {color: #959ead; text-align: left; font: 400 16px 'Open Sans', sans-serif; position: absolute; left: 0px;top: calc(50% - 75px);}
+ .item4 {width: 165px; height: 262px; position: absolute; left: calc(50% - -357.5px);top: 0px; overflow: hidden;}
+ .more {color: #5a7184; text-align: left; font: 700 18px 'Open Sans', sans-serif; position: absolute; left: 0px;top: calc(50% - 131px);}
+ .changelog {color: #959ead; text-align: left; font: 400 16px 'Open Sans', sans-serif; position: absolute; left: 0px;top: calc(50% - -17px);}
+ .license {color: #959ead; text-align: left; font: 400 16px 'Open Sans', sans-serif; position: absolute; left: 0px;top: calc(50% - 29px);}
+ .youtube {color: #5a7184; text-align: center; font: 400 16px 'Font Awesome 5 Brands', sans-serif; position: absolute; left: 84px;top: 177px;}
+ .bottom {width: 280px; height: 102px; position: absolute; left: 820px;top: 486px; overflow: hidden;}
+ .copyright-2019-cr {color: #5a7184; text-align: center; font: 600 16px 'Open Sans', sans-serif; position: absolute; left: 0.5px;top: calc(50% - -29px);}
+ .cta {position: absolute; inset: 0;}
+ .base3 {background: #0d2436; width: 1440px; height: 534px; position: absolute; left: 0px;top: 4839px;}
+ .wave {position: absolute; left: 0px;top: 4665px; overflow: visible;}
+ .left {width: 1221px; height: 427px; position: absolute; left: 150px;top: 4850px; overflow: hidden;}
+ .get-our-stories-deli {color: #ffffff; text-align: left; font: 700 36px/48px 'Gotham', sans-serif; position: absolute; left: 0px;top: calc(50% - 157.5px); width: 621px; height: 84px;}
+ .input {width: 494px; height: 56px; position: absolute; left: 0px;top: 200px; overflow: hidden;}
+ .base4 {height: 56px; position: absolute; right: 0px; left: 0px;top: 0px; overflow: hidden;}
+ .input2 {position: absolute; right: 174px; left: 0px;bottom: 0px; top: 0px;}
+ .shadow {border-radius: 8px; position: absolute; right: 0px; left: 0px;bottom: 0px; top: 0px;}
+ .fill {background: var(--fill-white-white, #ffffff); border-radius: 8px; position: absolute; right: 0px; left: 0px;bottom: 0px; top: 0px;}
+ .button {width: 166px; height: 56px; position: absolute; left: 328px;top: 0px;}
+ .elements-shape-8-r {position: absolute; right: 0px; left: 0px;bottom: 0px; top: 0px;}
+ .fill2 {background: #1565d8; border-radius: 8px; position: absolute; right: 0px; left: 0px;bottom: 0px; top: 0px;}
+ .label {color: #ffffff; text-align: center; font: 700 18px 'Open Sans', sans-serif; position: absolute; left: 31.83px;top: calc(50% - 12px);}
+ .text {width: 80px; height: 22px; position: absolute; left: 16px;top: 17px; overflow: hidden;}
+ .text2 {color: #5a7184; text-align: left; font: 400 16px 'Open Sans', sans-serif; opacity: 0.75; position: absolute; right: 0px; left: 0px;top: 0px;}
+ .get-a-response-tomor {color: #5a7184; text-align: left; font: 400 16px/28px 'Open Sans', sans-serif; position: absolute; left: 0px;top: calc(50% - -66.5px); width: 555px; height: 55px;}
+ .card {position: absolute; inset: 0;}
+ .right {width: 578px; height: 385px; position: static;}
+ .item5 {width: 578px; height: 385px; position: static;}
+ .base5 {background: #ffffff; border-radius: 16px; opacity: 0.05999999865889549; width: 237px; height: 200px; position: absolute; left: 643px;top: 227px; box-shadow: -50px 50px 50px 0px rgba(0, 0, 0, 0.15);}
+ .base6 {background: #1565d8; border-radius: 16px; width: 237px; height: 200px; position: absolute; left: 984px;top: 42px; box-shadow: -50px 50px 50px 0px rgba(0, 0, 0, 0.15);}
+ .right2 {width: 466px; height: 385px; position: static;}
+ .item6 {width: 466px; height: 385px; position: absolute; left: 704px;top: 0px; overflow: hidden;}
+ .base7 {background: #ffffff; border-radius: 16px; width: 466px; height: 385px; position: absolute; left: 0px;top: 0px; box-shadow: -50px 50px 50px 0px rgba(0, 0, 0, 0.15);}
+ .base8 {border-radius: 12px; width: 450px; height: 212px; position: absolute; left: 9px;top: 8px; box-shadow: -50px 50px 50px 0px rgba(0, 0, 0, 0.15);}
+ .the-best-aticles-eve {color: #183b56; text-align: left; font: 700 24px/32px 'Gotham', sans-serif; position: absolute; left: 32px;top: calc(50% - -55.5px);}
+ .our-insurance-plans {color: #5a7184; text-align: left; font: 400 18px/32px 'Open Sans', sans-serif; position: absolute; left: 32px;top: calc(50% - -99.5px); width: 330px; height: 61px;}
+ .line {position: absolute; left: 150px;top: 5372.5px; overflow: visible;}
+ .all {position: absolute; inset: 0;}
+ .title {width: 602px; height: 125px; position: absolute; left: 150px;top: 3234px; overflow: hidden;}
+ .all-articles {color: #183b56; text-align: left; font: 700 36px/48px 'Gotham', sans-serif; position: absolute; left: 0px;top: calc(50% - 62.5px);}
+ .we-share-common-tren {color: #5a7184; text-align: left; font: 400 18px/32px 'Open Sans', sans-serif; position: absolute; left: 0px;top: calc(50% - -1.5px); width: 602px; height: 61px;}
+ .item7 {width: 555px; height: 600px; position: absolute; left: 150px;top: 3407px; box-shadow: 0px 20px 50px 0px rgba(15, 24, 44, 0.15); overflow: hidden;}
+ .image {position: absolute; inset: 0;}
+ .image2 {border-radius: 16px; width: 555px; height: 600px; position: absolute; left: 0px;top: 0px;}
+ .overlay {background: linear-gradient(180deg, rgba(24, 59, 86, 0.00) 0%,rgba(22, 49, 70, 0.45) 45.384666323661804%,rgba(21, 37, 50, 1.00) 100%); border-radius: 8px; width: 555px; height: 600px; position: absolute; left: 0px;top: 0px;}
+ .badges-primary-medium {width: 102px; height: 32px; position: absolute; left: 32px;top: 32px;}
+ .layer {position: absolute; right: 0px; left: 0px;bottom: 0px; top: 0px;}
+ .shadow2 {border-radius: 2000px; position: absolute; right: 0px; left: 0px;bottom: 0px; top: 0px;}
+ .fill3 {background: #ffffff; border-radius: 2000px; position: absolute; right: 0px; left: 0px;bottom: 0px; top: 0px;}
+ .label2 {color: #36b37e; text-align: center; font: 700 16px 'Open Sans', sans-serif; position: absolute; left: 9.4px;top: calc(50% - 11px);}
+ .how-to-prevent-and-p {color: #ffffff; text-align: left; font: 700 36px/48px 'Gotham', sans-serif; position: absolute; left: 48px;top: 337px; width: 459px;}
+ .user {width: 163px; height: 45px; position: absolute; left: 48px;top: 513px; overflow: hidden;}
+ .avatar {position: absolute; left: 0px;top: 2px; overflow: visible;}
+ .viola-manisa {color: #ffffff; text-align: left; font: 600 16px 'Open Sans', sans-serif; position: absolute; left: 52px;top: calc(50% - 22.5px);}
+ .item8 {width: 111px; height: 19px; position: absolute; left: 52px;top: 26px; overflow: hidden;}
+ .icon {position: absolute; left: 0px;top: 2px; overflow: visible;}
+ .verified-writer {color: #ffffff; text-align: left; font: 400 italic 14px 'Open Sans', sans-serif; position: absolute; left: 24px;top: calc(50% - 9.5px);}
+ ._02-may {color: #959ead; text-align: right; font: 600 16px 'Open Sans', sans-serif; position: absolute; left: 451px;top: calc(50% - -225px);}
+ .item9 {width: 555px; height: 600px; position: absolute; left: 735px;top: 3407px; box-shadow: 0px 20px 50px 0px rgba(15, 24, 44, 0.15); overflow: hidden;}
+ .base9 {position: absolute; inset: 0;}
+ .object {width: 555px; height: 600px; position: static;}
+ .overlay2 {background: linear-gradient(180deg, rgba(24, 59, 86, 0.00) 0%,rgba(21, 37, 50, 1.00) 100%); border-radius: 16px; width: 555px; height: 600px; position: absolute; left: 0px;top: 0px;}
+ .user2 {width: 166px; height: 45px; position: absolute; left: 48px;top: 513px; overflow: hidden;}
+ .avatar2 {position: absolute; left: 0px;top: 2px; overflow: visible;}
+ .joshua-william {color: #ffffff; text-align: left; font: 600 16px 'Open Sans', sans-serif; position: absolute; left: 52px;top: calc(50% - 22.5px);}
+ .icon-3 {position: absolute; left: 0px;top: 2px; overflow: visible;}
+ .motherhood-is-the-ha {color: #ffffff; text-align: left; font: 700 36px/48px 'Gotham', sans-serif; position: absolute; left: 48px;top: 385px; width: 459px;}
+ .item10 {width: 360px; height: 500px; position: absolute; left: 150px;top: 4037px; box-shadow: 0px 20px 50px 0px rgba(15, 24, 44, 0.15); overflow: hidden;}
+ .base10 {border-radius: 16px; width: 360px; height: 500px; position: absolute; left: 0px;top: 0px;}
+ .overlay3 {background: linear-gradient(180deg, rgba(24, 59, 86, 0.00) 0%,rgba(21, 37, 50, 1.00) 100%); border-radius: 16px; width: 360px; height: 500px; position: absolute; left: 0px;top: 0px;}
+ .future-of-work {color: #ffffff; text-align: left; font: 700 28px/36px 'Gotham', sans-serif; position: absolute; left: 32px;top: calc(50% - -24px);}
+ .majority-of-peole-wi {color: #ffffff; text-align: left; font: 400 20px/36px 'Open Sans', sans-serif; position: absolute; left: 32px;top: 322px; width: 296px; height: 61px;}
+ .user3 {width: 163px; height: 45px; position: absolute; left: 32px;top: 415px; overflow: hidden;}
+ .avatar3 {position: absolute; left: 0px;top: 2px; overflow: visible;}
+ .lina-hicks {color: #ffffff; text-align: left; font: 600 16px 'Open Sans', sans-serif; position: absolute; left: 52px;top: calc(50% - 22.5px);}
+ .icon-32 {position: absolute; left: 0px;top: 2px; overflow: visible;}
+ ._02-may2 {color: #959ead; text-align: right; font: 600 16px 'Open Sans', sans-serif; position: absolute; left: 272px;top: calc(50% - -177px);}
+ .item11 {width: 360px; height: 500px; position: absolute; left: 540px;top: 4037px; box-shadow: 0px 20px 50px 0px rgba(15, 24, 44, 0.15); overflow: hidden;}
+ .future-of-data {color: #ffffff; text-align: left; font: 700 28px/36px 'Gotham', sans-serif; position: absolute; left: 32px;top: calc(50% - -24px);}
+ .thanks-to-never-endi {color: #ffffff; text-align: left; font: 400 20px/36px 'Open Sans', sans-serif; position: absolute; left: 32px;top: 322px; width: 296px; height: 61px;}
+ .avatar4 {position: absolute; left: 0px;top: 2px; overflow: visible;}
+ .tyler-murray {color: #ffffff; text-align: left; font: 600 16px 'Open Sans', sans-serif; position: absolute; left: 52px;top: calc(50% - 22.5px);}
+ .icon-33 {position: absolute; left: 0px;top: 2px; overflow: visible;}
+ .item12 {width: 360px; height: 500px; position: absolute; left: 930px;top: 4037px; box-shadow: 0px 20px 50px 0px rgba(15, 24, 44, 0.15); overflow: hidden;}
+ .overlay4 {background: linear-gradient(180deg, rgba(24, 59, 86, 0.00) 0%,rgba(21, 37, 50, 1.00) 100%); border-radius: 16px; width: 360px; height: 298px; position: absolute; left: 0px;top: 202px;}
+ .future-of-learning {color: #ffffff; text-align: left; font: 700 28px/36px 'Gotham', sans-serif; position: absolute; left: 32px;top: calc(50% - -24px);}
+ .a-constant-ability-t {color: #ffffff; text-align: left; font: 400 20px/36px 'Open Sans', sans-serif; position: absolute; left: 32px;top: 322px; width: 296px; height: 61px;}
+ .avatar5 {position: absolute; left: 0px;top: 2px; overflow: visible;}
+ .warren-casey {color: #ffffff; text-align: left; font: 600 16px 'Open Sans', sans-serif; position: absolute; left: 52px;top: calc(50% - 22.5px);}
+ .icon-34 {position: absolute; left: 0px;top: 2px; overflow: visible;}
+ .button2 {width: 181px; height: 48px; position: absolute; left: 629.5px;top: 4585px;}
+ .elements-shape-outline-8-r {position: absolute; right: 0px; left: 0px;bottom: 0px; top: 0px;}
+ .elements-shape-outline-8-r2 {width: 181px; height: 48px; position: absolute; left: 0px;top: 0px;}
+ .fill4 {border-radius: 8px; border-style: solid; border-color: #1565d8; border-width: 2px; position: absolute; right: 0px; left: 0px;bottom: 0px; top: 0px;}
+ .icon7 {color: #1565d8; text-align: center; font: 400 14px 'Font Awesome 5 Free', sans-serif; position: absolute; right: 22px;top: calc(50% - 7px);}
+ .label3 {color: #1565d8; text-align: left; font: 700 16px 'Open Sans', sans-serif; position: absolute; left: 24px;top: calc(50% - 11px);}
+ .case-studies {position: absolute; inset: 0;}
+ .title2 {width: 1140px; height: 96px; position: absolute; left: 150px;top: 2613px; overflow: hidden;}
+ .case-studies2 {color: #183b56; text-align: left; font: 700 36px/48px 'Gotham', sans-serif; position: absolute; left: 0px;top: calc(50% - 48px);}
+ .here-s-what-we-ve-be {color: #5a7184; text-align: left; font: 400 18px/32px 'Open Sans', sans-serif; position: absolute; left: 0px;top: calc(50% - -16px);}
+ .button3 {width: 138px; height: 48px; position: absolute; left: 1002px;top: 48px;}
+ .elements-shape-outline-8-r3 {width: 138px; height: 48px; position: absolute; left: 0px;top: 0px;}
+ .featured {width: 1140px; height: 381px; position: static;}
+ .base11 {background: #ffffff; border-radius: 16px; border-style: solid; border-color: #e5eaf4; border-width: 1px; width: 1140px; height: 380px; position: absolute; left: 150px;top: 2758px; box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.03);}
+ ._02-may3 {color: #5a7184; text-align: right; font: 600 16px 'Open Sans', sans-serif; position: absolute; left: 1186px;top: 3073px;}
+ .user4 {width: 163px; height: 45px; position: absolute; left: 752px;top: 3061px; overflow: hidden;}
+ .avatar6 {position: absolute; left: 0px;top: 2px; overflow: visible;}
+ .viola-manisa2 {color: #183b56; text-align: left; font: 600 16px 'Open Sans', sans-serif; position: absolute; left: 52px;top: calc(50% - 22.5px);}
+ .icon8 {position: absolute; left: 0px;top: 2px; overflow: visible;}
+ .verified-writer2 {color: #5a7184; text-align: left; font: 400 italic 14px 'Open Sans', sans-serif; position: absolute; left: 24px;top: calc(50% - 9.5px);}
+ .in-this-digital-gene {color: #5a7184; text-align: left; font: 400 18px/32px 'Open Sans', sans-serif; position: absolute; left: 752px;top: 2954px; width: 478px;}
+ .cheap-airline-ticket {color: #183b56; text-align: left; font: 700 36px/48px 'Gotham', sans-serif; position: absolute; left: 752px;top: 2838px; width: 459px;}
+ .badge {width: 102px; height: 32px; position: absolute; left: 752px;top: 2790px;}
+ .fill5 {background: var(--fill-light-action-success, #36b37e); border-radius: 2000px; opacity: 0.10000000149011612; position: absolute; right: 0px; left: 0px;bottom: 0px; top: 0px;}
+ .image3 {border-radius: 16px 0px 0px 16px; width: 570px; height: 381px; position: absolute; left: 150px;top: 2757px;}
+ .button4 {width: 54px; height: 56px; position: absolute; left: 1263px;top: 2920px;}
+ .background {position: absolute; right: 0px; left: 0px;bottom: 0px; top: 0px;}
+ .fill6 {background: #1565d8; border-radius: 2000px; position: absolute; right: 0px; left: 0px;bottom: 0px; top: 0px;}
+ .icon10 {color: #ffffff; text-align: center; font: 400 16px 'Font Awesome 5 Free', sans-serif; position: absolute; left: 19.29px;top: calc(50% - 8px);}
+ .button5 {width: 54px; height: 56px; position: absolute; left: 123px;top: 2920px;}
+ .recent {position: absolute; inset: 0;}
+ .title3 {width: 1140px; height: 96px; position: absolute; left: 150px;top: 1873px; overflow: hidden;}
+ .recent-articles {color: #183b56; text-align: left; font: 700 36px/48px 'Gotham', sans-serif; position: absolute; left: 0px;top: calc(50% - 48px);}
+ .item13 {width: 360px; height: 500px; position: absolute; left: 150px;top: 2017px; box-shadow: 0px 20px 50px 0px rgba(15, 24, 44, 0.15); overflow: hidden;}
+ .future-of-work2 {color: #ffffff; text-align: left; font: 700 28px/36px 'Gotham', sans-serif; position: absolute; left: 32px;top: calc(50% - -21px);}
+ .majority-of-peole-wi2 {color: #ffffff; text-align: left; font: 400 20px/30px 'Open Sans', sans-serif; position: absolute; left: 32px;top: 340px; width: 296px; height: 39px; display: flex;align-items: center;justify-content: flex-start}
+ .avatar7 {position: absolute; left: 0px;top: 2px; overflow: visible;}
+ .icon-35 {position: absolute; left: 0px;top: 2px; overflow: visible;}
+ ._02-may4 {color: #ffffff; text-align: right; font: 600 16px 'Open Sans', sans-serif; position: absolute; left: 272px;top: calc(50% - -177px);}
+ .item14 {width: 360px; height: 500px; position: absolute; left: 540px;top: 2017px; box-shadow: 0px 20px 50px 0px rgba(15, 24, 44, 0.15); overflow: hidden;}
+ .future-of-data2 {color: #ffffff; text-align: left; font: 700 28px/36px 'Gotham', sans-serif; position: absolute; left: 32px;top: calc(50% - -21px);}
+ .thanks-to-never-endi2 {color: #ffffff; text-align: left; font: 400 20px/30px 'Open Sans', sans-serif; position: absolute; left: 32px;top: 340px; width: 296px; height: 39px; display: flex;align-items: center;justify-content: flex-start}
+ .avatar8 {position: absolute; left: 0px;top: 2px; overflow: visible;}
+ .icon-36 {position: absolute; left: 0px;top: 2px; overflow: visible;}
+ .item15 {width: 360px; height: 500px; position: absolute; left: 930px;top: 2017px; box-shadow: 0px 20px 50px 0px rgba(15, 24, 44, 0.15); overflow: hidden;}
+ .future-of-learning2 {color: #ffffff; text-align: left; font: 700 28px/36px 'Gotham', sans-serif; position: absolute; left: 32px;top: calc(50% - -21px);}
+ .a-constant-ability-t2 {color: #ffffff; text-align: left; font: 400 20px/30px 'Open Sans', sans-serif; position: absolute; left: 32px;top: 340px; width: 296px; height: 39px; display: flex;align-items: center;justify-content: flex-start}
+ .avatar9 {position: absolute; left: 0px;top: 2px; overflow: visible;}
+ .icon-37 {position: absolute; left: 0px;top: 2px; overflow: visible;}
+ .popular {position: absolute; inset: 0;}
+ .title4 {width: 1140px; height: 125px; position: absolute; left: 150px;top: 1004px; overflow: hidden;}
+ .popular-articles {color: #183b56; text-align: left; font: 700 36px/48px 'Gotham', sans-serif; position: absolute; left: 0px;top: calc(50% - 62.5px);}
+ .button6 {width: 138px; height: 48px; position: absolute; left: 1002px;top: 64px;}
+ .item16 {width: 555px; height: 600px; position: absolute; left: 150px;top: 1177px; box-shadow: 0px 20px 50px 0px rgba(15, 24, 44, 0.15); overflow: hidden;}
+ .badges-primary-medium2 {display: flex; flex-direction: column; gap: 0px; align-items: center; justify-content: flex-start; position: absolute; left: 26px;top: 32px;}
+ .layer2 {flex-shrink: 0; position: relative;}
+ .label4 {color: #36b37e; text-align: center; font: 700 16px 'Open Sans', sans-serif; position: absolute; left: 16px;top: calc(50% - 5px); width: 82px; height: 10px; display: flex;align-items: center;justify-content: center}
+ .avatar10 {position: absolute; left: 0px;top: 2px; overflow: visible;}
+ .icon14 {position: absolute; left: 0px;top: 2px; overflow: visible;}
+ .verified-writer3 {color: #5a7184; text-align: center; font: 400 italic 14px 'Open Sans', sans-serif; position: absolute; left: 24px;top: calc(50% - 3.5px); width: 87px; height: 7px; display: flex;align-items: center;justify-content: center}
+ ._02-may5 {color: #ffffff; text-align: right; font: 600 16px 'Open Sans', sans-serif; position: absolute; left: 451px;top: calc(50% - -225px);}
+ .item17 {width: 555px; height: 600px; position: absolute; left: 735px;top: 1177px; box-shadow: 0px 20px 50px 0px rgba(15, 24, 44, 0.15); overflow: hidden;}
+ .avatar11 {position: absolute; left: 0px;top: 2px; overflow: visible;}
+ .icon-38 {position: absolute; left: 0px;top: 2px; overflow: visible;}
+ .badges-primary-medium3 {display: flex; flex-direction: column; gap: 0px; align-items: center; justify-content: flex-start; position: absolute; left: 29px;top: 32px;}
+ .label5 {color: #36b37e; text-align: center; font: 700 16px 'Open Sans', sans-serif; position: absolute; left: 10.59px;top: calc(50% - 11px); width: 86.82px;}
+ .hero {width: 1440px; height: 742px; position: absolute; left: 0px;top: 0px; overflow: hidden;}
+ .background2 {position: absolute; inset: 0;}
+ .base12 {width: 1440px; height: 740px; position: static;}
+ .mask {background: #1565d8; width: 1440px; height: 740px; position: absolute; left: 0px;top: 0px;}
+ .object2 {width: 1790px; height: 1186px; position: static;}
+ .image4 {width: 1459px; height: 973px; position: absolute; left: -8px;top: -33px;}
+ .image5 {width: 1779px; height: 1186px; position: absolute; left: -339px;top: -223px;}
+ .image6 {background: rgba(24, 59, 86, 0.65); width: 1779px; height: 1186px; position: absolute; left: -339px;top: -223px;}
+ .wave2 {position: absolute; left: 0px;top: 567px; overflow: visible;}
+ .our-newsroom {color: #ffffff; text-align: center; font: 400 48px/60px 'Gotham', sans-serif; position: absolute; left: 398px;top: 220px; width: 645px;}
+ .search {width: 760px; height: 56px; position: absolute; left: 340px;top: 320px; overflow: hidden;}
+ .input3 {position: absolute; right: 0px; left: 0px;bottom: 0px; top: 0px; box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.06);}
+ .button7 {width: 94px; height: 40px; position: absolute; left: 658px;top: 8px;}
+ .content {position: absolute; inset: 0;}
+ .label6 {color: #ffffff; text-align: center; font: 700 16px 'Open Sans', sans-serif; position: absolute; left: 19.58px;top: calc(50% - 11px);}
+ .search-article {color: #959ead; text-align: left; font: 600 16px 'Open Sans', sans-serif; position: absolute; left: 52px;top: calc(50% - 12px);}
+ .search2 {color: #959ead; text-align: center; font: 400 16px 'Font Awesome 5 Free', sans-serif; position: absolute; left: 20px;top: calc(50% - 8px);}
+ .popular-tags {color: #ffffff; text-align: left; font: 600 16px 'Open Sans', sans-serif; position: absolute; left: 340px;top: calc(50% - -34px);}
+ .rectangle {background: rgba(0, 0, 0, 0.20); border-radius: 4px; border-style: solid; border-color: #ffffff; border-width: 1px; width: 81px; height: 32px; position: absolute; left: 466px;top: 399px; backdrop-filter: blur(10px);}
+ .design2 {color: #ffffff; text-align: center; font: 700 14px/20px 'Open Sans', sans-serif; position: absolute; left: 483px;top: calc(50% - -34px);}
+ .rectangle2 {background: rgba(0, 0, 0, 0.20); border-radius: 4px; border-style: solid; border-color: #ffffff; border-width: 1px; width: 142px; height: 32px; position: absolute; left: 563px;top: 399px; backdrop-filter: blur(10px);}
+ .user-experience {color: #ffffff; text-align: center; font: 700 14px/20px 'Open Sans', sans-serif; position: absolute; left: 578px;top: calc(50% - -34px);}
+ .rectangle3 {background: rgba(0, 0, 0, 0.20); border-radius: 4px; border-style: solid; border-color: #ffffff; border-width: 1px; width: 135px; height: 32px; position: absolute; left: 721px;top: 399px; backdrop-filter: blur(10px);}
+ .user-interfaces {color: #ffffff; text-align: center; font: 700 14px/20px 'Open Sans', sans-serif; position: absolute; left: 735px;top: calc(50% - -34px);}
+ .featured2 {width: 1140px; height: 381px; position: absolute; left: 150px;top: 527px; box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.12); overflow: hidden;}
+ .base13 {background: #ffffff; border-radius: 16px; border-style: solid; border-color: #e5eaf4; border-width: 1px; width: 1140px; height: 380px; position: absolute; left: 0px;top: 1px; box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.03);}
+ ._02-may6 {color: #5a7184; text-align: right; font: 600 16px 'Open Sans', sans-serif; position: absolute; left: 1036px;top: calc(50% - -125.5px);}
+ .user5 {width: 163px; height: 45px; position: absolute; left: 602px;top: 304px; overflow: hidden;}
+ .avatar12 {position: absolute; left: 0px;top: 2px; overflow: visible;}
+ .icon17 {position: absolute; left: 0px;top: 2px; overflow: visible;}
+ .in-this-digital-gene2 {color: #5a7184; text-align: left; font: 400 18px/32px 'Open Sans', sans-serif; position: absolute; left: 602px;top: 197px; width: 478px;}
+ .cheap-airline-ticket2 {color: #183b56; text-align: left; font: 700 36px/48px 'Gotham', sans-serif; position: absolute; left: 602px;top: 81px; width: 459px;}
+ .badge2 {width: 102px; height: 32px; position: absolute; left: 602px;top: 33px;}
+ .label7 {color: #1565d8; text-align: center; font: 700 16px 'Open Sans', sans-serif; position: absolute; left: 9.4px;top: calc(50% - 11px);}
+ .image7 {border-radius: 16px 0px 0px 16px; width: 570px; height: 381px; position: absolute; left: 0px;top: 0px;}
+ .header {width: 1140px; height: 100px; position: absolute; left: 150px;top: 0px;}
+ .header2 {height: 100px; position: absolute; right: 0px; left: 0px;top: 0px; overflow: hidden;}
+ .container2 {position: absolute; right: 0px; left: 0px;bottom: 0px; top: 0px;}
+ .logo3 {position: absolute; left: 0px;top: calc(50% - 12px); overflow: visible;}
+ .left2 {width: 594px; height: 48px; position: absolute; right: 0px;top: calc(50% - 24px); overflow: hidden;}
+ .navigation {width: 423px; height: 22px; position: absolute; left: 0px;top: 13px; overflow: hidden;}
+ .home {color: #000000; text-align: center; font: 600 16px 'Open Sans', sans-serif; position: absolute; left: 0px;top: calc(50% - 11px);}
+ .link {width: 59px; height: 22px; position: absolute; left: 210px;top: 0px; overflow: hidden;}
+ .pages {color: #000000; text-align: center; font: 600 16px 'Open Sans', sans-serif; position: absolute; left: 0px;top: calc(50% - 11px);}
+ .angle-down {color: #000000; text-align: center; font: 400 14px 'Font Awesome 5 Free', sans-serif; position: absolute; left: 50px;top: calc(50% - 7px);}
+ .link2 {width: 83px; height: 22px; position: absolute; left: 94px;top: 1px; overflow: hidden;}
+ .landings {color: #000000; text-align: center; font: 600 16px 'Open Sans', sans-serif; position: absolute; left: 7px;top: calc(50% - 11px);}
+ .docs {color: #000000; text-align: center; font: 600 16px 'Open Sans', sans-serif; position: absolute; left: 309px;top: calc(50% - 11px);}
+ .help {color: #000000; text-align: center; font: 600 16px 'Open Sans', sans-serif; position: absolute; left: 387px;top: calc(50% - 11px);}
+ .button8 {width: 131px; height: 48px; position: absolute; left: 463px;top: 0px;}
+ .elements-shape-outline-8-r4 {width: 131px; height: 48px; position: absolute; left: 0px;top: 0px;}
+ .fill7 {border-radius: 8px; border-style: solid; border-color: #000000; border-width: 2px; position: absolute; right: 0px; left: 0px;bottom: 0px; top: 0px;}
