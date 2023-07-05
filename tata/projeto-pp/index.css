@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C172FF;
+    height: 100vh;
+  }
+  
+  .content {
+    background-color: #FFFFFF;
+    padding: 270px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  a img {
+    width: 150px;
+    height: auto;
+  }

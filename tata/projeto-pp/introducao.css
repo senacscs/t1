@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("img/imagem-de-fundo.jfif");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .fundo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .caixa-branca {
+    background-color: rgba(255, 192, 203, 0.7);
+    padding: 200px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  a img {
+    width: 150px;
+    height: auto;
+  }
+  
