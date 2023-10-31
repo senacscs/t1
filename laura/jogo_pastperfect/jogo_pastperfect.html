@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Past Perfect Game</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='jogo_pastperfect.css'>
+    <script src='jogo_pastperfect.js'></script>
+</head>
+
+<body>
+    <h1>Past Perfect</h1>
+    <div class="formulario">
+        <h2>Choose the correct answer:</h2>
+        <form>
+            <div class="questao" id="quest1">
+                <span>1. By the time I got to the party, everyone __________ already __________.</span>
+                <br>
+                <input type="radio" value="certo"> <!--had, left-->
+                <label>had, left</label>
+                <br>
+                <input type="radio" value="errado">
+                <label>have, left</label>
+                <br>
+            </div>
+            <div class="questao" id="quest2">
+                <span>2. She couldn't watch the movie because she __________ not __________ her homework.</span>
+                <br>
+                <input type="radio" value="errado">
+                <label>had, go</label>
+                <br>
+                <input type="radio" value="certo">
+                <label>had, gone</label><!--had, done-->
+                <br>
+            </div>
+            <div class="questao" id="quest3">
+                <span>3. Things __________ a lot since October.</span>
+                <br>
+                <input type="radio" value="errado">
+                <label>had changed</label>
+                <br>
+                <input type="radio" value="certo">
+                <label>have changed</label><!--have changed-->
+                <br>
+            </div>
+            <div class="questao" id="quest4">
+                <span>4. When I arrived at the museum, they __________ already __________ the exhibit.</span>
+                <br>
+                <input type="radio" value="certo">
+                <label>had, set up</label><!--had, set up-->
+                <br>
+                <input type="radio" value="errado">
+                <label>had, setted up</label>
+                <br>
+            </div>
+            <div class="questao" id="quest5">
+                <span>5. My cousin __________ to me for weeks.</span>
+                <br>
+                <input type="radio" value="errado">
+                <label>have not written</label>
+                <br>
+                <input type="radio" value="certo">
+                <label>had not written</label><!--had not written-->
+                <br>
+            </div>
+            <button onclick="validarForm()">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
