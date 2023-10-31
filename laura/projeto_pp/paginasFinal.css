@@ -81,10 +81,9 @@ body{
     cursor: pointer;
 }
 
-.selecionado{
+.capa{
     opacity: 40%;
     cursor: not-allowed;
-    color: black;
 }
 
 .mudarCor:hover{
@@ -123,16 +122,17 @@ body{
 }
 
 p{
-    height: 30px
+    height: auto;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 #capa{
     text-align: center;
 }
 
-.h1Capa{
-    font-size: 25px;
-    height: 300px;
+.h1Referencias, p{
+    text-align: left;
 }
 
 .cantoInferior{
@@ -150,12 +150,12 @@ p{
     transition: 0.5s;
 }
 
-.botaoAnterior{
+.botaoProximo{
     opacity: 40%;
     cursor: not-allowed;
 }
 
-.botaoProximo:hover{
+.botaoAnterior:hover{
     border: 3px solid black;
     background-color: black;
     transition: 0.5s;
