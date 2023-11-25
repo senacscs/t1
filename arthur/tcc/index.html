@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GreenWare</title>
+    <meta
+      name="description"
+      content="Um site feito por Arthur Kroth"
+    />
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  
+    <link rel="canonical" href="https://picocss.com/examples/company/" />
+
+    <!-- Pico.css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+
+    <!-- Custom styles for this example -->
+    <link rel="stylesheet" href="custom.css" />
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+  </head>
+
+  <body>
+    <!-- Hero -->
+    <div class="hero" data-theme="dark">
+      <nav class="container-fluid">
+        <ul>
+          <li>
+            <a href="./" class="contrast" onclick="event.preventDefault()"
+              ><strong>GreenWare</strong></a
+            ><img src="images/logo.png" height="30" width="30">
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <details role="list" dir="rtl">
+              <summary aria-haspopup="listbox" role="link" class="contrast">Tema</summary>
+              <ul role="listbox">
+                <li><a href="#" data-theme-switcher="auto">Auto</a></li>
+                <li><a href="#" data-theme-switcher="light">Claro</a></li>
+                <li><a href="#" data-theme-switcher="dark">Escuro</a></li>
+              </ul>
+            </details>
+          </li>
+          <li>
+            
+          </li>
+        </ul>
+      </nav>
+      <header class="container">
+        <hgroup>
+          <h1>Greenware</h1>
+          <h2>O novo sem abandonar o antigo</h2>
+        </hgroup>
+        
+      </header>
+    </div>
+    <!-- ./ Hero -->
+
+    <!-- Main -->
+    <main class="container">
+      <div class="grid">
+        <section>
+          
+            <h3>Sobre o Projeto</h3>
+            
+          
+          <p>
+           O projeto Greenware é um movimento que tem como objetivo divulgar os efeitos do descarte equivocado de lixo eletrônico e como
+           o mesmo pode ser mediado por meio de campanhas de conscientização e desenvolvimento de aplicações que possam orientar as pessoas
+           sobre centros de reciclagem eletrônica próximos. 
+          </p>
+          <p>Apesar do problema do lixo eletrônico ser vastamente conhecido, cerca de 87% dos brasileiros terem conhecimento sobre o problema (TOKARNIA, 2021), o Brasil segue sendo o quinto maior produto de descartes eletrônicos no mundo (TOKARNIA, 2021) e assim como o Brasil, a américa latina teve um crescimento de 49% nos últimos 10 anos (AVELAR, 2022), causando impactos ambientais fortes 
+            no ecossistema local, por esses motivos é muito importante que seja aplicado o uso da TI verde em empresas  </p>
+          <div id="myPlot" style="width:100%;max-width:700px"></div>
+
+<script>
+const xArray = [2.1, 2.5, 3.2, 6.9, 10.1];
+const yArray = ["Brasil ", "Japão ", "India ", "USA ", "China "];
+
+const data = [{
+  x:xArray,
+  y:yArray,
+  type:"bar",
+  orientation:"h",
+  marker: {color:"rgba(60, 179, 113)"}
+}];
+
+const layout = {title:"Produção de Lixo Eletrônico (Em milhões de toneladas)"};
+
+Plotly.newPlot("myPlot", data, layout);
+</script>¨
+
+      
+      
+      <div id="myPlot" style="width:100%;max-width:700px"></div>
+          
+          <h3>Meios</h3>
+          <p>
+            A metodologia será por meio da comunicação nas redes sociais com o objetivo de além de divulgar o movimento, vai se ter a ideia do conhecimento
+             médio entre as pessoas com o fim de entender públicos alvos. É importante levar o assunto da TI Verde para vários usuários 
+             de computador, o que torna o uso da divulgação no meio online ser a mais viável. 
+          </p>
+          <h3>Com os objetivos de:</h3>
+          <ol>
+          <p>-Alcançar o maior número de pessoas de maneira eficiente e chamativa que ao mesmo tempo seja informativa. 
+
+            É, afinal, o principal objetivo da comunicação digital eficiente, entender qual será o público-alvo e moldar a divulgação para ele. </p>
+           
+            
+           
+           <p>-Entender quais são as margens do descarte incorreto desses equipamentos. 
+           
+            Quanto equipamento é desperdiçado e como ele é levado ao descarte incorreto é uma informação muito rica para reconhecer o problema e criar soluções. </p>
+           
+            
+           <p>
+           -Levar os olhos das pessoas a assuntos de muito impacto ambiental que passam muito despercebidos pela população. 
+           
+            Ao entender o impacto do descarte incorreto as pessoas tendem a refletir sobre como melhorar sua consciência de impacto ecológico. 
+</p>
+          </ol>
+        </section>
+
+        <aside>
+          <a href="https://natusomos.com.br/" aria-label="Example"
+            ><img src="https://www.natusomos.com.br/images/slider/slider-dentro.jpg" alt="Sede Natusomos"
+          /></a>
+          <p>
+            <a href="https://natusomos.com.br/">Sede da Natusomos</a><br />
+            <small>A empresa Natusomos nasceu em 2013, e está localizada em Horizontina, Rio Grande do Sul.
+               A Natusomos é especializada em reciclagem de Eletrônicos e transporte de resíduos industriais.</small>
+          </p>
+          <a href="https://www.otempo.com.br/economia/coleta-de-lixo-eletronico-cresce-no-brasil-mas-ainda-e-insuficiente-1.2881284" 
+            ><img src="https://s2-techtudo.glbimg.com/pEc-8HrvUrLibsbudICKb8a5uuc=/0x0:1000x678/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2018/o/g/iWXEAlQdAuDB1aqZrSGw/djrycwyx0aerrd8.jpg" alt="Lixo Eletrônico"
+          /></a>
+          <p>
+            <a href="https://www.otempo.com.br/economia/coleta-de-lixo-eletronico-cresce-no-brasil-mas-ainda-e-insuficiente-1.2881284" >Lixo eletrônico no Brasil</a><br />
+            <small>Em 2019 o Brasil se torna o quinto maior produtor de lixo eletrônico do mundo</small>
+          </p>
+          <a href="https://online.unisc.br/seer/index.php/tecnologica/article/view/15407" aria-label="Example" 
+            ><img src="https://www.ewaste1.com/wp-content/uploads/2019/11/Global-Effects-of-E-Waste-Can-Cost-You-Your-Health.jpg" alt="Teclado Abandonado"
+          /></a>
+          <p>
+            <a href="https://online.unisc.br/seer/index.php/tecnologica/article/view/15407" >Impacto dos Perifericos</a><br />
+            <small
+              >Artigo sobre as consequências do descarte equivocado e opções para coleta do lixo eletrônico</small>
+          </p>
+          <a href="https://online.unisc.br/seer/index.php/tecnologica/article/view/15407" aria-label="Example"
+            ><img src="images/mapa.png" alt="Teclado Abandonado"
+          /></a>
+          <p>
+            <a href="https://online.unisc.br/seer/index.php/tecnologica/article/view/15407">Distribuição dos centros de coleta</a><br />
+            <small
+              >No mapa podemos ver que muitas cidades do interior do estado ainda sofrem da falta de centros de coleta</small></p>
+
+              <a href="https://www.gaz.com.br/saiba-como-descartar-o-lixo-eletronico-corretamente-em-santa-cruz/" aria-label="Example" 
+            ><img src="https://www.gaz.com.br/uploads/2023/11/crepel-central-de-recebimento-de-eletronicos-e-pneumaticos-santa-cruz-1.png" alt="Sede da Crepel"
+          /></a>
+          <p>
+            <a href="https://www.gaz.com.br/saiba-como-descartar-o-lixo-eletronico-corretamente-em-santa-cruz/" >Pontos de Coleta em Santa Cruz</a><br />
+            <small
+              >Os centros de coleta na cidade de Santa Cruz do Sul tem se adaptado para lixo eletrônico, moradores da cidade podem levar seus resíduos para a Crepel realizada no bairro Goiás</small>
+        </aside>
+      </div>
+    </main>
+    <!-- ./ Main -->
+
+    <!-- Subscribe -->
+    <section aria-label="Subscribe example">
+      <div class="container">
+        <article>
+          <hgroup>
+            <h2>Registre-se</h2>
+            <h3>Podemos te guiar a instituições de reciclagem próximas</h3>
+          </hgroup>
+          <form class="grid">
+            <input
+              type="text"
+              id="firstname"
+              name="firstname"
+              placeholder="Nome"
+              aria-label="First name"
+              required
+            />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              aria-label="Email address"
+              required
+            />
+            <button type="submit" onclick="event.preventDefault()">Registre-se</button>
+          </form>
+        </article>
+      </div>
+    </section>
+    <!-- ./ Subscribe -->
+
+    <!-- Footer -->
+    
+    <!-- ./ Footer -->
+
+    <!-- Minimal theme switcher -->
+    <script src="js/temaescuroeclaro.js"></script>
+  </body>
+</html>
