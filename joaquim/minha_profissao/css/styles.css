@@ -309,6 +309,10 @@ svg {
   vertical-align: middle;
 }
 
+.img-minha-profissao{
+  align-content: center;
+}
+
 table {
   caption-side: bottom;
   border-collapse: collapse;
@@ -601,6 +605,7 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  text-align: center;
 }
 
 .img-thumbnail {
@@ -640,6 +645,7 @@ progress {
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
   margin-left: auto;
+  text-align: center;
 }
 
 @media (min-width: 576px) {
@@ -11257,7 +11263,7 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+  background-image: url("../assets/img/fundo_contato.png");
   background-repeat: no-repeat;
   background-position: center;
 }
