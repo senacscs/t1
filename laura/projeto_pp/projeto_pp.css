@@ -52,7 +52,7 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    right: 75%;
+    right: 70%;
     height: 100%;
     overflow-x: auto;
     z-index: 9999;
@@ -64,7 +64,6 @@ body{
     margin: 4%;
     font-size: 25px;
     font-weight: 600;
-    margin-left: -5px;
     transition: 0.3s;
 }
 
