@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Projeto Documentação dos Pontos de Ônibus</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='paginasMeio.css'>
+</head>
+<body>
+    <div id="fecharMenu" class="fundo" onclick="fecharMenuLateral()"></div>
+    <div class="menuCima">
+        <div onclick="abrirMenuLateral()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="iconeMenu" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </div>
+        <span class="titulo">PROJETO PROFISSIONAL</span>
+        <img class="iconeSenac" src="../img/senac_logo.png" height="60px" width="170px">
+        <div class="menuLateral" id="menuLateral">
+            <nav>
+                <ol>
+                    <li class="opcoes mudarCor"><a href="index.html">Capa</a></li>
+                    <li class="opcoes mudarCor"><a href="tema.html">Tema</a></li>
+                    <li class="opcoes mudarCor"><a href="problema.html">Problema</a></li>
+                    <li class="opcoes mudarCor selecionado">Justificativa</li>
+                    <li class="opcoes mudarCor"><a href="objetivos.html">Objetivos</a></li>
+                    <li class="opcoes">
+                        Referencial Teórico
+                        <span onclick="abrirReferencial()">
+                            <svg xmlns="http://www.w3.org/2000/svg" id="setaDireita" width="16" height="16" fill="currentColor" class="menuLateralSetaDireita mudarCor" viewBox="0 0 16 16">
+                                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg>
+                        </span>
+                        <span onclick="fecharReferencial()">
+                            <svg xmlns="http://www.w3.org/2000/svg" id="setaBaixo" width="16" height="16" fill="currentColor" class="menuLateralSetaBaixo mudarCor" viewBox="0 0 16 16">
+                                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                            </svg>
+                        </span>
+                        <ol type="i" class="seletorArtigos" id="artigos">
+                            <br>
+                            <li class="subOpcao mudarCor"><a href="artigo1.html">Estudo sobre as condições das paradas de ônibus na cidade de São Paulo</a></li>
+                            <br>
+                            <li class="subOpcao mudarCor"><a href="artigo2.html">Problemas relacionados aos pontos de parada do transporte público nas cidades de porte médio</a></li>
+                            <br>
+                            <li class="subOpcao mudarCor"><a href="artigo3.html">Proposição de um método para avaliação de qualidade dos pontos de parada do transporte coletivo urbano por ônibus sob a ótica do usuário</a></li>
+                            <br>
+                        </ol>
+                    </li>
+                    <li class="opcoes mudarCor"><a href="metodologia.html">Metodologia</a></li>
+                    <li class="opcoes mudarCor"><a href="resultados.html">Resultados e Discussões</a></li>
+                    <li class="opcoes mudarCor"><a href="conclusao.html">Conclusão</a></li>
+                    <li class="opcoes mudarCor"><a href="referencias.html">Referências</a></li>
+                </ol>
+                <br>
+                <p class="opcoes mudarCor"><a href="projeto.pdf">Baixar PDF</a></p>
+            </nav>
+        </div>
+    </div>
+    <div class="espacamento"></div>
+    <div class="container">
+        <div class="conteudo">
+            <h1>Justificativa</h1>
+            <p>
+                Essa pesquisa possui como justificativa identificar e documentar a qualidade em que se encontram os pontos 
+                de ônibus na cidade de Santa Cruz do Sul e a partir disso construir um dossiê de informações e apresentá-lo 
+                aos órgãos responsáveis pela manutenção dos pontos de ônibus. 
+            </p>
+            <p>
+                Apesar de haver pontos de ônibus de alta 
+                qualidade, não há uma grande quantidade deles na cidade e os que existem se encontram majoritariamente 
+                no centro da cidade ou em locais mais movimentados, muitos pontos de ônibus se encontram em estado precário, 
+                alguns não possuem banco para sentar e outros só possuem uma placa sinalizando sua localização, não há 
+                telhado para proteger da chuva ou do calor e nem banco para os passageiros sentarem enquanto esperam a 
+                chegada do ônibus. 
+            </p>
+            <div class="cantoInferior">
+                <span class="botaoAnterior"><a href="problema.html" class="link">Anterior</a></span>
+                <span class="espacoLateral"></span>
+                <span class="botaoProximo"><a href="objetivos.html" class="link">Próximo</a></span>
+            </div>
+        </div>
+    </div>
+    <div class="espacamento"></div>
+</body>
+    <script>
+        function abrirMenuLateral(){
+            document.getElementById("menuLateral").style = "transform: translateX(0%);";
+            document.getElementById("fecharMenu").style.display = "block";
+        }
+
+        function fecharMenuLateral(){
+            document.getElementById("menuLateral").style = "transform: translateX(-100%);";
+            document.getElementById("fecharMenu").style.display = "none";
+        }
+
+        function abrirReferencial(){
+            document.getElementById("artigos").style.display = "block";
+            document.getElementById("setaDireita").style.display = "none";
+            document.getElementById("setaBaixo").style.display = "inline-block";
+        }
+
+        function fecharReferencial(){
+            document.getElementById("artigos").style.display = "none";
+            document.getElementById("setaDireita").style.display = "inline-block";
+            document.getElementById("setaBaixo").style.display = "none";
+        }
+    </script>
+</html>

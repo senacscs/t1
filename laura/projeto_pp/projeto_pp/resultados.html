@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Projeto Documentação dos Pontos de Ônibus</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='paginasMeio.css'>
+</head>
+<body>
+    <div id="fecharMenu" class="fundo" onclick="fecharMenuLateral()"></div>
+    <div class="menuCima">
+        <div onclick="abrirMenuLateral()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="iconeMenu" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </div>
+        <span class="titulo">PROJETO PROFISSIONAL</span>
+        <img class="iconeSenac" src="../img/senac_logo.png" height="60px" width="170px">
+        <div class="menuLateral" id="menuLateral">
+            <nav>
+                <ol>
+                    <li class="opcoes mudarCor"><a href="index.html">Capa</a></li>
+                    <li class="opcoes mudarCor"><a href="tema.html">Tema</a></li>
+                    <li class="opcoes mudarCor"><a href="problema.html">Problema</a></li>
+                    <li class="opcoes mudarCor"><a href="justificativa.html">Justificativa</a></li>
+                    <li class="opcoes mudarCor"><a href="objetivos.html">Objetivos</a></li>
+                    <li class="opcoes">
+                        Referencial Teórico
+                        <span onclick="abrirReferencial()">
+                            <svg xmlns="http://www.w3.org/2000/svg" id="setaDireita" width="16" height="16" fill="currentColor" class="menuLateralSetaDireita mudarCor" viewBox="0 0 16 16">
+                                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg>
+                        </span>
+                        <span onclick="fecharReferencial()">
+                            <svg xmlns="http://www.w3.org/2000/svg" id="setaBaixo" width="16" height="16" fill="currentColor" class="menuLateralSetaBaixo mudarCor" viewBox="0 0 16 16">
+                                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                            </svg>
+                        </span>
+                        <ol type="i" class="seletorArtigos" id="artigos">
+                            <br>
+                            <li class="subOpcao mudarCor"><a href="artigo1.html">Estudo sobre as condições das paradas de ônibus na cidade de São Paulo</a></li>
+                            <br>
+                            <li class="subOpcao mudarCor"><a href="artigo2.html">Problemas relacionados aos pontos de parada do transporte público nas cidades de porte médio</a></li>
+                            <br>
+                            <li class="subOpcao mudarCor"><a href="artigo3.html">Proposição de um método para avaliação de qualidade dos pontos de parada do transporte coletivo urbano por ônibus sob a ótica do usuário</a></li>
+                            <br>
+                        </ol>
+                    </li>
+                    <li class="opcoes mudarCor"><a href="metodologia.html">Metodologia</a></li>
+                    <li class="opcoes mudarCor selecionado">Resultados e Discussões</li>
+                    <li class="opcoes mudarCor"><a href="conclusao.html">Conclusão</a></li>
+                    <li class="opcoes mudarCor"><a href="referencias.html">Referências</a></li>
+                </ol>
+                <br>
+                <p class="opcoes mudarCor"><a href="projeto.pdf">Baixar PDF</a></p>
+            </nav>
+        </div>
+    </div>
+    <div class="espacamento"></div>
+    <div class="container">
+        <div class="conteudo">
+            <h1>Resultados</h1>
+            <p>
+                A pesquisa tem o intuito de coletar e analisar como a população de Santa Cruz do Sul que depende 
+                majoritariamente do transporte público percebe a qualidade do serviço que lhes é oferecido, em quais 
+                aspectos são necessários mudanças, quais aspectos satisfazem suas necessidades e expectativas e o que 
+                seria necessário alterar para fazer com que a experiência se torne agradável.
+            </p>
+            <p>
+                Um questionário virtual foi desenvolvido com o objetivo de tentar entender como os usuários de transporte 
+                público veem o serviço, as perguntas foram fortemente inspiradas nas utilizadas nos questionários 
+                “Proposição de um método para avaliação da qualidade dos pontos de parada do transporte coletivo urbano 
+                por ônibus sob a ótica do usuário” de autoria de Marcelo Henrique Benites Ciani de Carvalho Oliveira, 
+                João Felipe Lança e Barbara Stolte Bezerra e " ESTUDO SOBRE AS CONDIÇÕES DAS PARADAS DE ÔNIBUS NA CIDADE 
+                DE SÃO PAULO" de autoria de Alex Wesley da Silva de Brito, Jefferson Constantino Santos, Milene Azevedo 
+                Gonçalves, Renan da Silva Marques  e Adriane Monteiro Fontana apresentados anteriormente, as respostas 
+                foram enviadas de maneira anônima. Foram realizadas 5 perguntas, as quais tiveram 42 participantes. 
+                Na sequência apresento a análises das respostas obtidas em cada pergunta: 
+            </p>
+            <br>
+            <p>
+                Análise 7.1
+            </p>
+            <p>
+                Pergunta: Com que frequência você usa o transporte coletivo em Santa Cruz do Sul? 
+            </p>
+            <p>
+                Ao perguntar com que frequência se utilizam do transporte, 52,4% afirmaram usar 5 vezes ou mais por semana, 
+                2,4% afirmaram usar 1 vez por semana e 9,5% afirmaram não utilizar o transporte público coletivo. 
+            </p>
+            <p>
+                Esses dados estão apresentados no gráfico (Figura 4) abaixo: 
+            </p>
+            <br>
+            <div class="containerImagem">
+                <div class="imagemDescricao">Figura 4 - Imagem gráfica referente a frequência do uso de transporte coletivo em Santa Cruz do Sul </div>
+                <img src="../img/grafico_questao1.PNG" width="480px" height="350px"></img>
+                <div class="imagemDescricao">Fonte: da Pesquisa</div>
+            </div>
+            <br>
+            <p>
+                Análise 7.2
+            </p>
+            <p>
+                Pergunta: Qual características você considera mais importante para compor um ponto de ônibus de qualidade?
+            </p>
+            <p>
+                As características consideradas as mais importantes para aqueles que responderam ao questionário, 95,2% 
+                escolheram a cobertura do ponto de ônibus, 83,3% escolheram os bancos e 40,5% escolheram as lixeiras como 
+                sendo a característica mais importante. 
+            </p>
+            <p>
+                Esses dados estão apresentados no gráfico (Figura 5) abaixo: 
+            </p>
+            <br>
+            <div class="containerImagem">
+                <div class="imagemDescricao">Figura 5 - Imagem gráfica referente a característica considerada a mais importante para compor um ponto de ônibus de qualidade </div>
+                <img src="../img/grafico_questao2.PNG" width="640px" height="400px"></img>
+                <div class="imagemDescricao">Fonte: da Pesquisa</div>
+            </div>
+            <br>
+            <p>
+                Análise 7.3
+            </p>
+            <p>
+                Pergunta: Pensando no ponto de ônibus que você utiliza com mais frequência, qual das características 
+                abaixo melhor atendem às suas expectativas?
+            </p>
+            <p>
+                Ao serem perguntados qual características mais lhes satisfazem no ponto de ônibus que mais frequentam, 
+                33,3% dos respondentes escolheram a cobertura, 26,2% escolheram os bancos e 2,4% escolheram a iluminação 
+                como sendo a característica que melhor atendia suas necessidades. 
+            </p>
+            <p>
+                Esses dados estão apresentados no gráfico (Figura 6) abaixo: 
+            </p>
+            <br>
+            <div class="containerImagem">
+                <div class="imagemDescricao">Figura 6 - Imagem gráfica referente a característica que menos satisfazia as necessidades do usuário</div>
+                <img src="../img/grafico_questao3.PNG" width="500px" height="350px"></img>
+                <div class="imagemDescricao">Fonte: da Pesquisa</div>
+            </div>
+            <br>
+            <p>
+                Análise 7.4
+            </p>
+            <p>
+                Pergunta: Pensando no ponto de ônibus que você utiliza com mais frequência, qual das características 
+                abaixo pior atendem às suas expectativas? 
+            </p>
+            <p>
+                Ao serem perguntados qual características menos lhes satisfaziam no ponto de ônibus que mais frequentam, 
+                26,2% dos respondentes escolheram os painéis informativos, 21,4% escolheram os bancos e 4,8% escolheram as 
+                lixeiras como sendo a característica que pior atendia suas necessidades. 
+            </p>
+            <p>
+                Esses dados estão apresentados no gráfico (Figura 7) abaixo: 
+            </p>
+            <br>
+            <div class="containerImagem">
+                <div class="imagemDescricao">Figura 7 - Imagem gráfica referente a característica que mais satisfazia as necessidades do usuário</div>
+                <img src="../img/grafico_questao4.PNG" width="550px" height="380px"></img>
+                <div class="imagemDescricao">Fonte: da Pesquisa</div>
+            </div>
+            <br>
+            <p>
+                Análise 7.5
+            </p>
+            <p>
+                Pergunta: Quais são os principais motivos que o(a) levariam a utilizar o transporte público por ônibus com 
+                maior frequência em sua rotina diária? Por favor, compartilhe suas opiniões e considerações sobre os fatores 
+                que influenciariam positivamente sua escolha de utilizar o transporte público regularmente. 
+            </p>
+            <p>
+                Quando perguntados os motivos que os fariam utilizar o transporte público com mais frequência, a maioria 
+                respondeu que utilizava o transporte público para se deslocar para trabalho e/ou escola e para se locomover 
+                pela cidade no geral, 6 afirmaram que usam transporte coletivo por motivos econômicos, outros pela 
+                praticidade e horários disponíveis e 1 pessoa respondeu que, por muitos pontos de ônibus estarem precários, 
+                não utilizava o transporte público com tanta frequência. 
+            </p>
+            <p>
+                Esse questionário demonstra que os usuários consideram aspectos como cobertura e bancos como os mais 
+                importantes para um ponto de ônibus de qualidade e que mais lhes satisfaziam na parada que frequentavam. 
+                No entanto, os painéis informativos mostraram-se ser igualmente importantes na perspectiva da pessoa que 
+                utiliza os pontos de ônibus, muitos consideraram essa característica como sendo a que menos satisfazia suas 
+                necessidades. 
+            </p>
+            <br>
+            <div class="cantoInferior">
+                <span class="botaoAnterior bloqueado"><a href="artigo3.html" class="link">Anterior</a></span>
+                <span class="espacoLateral"></span>
+                <span class="botaoProximo permitido"><a href="referencias.html" class="link">Próximo</a></span>
+            </div>
+        </div>
+    </div>
+    <div class="espacamento"></div>
+</body>
+    <script>
+        function abrirMenuLateral(){
+            document.getElementById("menuLateral").style = "transform: translateX(0%);";
+            document.getElementById("fecharMenu").style.display = "block";
+        }
+
+        function fecharMenuLateral(){
+            document.getElementById("menuLateral").style = "transform: translateX(-100%);";
+            document.getElementById("fecharMenu").style.display = "none";
+        }
+
+        function abrirReferencial(){
+            document.getElementById("artigos").style.display = "block";
+            document.getElementById("setaDireita").style.display = "none";
+            document.getElementById("setaBaixo").style.display = "inline-block";
+        }
+
+        function fecharReferencial(){
+            document.getElementById("artigos").style.display = "none";
+            document.getElementById("setaDireita").style.display = "inline-block";
+            document.getElementById("setaBaixo").style.display = "none";
+        }
+    </script>
+</html>

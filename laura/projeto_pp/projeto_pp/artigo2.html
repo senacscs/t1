@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Projeto Documentação dos Pontos de Ônibus</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='paginasMeio.css'>
+</head>
+<body>
+    <div id="fecharMenu" class="fundo" onclick="fecharMenuLateral()"></div>
+    <div class="menuCima">
+        <div onclick="abrirMenuLateral()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="iconeMenu" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </div>
+        <span class="titulo">PROJETO PROFISSIONAL</span>
+        <img class="iconeSenac" src="../img/senac_logo.png" height="60px" width="170px">
+        <div class="menuLateral" id="menuLateral">
+            <nav>
+                <ol>
+                    <li class="opcoes mudarCor"><a href="index.html">Capa</a></li>
+                    <li class="opcoes mudarCor"><a href="tema.html">Tema</a></li>
+                    <li class="opcoes mudarCor"><a href="problema.html">Problema</a></li>
+                    <li class="opcoes mudarCor"><a href="justificativa.html">Justificativa</a></li>
+                    <li class="opcoes mudarCor"><a href="objetivos.html">Objetivos</a></li>
+                    <li class="opcoes">
+                        Referencial Teórico
+                        <span onclick="abrirReferencial()">
+                            <svg xmlns="http://www.w3.org/2000/svg" id="setaDireita" width="16" height="16" fill="currentColor" class="menuLateralSetaDireita mudarCor" viewBox="0 0 16 16">
+                                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg>
+                        </span>
+                        <span onclick="fecharReferencial()">
+                            <svg xmlns="http://www.w3.org/2000/svg" id="setaBaixo" width="16" height="16" fill="currentColor" class="menuLateralSetaBaixo mudarCor" viewBox="0 0 16 16">
+                                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                            </svg>
+                        </span>
+                        <ol type="i" class="seletorArtigos" id="artigos">
+                            <br>
+                            <li class="subOpcao mudarCor"><a href="artigo1.html">Estudo sobre as condições das paradas de ônibus na cidade de São Paulo</a></li>
+                            <br>
+                            <li class="subOpcao mudarCor selecionado">Problemas relacionados aos pontos de parada do transporte público nas cidades de porte médio</li>
+                            <br>
+                            <li class="subOpcao mudarCor"><a href="artigo3.html">Proposição de um método para avaliação de qualidade dos pontos de parada do transporte coletivo urbano por ônibus sob a ótica do usuário</a></li>
+                            <br>
+                        </ol>
+                    </li>
+                    <li class="opcoes mudarCor"><a href="metodologia.html">Metodologia</a></li>
+                    <li class="opcoes mudarCor"><a href="resultados.html">Resultados e Discussões</a></li>
+                    <li class="opcoes mudarCor"><a href="conclusao.html">Conclusão</a></li>
+                    <li class="opcoes mudarCor"><a href="referencias.html">Referências</a></li>
+                </ol>
+                <br>
+                <p class="opcoes mudarCor"><a href="projeto.pdf">Baixar PDF</a></p>
+            </nav>
+        </div>
+    </div>
+    <div class="espacamento"></div>
+    <div class="container">
+        <div class="conteudo">
+            <h1>Problemas relacionados aos pontos de parada do transporte público nas cidades de porte médio</h1>
+            <p>
+                Com a evolução constante das cidades, é esperado que os serviços prestados aos habitantes acompanhem 
+                as mudanças. É necessário que haja mudanças para atender às exigências da população.
+            </p>
+                <div class="citacao">
+                    “[...] demandando também um sistema de transporte compatível com às exigências do processo produtivo. 
+                    Esse processo de produção induz a localização de bens e serviços do espaço urbano, sendo necessário uma 
+                    estruturação viária para atender todos os pontos da cidade. Percebe-se então, que os transportes urbanos 
+                    estão totalmente ligados às relações sócio – econômicas, produzindo o espaço urbano.” (KAROLINE ROSALEN 
+                    ADRADE et al, 2004). 
+                </div>
+            <p>
+                O planejamento dos transportes públicos vem sofrendo múltiplas críticas, comumente relacionadas aos aspectos 
+                operacionais e conceituais. Problemas técnicos e pouca atenção às necessidades da comunidade. Precisa ser 
+                analisado os aspectos sociais, urbanos e espaço-físico, com essa análise pode-se direcionar para o 
+                planejamento dos transportes. Para o planejamento dos transportes deve ser levado em consideração os 
+                elementos do espaço.
+            </p>
+                <div class="citacao">
+                    “[...] deixar de relacioná-los às características socioeconômicas, locais produtores de viagens 
+                    (supermercados, parques, escolas, universidades, hospitais, indústrias etc.), densidade demográfica, 
+                    motivações das viagens (esporádicas ou constantes), reservas naturais e características físicas, como 
+                    topografia, barreiras físicas e planos urbanísticos, propondo assim a implantação de um sistema de 
+                    transporte mais racional.” (KAROLINE ROSALEN ADRADE et al, 2004). 
+                </div>
+            <p>
+                A experiência que o usuário tem enquanto se utiliza dos pontos de ônibus é essencial, já que é o seu 
+                primeiro contato com o sistema de transportes. Os pontos de parada influenciam diretamente no tempo do 
+                percurso, na velocidade média e nos custos de operação. Para o passageiro, a localização do ponto de parada 
+                é determinante pois influencia na condição de acessibilidade e na variável de tempo médio de caminhada. 
+            </p>
+            <p>
+                Há alguns critérios que devem ser seguidos durante a implementação de um novo ponto de ônibus, porém, 
+                esses mesmos critérios mudam de acordo com a região em que a parada de ônibus será construída, o 
+                distanciamento entre uma parada e outra é um exemplo, em áreas centrais a distância é de 300 a 400 metros, 
+                em áreas intermediárias 400 a 600 metros e em áreas periféricas 600 a 800 metros.
+            </p>
+            <p> 
+                O cumprimento ou não desses critérios podem afetar diretamente a velocidade do percurso feito pelo ônibus, 
+                bem como o custo de operação. 
+            </p>
+            <p>    
+                A negligência que há na construção de na manutenção dos pontos de ônibus faz com que aqueles que 
+                dependem do transporte público sintam-se cada vez mais insatisfeito e os preços cada vez mais altos. 
+            </p>
+            <div class="cantoInferior">
+                <span class="botaoAnterior"><a href="artigo1.html" class="link">Anterior</a></span>
+                <span class="espacoLateral"></span>
+                <span class="botaoProximo"><a href="artigo3.html" class="link">Próximo</a></span>
+            </div>
+        </div>
+    </div>
+    <div class="espacamento"></div>
+</body>
+    <script>
+        function abrirMenuLateral(){
+            document.getElementById("menuLateral").style = "transform: translateX(0%);";
+            document.getElementById("fecharMenu").style.display = "block";
+        }
+
+        function fecharMenuLateral(){
+            document.getElementById("menuLateral").style = "transform: translateX(-100%);";
+            document.getElementById("fecharMenu").style.display = "none";
+        }
+
+        function abrirReferencial(){
+            document.getElementById("artigos").style.display = "block";
+            document.getElementById("setaDireita").style.display = "none";
+            document.getElementById("setaBaixo").style.display = "inline-block";
+        }
+
+        function fecharReferencial(){
+            document.getElementById("artigos").style.display = "none";
+            document.getElementById("setaDireita").style.display = "inline-block";
+            document.getElementById("setaBaixo").style.display = "none";
+        }
+    </script>
+</html>
